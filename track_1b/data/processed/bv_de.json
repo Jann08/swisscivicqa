@@ -1,0 +1,4041 @@
+{
+ "1": {
+  "article": "1",
+  "title": "Schweizerische Eidgenossenschaft",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Das Schweizervolk und die Kantone Zürich, Bern, Luzern, Uri, Schwyz, Obwalden und Nidwalden, Glarus, Zug, Freiburg, Solothurn, Basel-Stadt und Basel-Landschaft, Schaffhausen, Appenzell Ausserrhoden und Appenzell Innerrhoden, St. Gallen, Graubünden, Aargau, Thurgau, Tessin, Waadt, Wallis, Neuenburg, Genf und Jura bilden die Schweizerische Eidgenossenschaft."
+   }
+  ]
+ },
+ "2": {
+  "article": "2",
+  "title": "Zweck",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Schweizerische Eidgenossenschaft schützt die Freiheit und die Rechte des Volkes und wahrt die Unabhängigkeit und die Sicherheit des Landes."
+   },
+   {
+    "para": "2",
+    "text": "Sie fördert die gemeinsame Wohlfahrt, die nachhaltige Entwicklung, den inneren Zusammenhalt und die kulturelle Vielfalt des Landes."
+   },
+   {
+    "para": "3",
+    "text": "Sie sorgt für eine möglichst grosse Chancengleichheit unter den Bürgerinnen und Bürgern."
+   },
+   {
+    "para": "4",
+    "text": "Sie setzt sich ein für die dauerhafte Erhaltung der natürlichen Lebensgrundlagen und für eine friedliche und gerechte internationale Ordnung."
+   }
+  ]
+ },
+ "3": {
+  "article": "3",
+  "title": "Kantone",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Kantone sind souverän, soweit ihre Souveränität nicht durch die Bundesverfassung beschränkt ist; sie üben alle Rechte aus, die nicht dem Bund übertragen sind."
+   }
+  ]
+ },
+ "4": {
+  "article": "4",
+  "title": "Landessprachen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Landessprachen sind Deutsch, Französisch, Italienisch und Rätoromanisch."
+   }
+  ]
+ },
+ "5": {
+  "article": "5",
+  "title": "Grundsätze rechtsstaatlichen Handelns",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Grundlage und Schranke staatlichen Handelns ist das Recht."
+   },
+   {
+    "para": "2",
+    "text": "Staatliches Handeln muss im öffentlichen Interesse liegen und verhältnismässig sein."
+   },
+   {
+    "para": "3",
+    "text": "Staatliche Organe und Private handeln nach Treu und Glauben."
+   },
+   {
+    "para": "4",
+    "text": "Bund und Kantone beachten das Völkerrecht."
+   }
+  ]
+ },
+ "5_a": {
+  "article": "5_a",
+  "title": "a Subsidiarität",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Bei der Zuweisung und Erfüllung staatlicher Aufgaben ist der Grundsatz der Subsidiarität zu beachten."
+   }
+  ]
+ },
+ "6": {
+  "article": "6",
+  "title": "Individuelle und gesellschaftliche Verantwortung",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Jede Person nimmt Verantwortung für sich selber wahr und trägt nach ihren Kräften zur Bewältigung der Aufgaben in Staat und Gesellschaft bei."
+   }
+  ]
+ },
+ "7": {
+  "article": "7",
+  "title": "Menschenwürde",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Würde des Menschen ist zu achten und zu schützen."
+   }
+  ]
+ },
+ "8": {
+  "article": "8",
+  "title": "Rechtsgleichheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Alle Menschen sind vor dem Gesetz gleich."
+   },
+   {
+    "para": "2",
+    "text": "Niemand darf diskriminiert werden, namentlich nicht wegen der Herkunft, der Rasse, des Geschlechts, des Alters, der Sprache, der sozialen Stellung, der Lebensform, der religiösen, weltanschaulichen oder politischen Überzeugung oder wegen einer körperlichen, geistigen oder psychischen Behinderung."
+   },
+   {
+    "para": "3",
+    "text": "Mann und Frau sind gleichberechtigt. Das Gesetz sorgt für ihre rechtliche und tatsächliche Gleichstellung, vor allem in Familie, Ausbildung und Arbeit. Mann und Frau haben Anspruch auf gleichen Lohn für gleichwertige Arbeit."
+   },
+   {
+    "para": "4",
+    "text": "Das Gesetz sieht Massnahmen zur Beseitigung von Benachteiligungen der Behinderten vor."
+   }
+  ]
+ },
+ "9": {
+  "article": "9",
+  "title": "Schutz vor Willkür und Wahrung von Treu und Glauben",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Jede Person hat Anspruch darauf, von den staatlichen Organen ohne Willkür und nach Treu und Glauben behandelt zu werden."
+   }
+  ]
+ },
+ "10": {
+  "article": "10",
+  "title": "Recht auf Leben und auf persönliche Freiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jeder Mensch hat das Recht auf Leben. Die Todesstrafe ist verboten."
+   },
+   {
+    "para": "2",
+    "text": "Jeder Mensch hat das Recht auf persönliche Freiheit, insbesondere auf körperliche und geistige Unversehrtheit und auf Bewegungsfreiheit."
+   },
+   {
+    "para": "3",
+    "text": "Folter und jede andere Art grausamer, unmenschlicher oder erniedrigender Behandlung oder Bestrafung sind verboten."
+   }
+  ]
+ },
+ "10_a": {
+  "article": "10_a",
+  "title": "a Verbot der Verhüllung des eigenen Gesichts *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Niemand darf sein Gesicht im öffentlichen Raum und an Orten verhüllen, die öffentlich zugänglich sind oder an denen grundsätzlich von jedermann beanspruchbare Dienstleistungen angeboten werden; das Verbot gilt nicht für Sakralstätten."
+   },
+   {
+    "para": "2",
+    "text": "Niemand darf eine Person zwingen, ihr Gesicht aufgrund ihres Geschlechts zu verhüllen."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz sieht Ausnahmen vor. Diese umfassen ausschliesslich Gründe der Gesundheit, der Sicherheit, der klimatischen Bedingungen und des einheimischen Brauchtums."
+   }
+  ]
+ },
+ "11": {
+  "article": "11",
+  "title": "Schutz der Kinder und Jugendlichen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Kinder und Jugendliche haben Anspruch auf besonderen Schutz ihrer Unversehrtheit und auf Förderung ihrer Entwicklung."
+   },
+   {
+    "para": "2",
+    "text": "Sie üben ihre Rechte im Rahmen ihrer Urteilsfähigkeit aus."
+   }
+  ]
+ },
+ "12": {
+  "article": "12",
+  "title": "Recht auf Hilfe in Notlagen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Wer in Not gerät und nicht in der Lage ist, für sich zu sorgen, hat Anspruch auf Hilfe und Betreuung und auf die Mittel, die für ein menschenwürdiges Dasein unerlässlich sind."
+   }
+  ]
+ },
+ "13": {
+  "article": "13",
+  "title": "Schutz der Privatsphäre",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jede Person hat Anspruch auf Achtung ihres Privat- und Familienlebens, ihrer Wohnung sowie ihres Brief-, Post- und Fernmeldeverkehrs."
+   },
+   {
+    "para": "2",
+    "text": "Jede Person hat Anspruch auf Schutz vor Missbrauch ihrer persönlichen Daten."
+   }
+  ]
+ },
+ "14": {
+  "article": "14",
+  "title": "Recht auf Ehe und Familie",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Das Recht auf Ehe und Familie ist gewährleistet."
+   }
+  ]
+ },
+ "15": {
+  "article": "15",
+  "title": "Glaubens- und Gewissensfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Glaubens- und Gewissensfreiheit ist gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Jede Person hat das Recht, ihre Religion und ihre weltanschauliche Überzeugung frei zu wählen und allein oder in Gemeinschaft mit anderen zu bekennen."
+   },
+   {
+    "para": "3",
+    "text": "Jede Person hat das Recht, einer Religionsgemeinschaft beizutreten oder anzugehören und religiösem Unterricht zu folgen."
+   },
+   {
+    "para": "4",
+    "text": "Niemand darf gezwungen werden, einer Religionsgemeinschaft beizutreten oder anzugehören, eine religiöse Handlung vorzunehmen oder religiösem Unterricht zu folgen."
+   }
+  ]
+ },
+ "16": {
+  "article": "16",
+  "title": "Meinungs- und Informationsfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Meinungs- und Informationsfreiheit ist gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Jede Person hat das Recht, ihre Meinung frei zu bilden und sie ungehindert zu äussern und zu verbreiten."
+   },
+   {
+    "para": "3",
+    "text": "Jede Person hat das Recht, Informationen frei zu empfangen, aus allgemein zugänglichen Quellen zu beschaffen und zu verbreiten."
+   }
+  ]
+ },
+ "17": {
+  "article": "17",
+  "title": "Medienfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Freiheit von Presse, Radio und Fernsehen sowie anderer Formen der öffentlichen fernmeldetechnischen Verbreitung von Darbietungen und Informationen ist gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Zensur ist verboten."
+   },
+   {
+    "para": "3",
+    "text": "Das Redaktionsgeheimnis ist gewährleistet."
+   }
+  ]
+ },
+ "18": {
+  "article": "18",
+  "title": "Sprachenfreiheit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Sprachenfreiheit ist gewährleistet."
+   }
+  ]
+ },
+ "19": {
+  "article": "19",
+  "title": "Anspruch auf Grundschulunterricht",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Anspruch auf ausreichenden und unentgeltlichen Grundschulunterricht ist gewährleistet."
+   }
+  ]
+ },
+ "20": {
+  "article": "20",
+  "title": "Wissenschaftsfreiheit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Freiheit der wissenschaftlichen Lehre und Forschung ist gewährleistet."
+   }
+  ]
+ },
+ "21": {
+  "article": "21",
+  "title": "Kunstfreiheit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Freiheit der Kunst ist gewährleistet."
+   }
+  ]
+ },
+ "22": {
+  "article": "22",
+  "title": "Versammlungsfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Versammlungsfreiheit ist gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Jede Person hat das Recht, Versammlungen zu organisieren, an Versammlungen teilzunehmen oder Versammlungen fernzubleiben."
+   }
+  ]
+ },
+ "23": {
+  "article": "23",
+  "title": "Vereinigungsfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Vereinigungsfreiheit ist gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Jede Person hat das Recht, Vereinigungen zu bilden, Vereinigungen beizutreten oder anzugehören und sich an den Tätigkeiten von Vereinigungen zu beteiligen."
+   },
+   {
+    "para": "3",
+    "text": "Niemand darf gezwungen werden, einer Vereinigung beizutreten oder anzugehören."
+   }
+  ]
+ },
+ "24": {
+  "article": "24",
+  "title": "Niederlassungsfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Schweizerinnen und Schweizer haben das Recht, sich an jedem Ort des Landes niederzulassen."
+   },
+   {
+    "para": "2",
+    "text": "Sie haben das Recht, die Schweiz zu verlassen oder in die Schweiz einzureisen."
+   }
+  ]
+ },
+ "25": {
+  "article": "25",
+  "title": "Schutz vor Ausweisung, Auslieferung und Ausschaffung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Schweizerinnen und Schweizer dürfen nicht aus der Schweiz ausgewiesen werden; sie dürfen nur mit ihrem Einverständnis an eine ausländische Behörde ausgeliefert werden."
+   },
+   {
+    "para": "2",
+    "text": "Flüchtlinge dürfen nicht in einen Staat ausgeschafft oder ausgeliefert werden, in dem sie verfolgt werden."
+   },
+   {
+    "para": "3",
+    "text": "Niemand darf in einen Staat ausgeschafft werden, in dem ihm Folter oder eine andere Art grausamer und unmenschlicher Behandlung oder Bestrafung droht."
+   }
+  ]
+ },
+ "26": {
+  "article": "26",
+  "title": "Eigentumsgarantie",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Das Eigentum ist gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Enteignungen und Eigentumsbeschränkungen, die einer Enteignung gleichkommen, werden voll entschädigt."
+   }
+  ]
+ },
+ "27": {
+  "article": "27",
+  "title": "Wirtschaftsfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Wirtschaftsfreiheit ist gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Sie umfasst insbesondere die freie Wahl des Berufes sowie den freien Zugang zu einer privatwirtschaftlichen Erwerbstätigkeit und deren freie Ausübung."
+   }
+  ]
+ },
+ "28": {
+  "article": "28",
+  "title": "Koalitionsfreiheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Arbeitnehmerinnen und Arbeitnehmer, die Arbeitgeberinnen und Arbeitgeber sowie ihre Organisationen haben das Recht, sich zum Schutz ihrer Interessen zusammenzuschliessen, Vereinigungen zu bilden und solchen beizutreten oder fernzubleiben."
+   },
+   {
+    "para": "2",
+    "text": "Streitigkeiten sind nach Möglichkeit durch Verhandlung oder Vermittlung beizulegen."
+   },
+   {
+    "para": "3",
+    "text": "Streik und Aussperrung sind zulässig, wenn sie Arbeitsbeziehungen betreffen und wenn keine Verpflichtungen entgegenstehen, den Arbeitsfrieden zu wahren oder Schlichtungsverhandlungen zu führen."
+   },
+   {
+    "para": "4",
+    "text": "Das Gesetz kann bestimmten Kategorien von Personen den Streik verbieten."
+   }
+  ]
+ },
+ "29": {
+  "article": "29",
+  "title": "Allgemeine Verfahrensgarantien",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jede Person hat in Verfahren vor Gerichts- und Verwaltungsinstanzen Anspruch auf gleiche und gerechte Behandlung sowie auf Beurteilung innert angemessener Frist."
+   },
+   {
+    "para": "2",
+    "text": "Die Parteien haben Anspruch auf rechtliches Gehör."
+   },
+   {
+    "para": "3",
+    "text": "Jede Person, die nicht über die erforderlichen Mittel verfügt, hat Anspruch auf unentgeltliche Rechtspflege, wenn ihr Rechtsbegehren nicht aussichtslos erscheint. Soweit es zur Wahrung ihrer Rechte notwendig ist, hat sie ausserdem Anspruch auf unentgeltlichen Rechtsbeistand."
+   }
+  ]
+ },
+ "29_a": {
+  "article": "29_a",
+  "title": "a Rechtsweggarantie",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Jede Person hat bei Rechtsstreitigkeiten Anspruch auf Beurteilung durch eine richterliche Behörde. Bund und Kantone können durch Gesetz die richterliche Beurteilung in Ausnahmefällen ausschliessen."
+   }
+  ]
+ },
+ "30": {
+  "article": "30",
+  "title": "Gerichtliche Verfahren",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jede Person, deren Sache in einem gerichtlichen Verfahren beurteilt werden muss, hat Anspruch auf ein durch Gesetz geschaffenes, zuständiges, unabhängiges und unparteiisches Gericht. Ausnahmegerichte sind untersagt."
+   },
+   {
+    "para": "2",
+    "text": "Jede Person, gegen die eine Zivilklage erhoben wird, hat Anspruch darauf, dass die Sache vom Gericht des Wohnsitzes beurteilt wird. Das Gesetz kann einen anderen Gerichtsstand vorsehen."
+   },
+   {
+    "para": "3",
+    "text": "Gerichtsverhandlung und Urteilsverkündung sind öffentlich. Das Gesetz kann Ausnahmen vorsehen."
+   }
+  ]
+ },
+ "31": {
+  "article": "31",
+  "title": "Freiheitsentzug",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Freiheit darf einer Person nur in den vom Gesetz selbst vorgesehenen Fällen und nur auf die im Gesetz vorgeschriebene Weise entzogen werden."
+   },
+   {
+    "para": "2",
+    "text": "Jede Person, der die Freiheit entzogen wird, hat Anspruch darauf, unverzüglich und in einer ihr verständlichen Sprache über die Gründe des Freiheitsentzugs und über ihre Rechte unterrichtet zu werden. Sie muss die Möglichkeit haben, ihre Rechte geltend zu machen. Sie hat insbesondere das Recht, ihre nächsten Angehörigen benachrichtigen zu lassen."
+   },
+   {
+    "para": "3",
+    "text": "Jede Person, die in Untersuchungshaft genommen wird, hat Anspruch darauf, unverzüglich einer Richterin oder einem Richter vorgeführt zu werden; die Richterin oder der Richter entscheidet, ob die Person weiterhin in Haft gehalten oder freigelassen wird. Jede Person in Untersuchungshaft hat Anspruch auf ein Urteil innert angemessener Frist."
+   },
+   {
+    "para": "4",
+    "text": "Jede Person, der die Freiheit nicht von einem Gericht entzogen wird, hat das Recht, jederzeit ein Gericht anzurufen. Dieses entscheidet so rasch wie möglich über die Rechtmässigkeit des Freiheitsentzugs."
+   }
+  ]
+ },
+ "32": {
+  "article": "32",
+  "title": "Strafverfahren",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jede Person gilt bis zur rechtskräftigen Verurteilung als unschuldig."
+   },
+   {
+    "para": "2",
+    "text": "Jede angeklagte Person hat Anspruch darauf, möglichst rasch und umfassend über die gegen sie erhobenen Beschuldigungen unterrichtet zu werden. Sie muss die Möglichkeit haben, die ihr zustehenden Verteidigungsrechte geltend zu machen."
+   },
+   {
+    "para": "3",
+    "text": "Jede verurteilte Person hat das Recht, das Urteil von einem höheren Gericht überprüfen zu lassen. Ausgenommen sind die Fälle, in denen das Bundesgericht als einzige Instanz urteilt."
+   }
+  ]
+ },
+ "33": {
+  "article": "33",
+  "title": "Petitionsrecht",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jede Person hat das Recht, Petitionen an Behörden zu richten; es dürfen ihr daraus keine Nachteile erwachsen."
+   },
+   {
+    "para": "2",
+    "text": "Die Behörden haben von Petitionen Kenntnis zu nehmen."
+   }
+  ]
+ },
+ "34": {
+  "article": "34",
+  "title": "Politische Rechte",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die politischen Rechte sind gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Die Garantie der politischen Rechte schützt die freie Willensbildung und die unverfälschte Stimmabgabe."
+   }
+  ]
+ },
+ "35": {
+  "article": "35",
+  "title": "Verwirklichung der Grundrechte",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Grundrechte müssen in der ganzen Rechtsordnung zur Geltung kommen."
+   },
+   {
+    "para": "2",
+    "text": "Wer staatliche Aufgaben wahrnimmt, ist an die Grundrechte gebunden und verpflichtet, zu ihrer Verwirklichung beizutragen."
+   },
+   {
+    "para": "3",
+    "text": "Die Behörden sorgen dafür, dass die Grundrechte, soweit sie sich dazu eignen, auch unter Privaten wirksam werden."
+   }
+  ]
+ },
+ "36": {
+  "article": "36",
+  "title": "Einschränkungen von Grundrechten",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Einschränkungen von Grundrechten bedürfen einer gesetzlichen Grundlage. Schwerwiegende Einschränkungen müssen im Gesetz selbst vorgesehen sein. Ausgenommen sind Fälle ernster, unmittelbarer und nicht anders abwendbarer Gefahr."
+   },
+   {
+    "para": "2",
+    "text": "Einschränkungen von Grundrechten müssen durch ein öffentliches Interesse oder durch den Schutz von Grundrechten Dritter gerechtfertigt sein."
+   },
+   {
+    "para": "3",
+    "text": "Einschränkungen von Grundrechten müssen verhältnismässig sein."
+   },
+   {
+    "para": "4",
+    "text": "Der Kerngehalt der Grundrechte ist unantastbar."
+   }
+  ]
+ },
+ "37": {
+  "article": "37",
+  "title": "Bürgerrechte",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Schweizerbürgerin oder Schweizerbürger ist, wer das Bürgerrecht einer Gemeinde und das Bürgerrecht des Kantons besitzt."
+   },
+   {
+    "para": "2",
+    "text": "Niemand darf wegen seiner Bürgerrechte bevorzugt oder benachteiligt werden. Ausgenommen sind Vorschriften über die politischen Rechte in Bürgergemeinden und Korporationen sowie über die Beteiligung an deren Vermögen, es sei denn, die kantonale Gesetzgebung sehe etwas anderes vor."
+   }
+  ]
+ },
+ "38": {
+  "article": "38",
+  "title": "Erwerb und Verlust der Bürgerrechte",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund regelt Erwerb und Verlust der Bürgerrechte durch Abstammung, Heirat und Adoption. Er regelt zudem den Verlust des Schweizer Bürgerrechts aus anderen Gründen sowie die Wiedereinbürgerung."
+   },
+   {
+    "para": "2",
+    "text": "Er erlässt Mindestvorschriften über die Einbürgerung von Ausländerinnen und Ausländern durch die Kantone und erteilt die Einbürgerungsbewilligung."
+   },
+   {
+    "para": "3",
+    "text": "Er erleichtert die Einbürgerung von: a. Personen der dritten Ausländergeneration; b. staatenlosen Kindern."
+   }
+  ]
+ },
+ "39": {
+  "article": "39",
+  "title": "Ausübung der politischen Rechte",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund regelt die Ausübung der politischen Rechte in eidgenössischen, die Kantone regeln sie in kantonalen und kommunalen Angelegenheiten."
+   },
+   {
+    "para": "2",
+    "text": "Die politischen Rechte werden am Wohnsitz ausgeübt. Bund und Kantone können Ausnahmen vorsehen."
+   },
+   {
+    "para": "3",
+    "text": "Niemand darf die politischen Rechte in mehr als einem Kanton ausüben."
+   },
+   {
+    "para": "4",
+    "text": "Die Kantone können vorsehen, dass Neuzugezogene das Stimmrecht in kantonalen und kommunalen Angelegenheiten erst nach einer Wartefrist von höchstens drei Monaten nach der Niederlassung ausüben dürfen."
+   }
+  ]
+ },
+ "40": {
+  "article": "40",
+  "title": "Auslandschweizerinnen und Auslandschweizer",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund fördert die Beziehungen der Auslandschweizerinnen und Auslandschweizer untereinander und zur Schweiz. Er kann Organisationen unterstützen, die dieses Ziel verfolgen."
+   },
+   {
+    "para": "2",
+    "text": "Er erlässt Vorschriften über die Rechte und Pflichten der Auslandschweizerinnen und Auslandschweizer, namentlich in Bezug auf die Ausübung der politischen Rechte im Bund, die Erfüllung der Pflicht, Militär- oder Ersatzdienst zu leisten, die Unterstützung sowie die Sozialversicherungen."
+   }
+  ]
+ },
+ "41": {
+  "article": "41",
+  "title": "",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone setzen sich in Ergänzung zu persönlicher Verantwortung und privater Initiative dafür ein, dass: a. jede Person an der sozialen Sicherheit teilhat; b. jede Person die für ihre Gesundheit notwendige Pflege erhält; c. Familien als Gemeinschaften von Erwachsenen und Kindern geschützt und gefördert werden; d. Erwerbsfähige ihren Lebensunterhalt durch Arbeit zu angemessenen Bedingungen bestreiten können; e. Wohnungssuchende für sich und ihre Familie eine angemessene Wohnung zu tragbaren Bedingungen finden können; f. Kinder und Jugendliche sowie Personen im erwerbsfähigen Alter sich nach ihren Fähigkeiten bilden, aus- und weiterbilden können; g. Kinder und Jugendliche in ihrer Entwicklung zu selbstständigen und sozial verantwortlichen Personen gefördert und in ihrer sozialen, kulturellen und politischen Integration unterstützt werden sowie ihre Gesundheit gefördert wird."
+   },
+   {
+    "para": "2",
+    "text": "Bund und Kantone setzen sich dafür ein, dass jede Person gegen die wirtschaftlichen Folgen von Alter, Invalidität, Krankheit, Unfall, Arbeitslosigkeit, Mutterschaft, Verwaisung und Verwitwung gesichert ist."
+   },
+   {
+    "para": "3",
+    "text": "Sie streben die Sozialziele im Rahmen ihrer verfassungsmässigen Zuständigkeiten und ihrer verfügbaren Mittel an."
+   },
+   {
+    "para": "4",
+    "text": "Aus den Sozialzielen können keine unmittelbaren Ansprüche auf staatliche Leistungen abgeleitet werden."
+   }
+  ]
+ },
+ "42": {
+  "article": "42",
+  "title": "Aufgaben des Bundes",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erfüllt die Aufgaben, die ihm die Bundesverfassung zuweist."
+   },
+   {
+    "para": "2",
+    "text": "…"
+   }
+  ]
+ },
+ "43": {
+  "article": "43",
+  "title": "Aufgaben der Kantone",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Kantone bestimmen, welche Aufgaben sie im Rahmen ihrer Zuständigkeiten erfüllen."
+   }
+  ]
+ },
+ "43_a": {
+  "article": "43_a",
+  "title": "a Grundsätze für die Zuweisung und Erfüllung staatlicher Aufgaben",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund übernimmt nur die Aufgaben, welche die Kraft der Kantone übersteigen oder einer einheitlichen Regelung durch den Bund bedürfen."
+   },
+   {
+    "para": "2",
+    "text": "Das Gemeinwesen, in dem der Nutzen einer staatlichen Leistung anfällt, trägt deren Kosten."
+   },
+   {
+    "para": "3",
+    "text": "Das Gemeinwesen, das die Kosten einer staatlichen Leistung trägt, kann über diese Leistung bestimmen."
+   },
+   {
+    "para": "4",
+    "text": "Leistungen der Grundversorgung müssen allen Personen in vergleichbarer Weise offenstehen."
+   },
+   {
+    "para": "5",
+    "text": "Staatliche Aufgaben müssen bedarfsgerecht und wirtschaftlich erfüllt werden."
+   }
+  ]
+ },
+ "44": {
+  "article": "44",
+  "title": "Grundsätze",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone unterstützen einander in der Erfüllung ihrer Aufgaben und arbeiten zusammen."
+   },
+   {
+    "para": "2",
+    "text": "Sie schulden einander Rücksicht und Beistand. Sie leisten einander Amts- und Rechtshilfe."
+   },
+   {
+    "para": "3",
+    "text": "Streitigkeiten zwischen Kantonen oder zwischen Kantonen und dem Bund werden nach Möglichkeit durch Verhandlung und Vermittlung beigelegt."
+   }
+  ]
+ },
+ "45": {
+  "article": "45",
+  "title": "Mitwirkung an der Willensbildung des Bundes",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Kantone wirken nach Massgabe der Bundesverfassung an der Willensbildung des Bundes mit, insbesondere an der Rechtsetzung."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund informiert die Kantone rechtzeitig und umfassend über seine Vorhaben; er holt ihre Stellungnahmen ein, wenn ihre Interessen betroffen sind."
+   }
+  ]
+ },
+ "46": {
+  "article": "46",
+  "title": "Umsetzung des Bundesrechts",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Kantone setzen das Bundesrecht nach Massgabe von Verfassung und Gesetz um."
+   },
+   {
+    "para": "2",
+    "text": "Bund und Kantone können miteinander vereinbaren, dass die Kantone bei der Umsetzung von Bundesrecht bestimmte Ziele erreichen und zu diesem Zweck Programme ausführen, die der Bund finanziell unterstützt."
+   },
+   {
+    "para": "3",
+    "text": "Der Bund belässt den Kantonen möglichst grosse Gestaltungsfreiheit und trägt den kantonalen Besonderheiten Rechnung."
+   }
+  ]
+ },
+ "47": {
+  "article": "47",
+  "title": "Eigenständigkeit der Kantone",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund wahrt die Eigenständigkeit der Kantone."
+   },
+   {
+    "para": "2",
+    "text": "Er belässt den Kantonen ausreichend eigene Aufgaben und beachtet ihre Organisationsautonomie. Er belässt den Kantonen ausreichende Finanzierungsquellen und trägt dazu bei, dass sie über die notwendigen finanziellen Mittel zur Erfüllung ihrer Aufgaben verfügen."
+   }
+  ]
+ },
+ "48": {
+  "article": "48",
+  "title": "Verträge zwischen Kantonen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Kantone können miteinander Verträge schliessen sowie gemeinsame Organisationen und Einrichtungen schaffen. Sie können namentlich Aufgaben von regionalem Interesse gemeinsam wahrnehmen."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund kann sich im Rahmen seiner Zuständigkeiten beteiligen."
+   },
+   {
+    "para": "3",
+    "text": "Verträge zwischen Kantonen dürfen dem Recht und den Interessen des Bundes sowie den Rechten anderer Kantone nicht zuwiderlaufen. Sie sind dem Bund zur Kenntnis zu bringen."
+   },
+   {
+    "para": "4",
+    "text": "Die Kantone können interkantonale Organe durch interkantonalen Vertrag zum Erlass rechtsetzender Bestimmungen ermächtigen, die einen interkantonalen Vertrag umsetzen, sofern der Vertrag: a. nach dem gleichen Verfahren, das für die Gesetzgebung gilt, genehmigt worden ist; b. die inhaltlichen Grundzüge der Bestimmungen festlegt."
+   },
+   {
+    "para": "5",
+    "text": "Die Kantone beachten das interkantonale Recht."
+   }
+  ]
+ },
+ "48_a": {
+  "article": "48_a",
+  "title": "a Allgemeinverbindlicherklärung und Beteiligungspflicht",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Auf Antrag interessierter Kantone kann der Bund in folgenden Aufgabenbereichen interkantonale Verträge allgemein verbindlich erklären oder Kantone zur Beteiligung an interkantonalen Verträgen verpflichten: a. Straf- und Massnahmenvollzug; b. Schulwesen hinsichtlich der in Artikel 62 Absatz 4 genannten Bereiche; c. kantonale Hochschulen; d. Kultureinrichtungen von überregionaler Bedeutung; e. Abfallbewirtschaftung; f. Abwasserreinigung; g. Agglomerationsverkehr; h. Spitzenmedizin und Spezialkliniken; i. Institutionen zur Eingliederung und Betreuung von Invaliden."
+   },
+   {
+    "para": "2",
+    "text": "Die Allgemeinverbindlicherklärung erfolgt in der Form eines Bundesbeschlusses."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz legt die Voraussetzungen für die Allgemeinverbindlicherklärung und für die Beteiligungsverpflichtung fest und regelt das Verfahren."
+   }
+  ]
+ },
+ "49": {
+  "article": "49",
+  "title": "Vorrang und Einhaltung des Bundesrechts",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bundesrecht geht entgegenstehendem kantonalem Recht vor."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund wacht über die Einhaltung des Bundesrechts durch die Kantone."
+   }
+  ]
+ },
+ "50": {
+  "article": "50",
+  "title": "",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Gemeindeautonomie ist nach Massgabe des kantonalen Rechts gewährleistet."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund beachtet bei seinem Handeln die möglichen Auswirkungen auf die Gemeinden."
+   },
+   {
+    "para": "3",
+    "text": "Er nimmt dabei Rücksicht auf die besondere Situation der Städte und der Agglomerationen sowie der Berggebiete."
+   }
+  ]
+ },
+ "51": {
+  "article": "51",
+  "title": "Kantonsverfassungen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jeder Kanton gibt sich eine demokratische Verfassung. Diese bedarf der Zustimmung des Volkes und muss revidiert werden können, wenn die Mehrheit der Stimmberechtigten es verlangt."
+   },
+   {
+    "para": "2",
+    "text": "Die Kantonsverfassungen bedürfen der Gewährleistung des Bundes. Der Bund gewährleistet sie, wenn sie dem Bundesrecht nicht widersprechen."
+   }
+  ]
+ },
+ "52": {
+  "article": "52",
+  "title": "Verfassungsmässige Ordnung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund schützt die verfassungsmässige Ordnung der Kantone."
+   },
+   {
+    "para": "2",
+    "text": "Er greift ein, wenn die Ordnung in einem Kanton gestört oder bedroht ist und der betroffene Kanton sie nicht selber oder mit Hilfe anderer Kantone schützen kann."
+   }
+  ]
+ },
+ "53": {
+  "article": "53",
+  "title": "Bestand und Gebiet der Kantone",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund schützt Bestand und Gebiet der Kantone."
+   },
+   {
+    "para": "2",
+    "text": "Änderungen im Bestand der Kantone bedürfen der Zustimmung der betroffenen Bevölkerung, der betroffenen Kantone sowie von Volk und Ständen."
+   },
+   {
+    "para": "3",
+    "text": "Gebietsveränderungen zwischen den Kantonen bedürfen der Zustimmung der betroffenen Bevölkerung und der betroffenen Kantone sowie der Genehmigung durch die Bundesversammlung in der Form eines Bundesbeschlusses."
+   },
+   {
+    "para": "4",
+    "text": "Grenzbereinigungen können Kantone unter sich durch Vertrag vornehmen."
+   }
+  ]
+ },
+ "54": {
+  "article": "54",
+  "title": "Auswärtige Angelegenheiten",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die auswärtigen Angelegenheiten sind Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund setzt sich ein für die Wahrung der Unabhängigkeit der Schweiz und für ihre Wohlfahrt; er trägt namentlich bei zur Linderung von Not und Armut in der Welt, zur Achtung der Menschenrechte und zur Förderung der Demokratie, zu einem friedlichen Zusammenleben der Völker sowie zur Erhaltung der natürlichen Lebensgrundlagen."
+   },
+   {
+    "para": "3",
+    "text": "Er nimmt Rücksicht auf die Zuständigkeiten der Kantone und wahrt ihre Interessen."
+   }
+  ]
+ },
+ "55": {
+  "article": "55",
+  "title": "Mitwirkung der Kantone an aussenpolitischen Entscheiden",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Kantone wirken an der Vorbereitung aussenpolitischer Entscheide mit, die ihre Zuständigkeiten oder ihre wesentlichen Interessen betreffen."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund informiert die Kantone rechtzeitig und umfassend und holt ihre Stellungnahmen ein."
+   },
+   {
+    "para": "3",
+    "text": "Den Stellungnahmen der Kantone kommt besonderes Gewicht zu, wenn sie in ihren Zuständigkeiten betroffen sind. In diesen Fällen wirken die Kantone in geeigneter Weise an internationalen Verhandlungen mit."
+   }
+  ]
+ },
+ "56": {
+  "article": "56",
+  "title": "Beziehungen der Kantone mit dem Ausland",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Kantone können in ihren Zuständigkeitsbereichen mit dem Ausland Verträge schliessen."
+   },
+   {
+    "para": "2",
+    "text": "Diese Verträge dürfen dem Recht und den Interessen des Bundes sowie den Rechten anderer Kantone nicht zuwiderlaufen. Die Kantone haben den Bund vor Abschluss der Verträge zu informieren."
+   },
+   {
+    "para": "3",
+    "text": "Mit untergeordneten ausländischen Behörden können die Kantone direkt verkehren; in den übrigen Fällen erfolgt der Verkehr der Kantone mit dem Ausland durch Vermittlung des Bundes."
+   }
+  ]
+ },
+ "57": {
+  "article": "57",
+  "title": "Sicherheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone sorgen im Rahmen ihrer Zuständigkeiten für die Sicherheit des Landes und den Schutz der Bevölkerung."
+   },
+   {
+    "para": "2",
+    "text": "Sie koordinieren ihre Anstrengungen im Bereich der inneren Sicherheit."
+   }
+  ]
+ },
+ "58": {
+  "article": "58",
+  "title": "Armee",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Schweiz hat eine Armee. Diese ist grundsätzlich nach dem Milizprinzip organisiert."
+   },
+   {
+    "para": "2",
+    "text": "Die Armee dient der Kriegsverhinderung und trägt bei zur Erhaltung des Friedens; sie verteidigt das Land und seine Bevölkerung. Sie unterstützt die zivilen Behörden bei der Abwehr schwerwiegender Bedrohungen der inneren Sicherheit und bei der Bewältigung anderer ausserordentlicher Lagen. Das Gesetz kann weitere Aufgaben vorsehen."
+   },
+   {
+    "para": "3",
+    "text": "Der Einsatz der Armee ist Sache des Bundes."
+   }
+  ]
+ },
+ "59": {
+  "article": "59",
+  "title": "Militär- und Ersatzdienst",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jeder Schweizer ist verpflichtet, Militärdienst zu leisten. Das Gesetz sieht einen zivilen Ersatzdienst vor."
+   },
+   {
+    "para": "2",
+    "text": "Für Schweizerinnen ist der Militärdienst freiwillig."
+   },
+   {
+    "para": "3",
+    "text": "Schweizer, die weder Militär- noch Ersatzdienst leisten, schulden eine Abgabe. Diese wird vom Bund erhoben und von den Kantonen veranlagt und eingezogen."
+   },
+   {
+    "para": "4",
+    "text": "Der Bund erlässt Vorschriften über den angemessenen Ersatz des Erwerbsausfalls."
+   },
+   {
+    "para": "5",
+    "text": "Personen, die Militär- oder Ersatzdienst leisten und dabei gesundheitlichen Schaden erleiden oder ihr Leben verlieren, haben für sich oder ihre Angehörigen Anspruch auf angemessene Unterstützung des Bundes."
+   }
+  ]
+ },
+ "60": {
+  "article": "60",
+  "title": "Organisation, Ausbildung und Ausrüstung der Armee",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Militärgesetzgebung sowie Organisation, Ausbildung und Ausrüstung der Armee sind Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "…"
+   },
+   {
+    "para": "3",
+    "text": "Der Bund kann militärische Einrichtungen der Kantone gegen angemessene Entschädigung übernehmen."
+   }
+  ]
+ },
+ "61": {
+  "article": "61",
+  "title": "Zivilschutz",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Gesetzgebung über den zivilen Schutz von Personen und Gütern vor den Auswirkungen bewaffneter Konflikte ist Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund erlässt Vorschriften über den Einsatz des Zivilschutzes bei Katastrophen und in Notlagen."
+   },
+   {
+    "para": "3",
+    "text": "Er kann den Schutzdienst für Männer obligatorisch erklären. Für Frauen ist dieser freiwillig."
+   },
+   {
+    "para": "4",
+    "text": "Der Bund erlässt Vorschriften über den angemessenen Ersatz des Erwerbsausfalls."
+   },
+   {
+    "para": "5",
+    "text": "Personen, die Schutzdienst leisten und dabei gesundheitlichen Schaden erleiden oder ihr Leben verlieren, haben für sich oder ihre Angehörigen Anspruch auf angemessene Unterstützung des Bundes."
+   }
+  ]
+ },
+ "61_a": {
+  "article": "61_a",
+  "title": "a Bildungsraum Schweiz",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone sorgen gemeinsam im Rahmen ihrer Zuständigkeiten für eine hohe Qualität und Durchlässigkeit des Bildungsraumes Schweiz."
+   },
+   {
+    "para": "2",
+    "text": "Sie koordinieren ihre Anstrengungen und stellen ihre Zusammenarbeit durch gemeinsame Organe und andere Vorkehren sicher."
+   },
+   {
+    "para": "3",
+    "text": "Sie setzen sich bei der Erfüllung ihrer Aufgaben dafür ein, dass allgemein bildende und berufsbezogene Bildungswege eine gleichwertige gesellschaftliche Anerkennung finden."
+   }
+  ]
+ },
+ "62": {
+  "article": "62",
+  "title": "Schulwesen *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Für das Schulwesen sind die Kantone zuständig."
+   },
+   {
+    "para": "2",
+    "text": "Sie sorgen für einen ausreichenden Grundschulunterricht, der allen Kindern offensteht. Der Grundschulunterricht ist obligatorisch und untersteht staatlicher Leitung oder Aufsicht. An öffentlichen Schulen ist er unentgeltlich."
+   },
+   {
+    "para": "3",
+    "text": "Die Kantone sorgen für eine ausreichende Sonderschulung aller behinderten Kinder und Jugendlichen bis längstens zum vollendeten 20. Altersjahr."
+   },
+   {
+    "para": "4",
+    "text": "Kommt auf dem Koordinationsweg keine Harmonisierung des Schulwesens im Bereich des Schuleintrittsalters und der Schulpflicht, der Dauer und Ziele der Bildungsstufen und von deren Übergängen sowie der Anerkennung von Abschlüssen zustande, so erlässt der Bund die notwendigen Vorschriften."
+   },
+   {
+    "para": "5",
+    "text": "Der Bund regelt den Beginn des Schuljahres."
+   },
+   {
+    "para": "6",
+    "text": "Bei der Vorbereitung von Erlassen des Bundes, welche die Zuständigkeit der Kantone betreffen, kommt der Mitwirkung der Kantone besonderes Gewicht zu."
+   }
+  ]
+ },
+ "63": {
+  "article": "63",
+  "title": "Berufsbildung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über die Berufsbildung."
+   },
+   {
+    "para": "2",
+    "text": "Er fördert ein breites und durchlässiges Angebot im Bereich der Berufsbildung."
+   }
+  ]
+ },
+ "63_a": {
+  "article": "63_a",
+  "title": "a Hochschulen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund betreibt die Eidgenössischen Technischen Hochschulen. Er kann weitere Hochschulen und andere Institutionen des Hochschulbereichs errichten, übernehmen oder betreiben."
+   },
+   {
+    "para": "2",
+    "text": "Er unterstützt die kantonalen Hochschulen und kann an weitere von ihm anerkannte Institutionen des Hochschulbereichs Beiträge entrichten."
+   },
+   {
+    "para": "3",
+    "text": "Bund und Kantone sorgen gemeinsam für die Koordination und für die Gewährleistung der Qualitätssicherung im schweizerischen Hochschulwesen. Sie nehmen dabei Rücksicht auf die Autonomie der Hochschulen und ihre unterschiedlichen Trägerschaften und achten auf die Gleichbehandlung von Institutionen mit gleichen Aufgaben."
+   },
+   {
+    "para": "4",
+    "text": "Zur Erfüllung ihrer Aufgaben schliessen Bund und Kantone Verträge ab und übertragen bestimmte Befugnisse an gemeinsame Organe. Das Gesetz regelt die Zuständigkeiten, die diesen übertragen werden können, und legt die Grundsätze von Organisation und Verfahren der Koordination fest."
+   },
+   {
+    "para": "5",
+    "text": "Erreichen Bund und Kantone auf dem Weg der Koordination die gemeinsamen Ziele nicht, so erlässt der Bund Vorschriften über die Studienstufen und deren Übergänge, über die Weiterbildung und über die Anerkennung von Institutionen und Abschlüssen. Zudem kann der Bund die Unterstützung der Hochschulen an einheitliche Finanzierungsgrundsätze binden und von der Aufgabenteilung zwischen den Hochschulen in besonders kostenintensiven Bereichen abhängig machen."
+   }
+  ]
+ },
+ "64": {
+  "article": "64",
+  "title": "Forschung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund fördert die wissenschaftliche Forschung und die Innovation."
+   },
+   {
+    "para": "2",
+    "text": "Er kann die Förderung insbesondere davon abhängig machen, dass die Qualitätssicherung und die Koordination sichergestellt sind."
+   },
+   {
+    "para": "3",
+    "text": "Er kann Forschungsstätten errichten, übernehmen oder betreiben."
+   }
+  ]
+ },
+ "64_a": {
+  "article": "64_a",
+  "title": "a Weiterbildung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund legt Grundsätze über die Weiterbildung fest."
+   },
+   {
+    "para": "2",
+    "text": "Er kann die Weiterbildung fördern."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz legt die Bereiche und die Kriterien fest."
+   }
+  ]
+ },
+ "65": {
+  "article": "65",
+  "title": "Statistik",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erhebt die notwendigen statistischen Daten über den Zustand und die Entwicklung von Bevölkerung, Wirtschaft, Gesellschaft, Bildung, Forschung, Raum und Umwelt in der Schweiz."
+   },
+   {
+    "para": "2",
+    "text": "Er kann Vorschriften über die Harmonisierung und Führung amtlicher Register erlassen, um den Erhebungsaufwand möglichst gering zu halten."
+   }
+  ]
+ },
+ "66": {
+  "article": "66",
+  "title": "Ausbildungsbeiträge",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann den Kantonen Beiträge an ihre Aufwendungen für Ausbildungsbeiträge an Studierende von Hochschulen und anderen Institutionen des höheren Bildungswesens gewähren. Er kann die interkantonale Harmonisierung der Ausbildungsbeiträge fördern und Grundsätze für die Ausrichtung von Ausbildungsbeiträgen festlegen."
+   },
+   {
+    "para": "2",
+    "text": "Er kann zudem in Ergänzung zu den kantonalen Massnahmen und unter Wahrung der kantonalen Schulhoheit eigene Massnahmen zur Förderung der Ausbildung ergreifen."
+   }
+  ]
+ },
+ "67": {
+  "article": "67",
+  "title": "Förderung von Kindern und Jugendlichen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone tragen bei der Erfüllung ihrer Aufgaben den besonderen Förderungs- und Schutzbedürfnissen von Kindern und Jugendlichen Rechnung."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund kann in Ergänzung zu kantonalen Massnahmen die ausserschulische Arbeit mit Kindern und Jugendlichen unterstützen."
+   }
+  ]
+ },
+ "67_a": {
+  "article": "67_a",
+  "title": "a Musikalische Bildung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone fördern die musikalische Bildung, insbesondere von Kindern und Jugendlichen."
+   },
+   {
+    "para": "2",
+    "text": "Sie setzen sich im Rahmen ihrer Zuständigkeiten für einen hochwertigen Musikunterricht an Schulen ein. Erreichen die Kantone auf dem Koordinationsweg keine Harmonisierung der Ziele des Musikunterrichts an Schulen, so erlässt der Bund die notwendigen Vorschriften."
+   },
+   {
+    "para": "3",
+    "text": "Der Bund legt unter Mitwirkung der Kantone Grundsätze fest für den Zugang der Jugend zum Musizieren und die Förderung musikalisch Begabter."
+   }
+  ]
+ },
+ "68": {
+  "article": "68",
+  "title": "Sport",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund fördert den Sport, insbesondere die Ausbildung."
+   },
+   {
+    "para": "2",
+    "text": "Er betreibt eine Sportschule."
+   },
+   {
+    "para": "3",
+    "text": "Er kann Vorschriften über den Jugendsport erlassen und den Sportunterricht an Schulen obligatorisch erklären."
+   }
+  ]
+ },
+ "69": {
+  "article": "69",
+  "title": "Kultur",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Für den Bereich der Kultur sind die Kantone zuständig."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund kann kulturelle Bestrebungen von gesamtschweizerischem Interesse unterstützen sowie Kunst und Musik, insbesondere im Bereich der Ausbildung, fördern."
+   },
+   {
+    "para": "3",
+    "text": "Er nimmt bei der Erfüllung seiner Aufgaben Rücksicht auf die kulturelle und die sprachliche Vielfalt des Landes."
+   }
+  ]
+ },
+ "70": {
+  "article": "70",
+  "title": "Sprachen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Amtssprachen des Bundes sind Deutsch, Französisch und Italienisch. Im Verkehr mit Personen rätoromanischer Sprache ist auch das Rätoromanische Amtssprache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Die Kantone bestimmen ihre Amtssprachen. Um das Einvernehmen zwischen den Sprachgemeinschaften zu wahren, achten sie auf die herkömmliche sprachliche Zusammensetzung der Gebiete und nehmen Rücksicht auf die angestammten sprachlichen Minderheiten."
+   },
+   {
+    "para": "3",
+    "text": "Bund und Kantone fördern die Verständigung und den Austausch zwischen den Sprachgemeinschaften."
+   },
+   {
+    "para": "4",
+    "text": "Der Bund unterstützt die mehrsprachigen Kantone bei der Erfüllung ihrer besonderen Aufgaben."
+   },
+   {
+    "para": "5",
+    "text": "Der Bund unterstützt Massnahmen der Kantone Graubünden und Tessin zur Erhaltung und Förderung der rätoromanischen und der italienischen Sprache."
+   }
+  ]
+ },
+ "71": {
+  "article": "71",
+  "title": "Film",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann die Schweizer Filmproduktion und die Filmkultur fördern."
+   },
+   {
+    "para": "2",
+    "text": "Er kann Vorschriften zur Förderung der Vielfalt und der Qualität des Filmangebots erlassen."
+   }
+  ]
+ },
+ "72": {
+  "article": "72",
+  "title": "Kirche und Staat",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Für die Regelung des Verhältnisses zwischen Kirche und Staat sind die Kantone zuständig."
+   },
+   {
+    "para": "2",
+    "text": "Bund und Kantone können im Rahmen ihrer Zuständigkeit Massnahmen treffen zur Wahrung des öffentlichen Friedens zwischen den Angehörigen der verschiedenen Religionsgemeinschaften."
+   },
+   {
+    "para": "3",
+    "text": "Der Bau von Minaretten ist verboten."
+   }
+  ]
+ },
+ "73": {
+  "article": "73",
+  "title": "Nachhaltigkeit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Bund und Kantone streben ein auf Dauer ausgewogenes Verhältnis zwischen der Natur und ihrer Erneuerungsfähigkeit einerseits und ihrer Beanspruchung durch den Menschen anderseits an."
+   }
+  ]
+ },
+ "74": {
+  "article": "74",
+  "title": "Umweltschutz",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über den Schutz des Menschen und seiner natürlichen Umwelt vor schädlichen oder lästigen Einwirkungen."
+   },
+   {
+    "para": "2",
+    "text": "Er sorgt dafür, dass solche Einwirkungen vermieden werden. Die Kosten der Vermeidung und Beseitigung tragen die Verursacher."
+   },
+   {
+    "para": "3",
+    "text": "Für den Vollzug der Vorschriften sind die Kantone zuständig, soweit das Gesetz ihn nicht dem Bund vorbehält."
+   }
+  ]
+ },
+ "75": {
+  "article": "75",
+  "title": "Raumplanung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund legt Grundsätze der Raumplanung fest. Diese obliegt den Kantonen und dient der zweckmässigen und haushälterischen Nutzung des Bodens und der geordneten Besiedlung des Landes."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund fördert und koordiniert die Bestrebungen der Kantone und arbeitet mit den Kantonen zusammen."
+   },
+   {
+    "para": "3",
+    "text": "Bund und Kantone berücksichtigen bei der Erfüllung ihrer Aufgaben die Erfordernisse der Raumplanung."
+   }
+  ]
+ },
+ "75_a": {
+  "article": "75_a",
+  "title": "a Vermessung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Landesvermessung ist Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund erlässt Vorschriften über die amtliche Vermessung."
+   },
+   {
+    "para": "3",
+    "text": "Er kann Vorschriften erlassen über die Harmonisierung amtlicher Informationen, welche Grund und Boden betreffen."
+   }
+  ]
+ },
+ "75_b": {
+  "article": "75_b",
+  "title": "b Zweitwohnungen *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Anteil von Zweitwohnungen am Gesamtbestand der Wohneinheiten und der für Wohnzwecke genutzten Bruttogeschossfläche einer Gemeinde ist auf höchstens 20 Prozent beschränkt."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz verpflichtet die Gemeinden, ihren Erstwohnungsanteilplan und den detaillierten Stand seines Vollzugs alljährlich zu veröffentlichen."
+   }
+  ]
+ },
+ "76": {
+  "article": "76",
+  "title": "Wasser",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund sorgt im Rahmen seiner Zuständigkeiten für die haushälterische Nutzung und den Schutz der Wasservorkommen sowie für die Abwehr schädigender Einwirkungen des Wassers."
+   },
+   {
+    "para": "2",
+    "text": "Er legt Grundsätze fest über die Erhaltung und die Erschliessung der Wasservorkommen, über die Nutzung der Gewässer zur Energieerzeugung und für Kühlzwecke sowie über andere Eingriffe in den Wasserkreislauf."
+   },
+   {
+    "para": "3",
+    "text": "Er erlässt Vorschriften über den Gewässerschutz, die Sicherung angemessener Restwassermengen, den Wasserbau, die Sicherheit der Stauanlagen und die Beeinflussung der Niederschläge."
+   },
+   {
+    "para": "4",
+    "text": "Über die Wasservorkommen verfügen die Kantone. Sie können für die Wassernutzung in den Schranken der Bundesgesetzgebung Abgaben erheben. Der Bund hat das Recht, die Gewässer für seine Verkehrsbetriebe zu nutzen; er entrichtet dafür eine Abgabe und eine Entschädigung."
+   },
+   {
+    "para": "5",
+    "text": "Über Rechte an internationalen Wasservorkommen und damit verbundene Abgaben entscheidet der Bund unter Beizug der betroffenen Kantone. Können sich Kantone über Rechte an interkantonalen Wasservorkommen nicht einigen, so entscheidet der Bund."
+   },
+   {
+    "para": "6",
+    "text": "Der Bund berücksichtigt bei der Erfüllung seiner Aufgaben die Anliegen der Kantone, aus denen das Wasser stammt."
+   }
+  ]
+ },
+ "77": {
+  "article": "77",
+  "title": "Wald",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund sorgt dafür, dass der Wald seine Schutz‑, Nutz- und Wohlfahrtsfunktionen erfüllen kann."
+   },
+   {
+    "para": "2",
+    "text": "Er legt Grundsätze über den Schutz des Waldes fest."
+   },
+   {
+    "para": "3",
+    "text": "Er fördert Massnahmen zur Erhaltung des Waldes."
+   }
+  ]
+ },
+ "78": {
+  "article": "78",
+  "title": "Natur- und Heimatschutz",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Für den Natur- und Heimatschutz sind die Kantone zuständig."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund nimmt bei der Erfüllung seiner Aufgaben Rücksicht auf die Anliegen des Natur- und Heimatschutzes. Er schont Landschaften, Ortsbilder, geschichtliche Stätten sowie Natur- und Kulturdenkmäler; er erhält sie ungeschmälert, wenn das öffentliche Interesse es gebietet."
+   },
+   {
+    "para": "3",
+    "text": "Er kann Bestrebungen des Natur- und Heimatschutzes unterstützen und Objekte von gesamtschweizerischer Bedeutung vertraglich oder durch Enteignung erwerben oder sichern."
+   },
+   {
+    "para": "4",
+    "text": "Er erlässt Vorschriften zum Schutz der Tier- und Pflanzenwelt und zur Erhaltung ihrer Lebensräume in der natürlichen Vielfalt. Er schützt bedrohte Arten vor Ausrottung."
+   },
+   {
+    "para": "5",
+    "text": "Moore und Moorlandschaften von besonderer Schönheit und gesamtschweizerischer Bedeutung sind geschützt. Es dürfen darin weder Anlagen gebaut noch Bodenveränderungen vorgenommen werden. Ausgenommen sind Einrichtungen, die dem Schutz oder der bisherigen landwirtschaftlichen Nutzung der Moore und Moorlandschaften dienen."
+   }
+  ]
+ },
+ "79": {
+  "article": "79",
+  "title": "Fischerei und Jagd",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Bund legt Grundsätze fest über die Ausübung der Fischerei und der Jagd, insbesondere zur Erhaltung der Artenvielfalt der Fische, der wild lebenden Säugetiere und der Vögel."
+   }
+  ]
+ },
+ "80": {
+  "article": "80",
+  "title": "Tierschutz",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über den Schutz der Tiere."
+   },
+   {
+    "para": "2",
+    "text": "Er regelt insbesondere: a. die Tierhaltung und die Tierpflege; b. die Tierversuche und die Eingriffe am lebenden Tier; c. die Verwendung von Tieren; d. die Einfuhr von Tieren und tierischen Erzeugnissen; e. den Tierhandel und die Tiertransporte; f. das Töten von Tieren."
+   },
+   {
+    "para": "3",
+    "text": "Für den Vollzug der Vorschriften sind die Kantone zuständig, soweit das Gesetz ihn nicht dem Bund vorbehält."
+   }
+  ]
+ },
+ "81": {
+  "article": "81",
+  "title": "Öffentliche Werke",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Bund kann im Interesse des ganzen oder eines grossen Teils des Landes öffentliche Werke errichten und betreiben oder ihre Errichtung unterstützen."
+   }
+  ]
+ },
+ "81_a": {
+  "article": "81_a",
+  "title": "a Öffentlicher Verkehr",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone sorgen für ein ausreichendes Angebot an öffentlichem Verkehr auf Schiene, Strasse, Wasser und mit Seilbahnen in allen Landesgegenden. Die Belange des Schienengüterverkehrs sind dabei angemessen zu berücksichtigen."
+   },
+   {
+    "para": "2",
+    "text": "Die Kosten des öffentlichen Verkehrs werden zu einem angemessenen Teil durch die von den Nutzerinnen und Nutzern bezahlten Preise gedeckt."
+   }
+  ]
+ },
+ "82": {
+  "article": "82",
+  "title": "Strassenverkehr",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über den Strassenverkehr."
+   },
+   {
+    "para": "2",
+    "text": "Er übt die Oberaufsicht über die Strassen von gesamtschweizerischer Bedeutung aus; er kann bestimmen, welche Durchgangsstrassen für den Verkehr offen bleiben müssen."
+   },
+   {
+    "para": "3",
+    "text": "Die Benützung öffentlicher Strassen ist gebührenfrei. Die Bundesversammlung kann Ausnahmen bewilligen."
+   }
+  ]
+ },
+ "83": {
+  "article": "83",
+  "title": "Strasseninfrastruktur",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone sorgen für eine ausreichende Strasseninfrastruktur in allen Landesgegenden."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund stellt die Errichtung eines Netzes von Nationalstrassen und dessen Benutzbarkeit sicher. Er baut, betreibt und unterhält die Nationalstrassen. Er trägt die Kosten dafür. Er kann die Aufgabe ganz oder teilweise öffentlichen, privaten oder gemischten Trägerschaften übertragen."
+   }
+  ]
+ },
+ "84": {
+  "article": "84",
+  "title": "Alpenquerender Transitverkehr *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund schützt das Alpengebiet vor den negativen Auswirkungen des Transitverkehrs. Er begrenzt die Belastungen durch den Transitverkehr auf ein Mass, das für Menschen, Tiere und Pflanzen sowie ihre Lebensräume nicht schädlich ist."
+   },
+   {
+    "para": "2",
+    "text": "Der alpenquerende Gütertransitverkehr von Grenze zu Grenze erfolgt auf der Schiene. Der Bundesrat trifft die notwendigen Massnahmen. Ausnahmen sind nur zulässig, wenn sie unumgänglich sind. Sie müssen durch ein Gesetz näher bestimmt werden."
+   },
+   {
+    "para": "3",
+    "text": "Die Transitstrassen-Kapazität im Alpengebiet darf nicht erhöht werden. Von dieser Beschränkung ausgenommen sind Umfahrungsstrassen, die Ortschaften vom Durchgangsverkehr entlasten."
+   }
+  ]
+ },
+ "85": {
+  "article": "85",
+  "title": "Schwerverkehrsabgabe *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann auf dem Schwerverkehr eine leistungs- oder verbrauchsabhängige Abgabe erheben, soweit der Schwerverkehr der Allgemeinheit Kosten verursacht, die nicht durch andere Leistungen oder Abgaben gedeckt sind."
+   },
+   {
+    "para": "2",
+    "text": "Der Reinertrag der Abgabe wird zur Deckung von Kosten verwendet, die im Zusammenhang mit dem Landverkehr stehen."
+   },
+   {
+    "para": "3",
+    "text": "Die Kantone werden am Reinertrag beteiligt. Bei der Bemessung der Anteile sind die besonderen Auswirkungen der Abgabe in Berg- und Randgebieten zu berücksichtigen."
+   }
+  ]
+ },
+ "85_a": {
+  "article": "85_a",
+  "title": "a Abgabe für die Benützung der Nationalstrassen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Bund erhebt eine Abgabe für die Benützung der Nationalstrassen durch Motorfahrzeuge und Anhänger, die nicht der Schwerverkehrsabgabe unterstehen."
+   }
+  ]
+ },
+ "86": {
+  "article": "86",
+  "title": "Verwendung von Abgaben für Aufgaben und Aufwendungen im Zusammenhang mit dem Strassenverkehr *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Nationalstrassen sowie die Beiträge an Massnahmen zur Verbesserung der Verkehrsinfrastruktur in Städten und Agglomerationen im Zusammenhang mit dem Strassenverkehr werden über einen Fonds finanziert."
+   },
+   {
+    "para": "2",
+    "text": "Dem Fonds werden die folgenden Mittel zugewiesen: a. der Reinertrag der Nationalstrassenabgabe nach Artikel 85 a ; b. der Reinertrag der besonderen Verbrauchssteuer nach Artikel 131 Absatz 1 Buchstabe d; c. der Reinertrag des Zuschlags nach Artikel 131 Absatz 2 Buchstabe a; d. der Reinertrag der Abgabe nach Artikel 131 Absatz 2 Buchstabe b; e. ein Anteil des Reinertrags der Verbrauchssteuer auf allen Treibstoffen, ausser den Flugtreibstoffen, nach Artikel 131 Absatz 1 Buchstabe e; der Anteil beträgt je 9 Prozent der Mittel nach Buchstabe c und der Hälfte des Reinertrags der Verbrauchssteuer auf allen Treibstoffen, ausser den Flugtreibstoffen, höchstens aber 310 Millionen Franken pro Jahr; das Gesetz regelt die Indexierung dieses Betrags; f. in der Regel 10 Prozent des Reinertrags der Verbrauchssteuer auf allen Treibstoffen, ausser den Flugtreibstoffen, nach Artikel 131 Absatz 1 Buchstabe e; g. die Erträge zur Kompensation von Mehraufwendungen für neu ins Nationalstrassennetz aufgenommene Strecken aus der Spezialfinanzierung nach Absatz 3 Buchstabe g und aus Beiträgen der Kantone; h. weitere vom Gesetz zugewiesene Mittel, die im Zusammenhang mit dem Strassenverkehr stehen."
+   },
+   {
+    "para": "3",
+    "text": "Für folgende Aufgaben und Aufwendungen im Zusammenhang mit dem Strassenverkehr wird eine Spezialfinanzierung geführt: a. Beiträge an Massnahmen zur Förderung des kombinierten Verkehrs und des Transports begleiteter Motorfahrzeuge; b. Beiträge an die Kosten für Hauptstrassen; c. Beiträge an Schutzbauten gegen Naturgewalten und an Massnahmen des Umwelt- und Landschaftsschutzes, die der Strassenverkehr nötig macht; d. allgemeine Beiträge an die kantonalen Kosten für Strassen, die dem Motorfahrzeugverkehr geöffnet sind; e. Beiträge an Kantone ohne Nationalstrassen; f. Forschung und Verwaltung; g. Beiträge an den Fonds nach Absatz 2 Buchstabe g."
+   },
+   {
+    "para": "4",
+    "text": "Der Spezialfinanzierung wird die Hälfte des Reinertrags der Verbrauchssteuer auf allen Treibstoffen, ausser den Flugtreibstoffen, nach Artikel 131 Absatz 1 Buchstabe e abzüglich der Mittel nach Absatz 2 Buchstabe e gutgeschrieben."
+   },
+   {
+    "para": "5",
+    "text": "Ist der Bedarf in der Spezialfinanzierung ausgewiesen und soll in der Spezialfinanzierung eine angemessene Rückstellung gebildet werden, so sind Erträge aus der Verbrauchssteuer nach Artikel 131 Absatz 1 Buchstabe d, statt dem Fonds zuzuweisen, der Spezialfinanzierung gutzuschreiben."
+   }
+  ]
+ },
+ "87": {
+  "article": "87",
+  "title": "Eisenbahnen und weitere Verkehrsträger *",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Gesetzgebung über den Eisenbahnverkehr, die Seilbahnen, die Schifffahrt sowie über die Luft- und Raumfahrt ist Sache des Bundes."
+   }
+  ]
+ },
+ "87_a": {
+  "article": "87_a",
+  "title": "a Eisenbahninfrastruktur *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund trägt die Hauptlast der Finanzierung der Eisenbahninfrastruktur."
+   },
+   {
+    "para": "2",
+    "text": "Die Eisenbahninfrastruktur wird über einen Fonds finanziert. Dem Fonds werden folgende Mittel zugewiesen: a. höchstens zwei Drittel des Ertrags der Schwerverkehrsabgabe nach Artikel 85; b. der Ertrag aus der Mehrwertsteuererhöhung nach Artikel 130 Absatz 3 bis ; c. 2,0 Prozent der Einnahmen aus der direkten Bundessteuer der natürlichen Personen; d. 2300 Millionen Franken pro Jahr aus dem allgemeinen Bundeshaushalt; das Gesetz regelt die Indexierung dieses Betrags."
+   },
+   {
+    "para": "3",
+    "text": "Die Kantone beteiligen sich angemessen an der Finanzierung der Eisenbahninfrastruktur. Das Gesetz regelt die Einzelheiten."
+   },
+   {
+    "para": "4",
+    "text": "Das Gesetz kann eine ergänzende Finanzierung durch Dritte vorsehen."
+   }
+  ]
+ },
+ "87_b": {
+  "article": "87_b",
+  "title": "b Verwendung von Abgaben für Aufgaben und Aufwendungen im Zusammenhang mit dem Luftverkehr",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Für die folgenden Aufgaben und Aufwendungen im Zusammenhang mit dem Luftverkehr werden die Hälfte des Reinertrags der Verbrauchssteuer auf Flugtreibstoffen und der Zuschlag auf der Verbrauchssteuer auf Flugtreibstoffen verwendet: a. Beiträge an Umweltschutzmassnahmen, die der Luftverkehr nötig macht; b. Beiträge an Sicherheitsmassnahmen zur Abwehr widerrechtlicher Handlungen gegen den Luftverkehr, namentlich von Terroranschlägen und Entführungen, soweit diese Massnahmen nicht staatlichen Behörden obliegen; c. Beiträge an Massnahmen zur Förderung eines hohen technischen Sicherheitsniveaus im Luftverkehr."
+   }
+  ]
+ },
+ "88": {
+  "article": "88",
+  "title": "Fuss-, Wander- und Velowege",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund legt Grundsätze über Fuss-, Wander- und Velowegnetze fest."
+   },
+   {
+    "para": "2",
+    "text": "Er kann Massnahmen der Kantone und Dritter zur Anlage und Erhaltung solcher Netze sowie zur Information über diese unterstützen und koordinieren. Dabei wahrt er die Zuständigkeiten der Kantone."
+   },
+   {
+    "para": "3",
+    "text": "Er nimmt bei der Erfüllung seiner Aufgaben Rücksicht auf solche Netze. Er ersetzt Wege, die er aufheben muss."
+   }
+  ]
+ },
+ "89": {
+  "article": "89",
+  "title": "Energiepolitik",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone setzen sich im Rahmen ihrer Zuständigkeiten ein für eine ausreichende, breit gefächerte, sichere, wirtschaftliche und umweltverträgliche Energieversorgung sowie für einen sparsamen und rationellen Energieverbrauch."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund legt Grundsätze fest über die Nutzung einheimischer und erneuerbarer Energien und über den sparsamen und rationellen Energieverbrauch."
+   },
+   {
+    "para": "3",
+    "text": "Der Bund erlässt Vorschriften über den Energieverbrauch von Anlagen, Fahrzeugen und Geräten. Er fördert die Entwicklung von Energietechniken, insbesondere in den Bereichen des Energiesparens und der erneuerbaren Energien."
+   },
+   {
+    "para": "4",
+    "text": "Für Massnahmen, die den Verbrauch von Energie in Gebäuden betreffen, sind vor allem die Kantone zuständig."
+   },
+   {
+    "para": "5",
+    "text": "Der Bund trägt in seiner Energiepolitik den Anstrengungen der Kantone und Gemeinden sowie der Wirtschaft Rechnung; er berücksichtigt die Verhältnisse in den einzelnen Landesgegenden und die wirtschaftliche Tragbarkeit."
+   }
+  ]
+ },
+ "90": {
+  "article": "90",
+  "title": "Kernenergie *",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Gesetzgebung auf dem Gebiet der Kernenergie ist Sache des Bundes."
+   }
+  ]
+ },
+ "91": {
+  "article": "91",
+  "title": "Transport von Energie",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über den Transport und die Lieferung elektrischer Energie."
+   },
+   {
+    "para": "2",
+    "text": "Die Gesetzgebung über Rohrleitungsanlagen zur Beförderung flüssiger oder gasförmiger Brenn- oder Treibstoffe ist Sache des Bundes."
+   }
+  ]
+ },
+ "92": {
+  "article": "92",
+  "title": "Post- und Fernmeldewesen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Das Post- und Fernmeldewesen ist Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund sorgt für eine ausreichende und preiswerte Grundversorgung mit Post- und Fernmeldediensten in allen Landesgegenden. Die Tarife werden nach einheitlichen Grundsätzen festgelegt."
+   }
+  ]
+ },
+ "93": {
+  "article": "93",
+  "title": "Radio und Fernsehen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Gesetzgebung über Radio und Fernsehen sowie über andere Formen der öffentlichen fernmeldetechnischen Verbreitung von Darbietungen und Informationen ist Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Radio und Fernsehen tragen zur Bildung und kulturellen Entfaltung, zur freien Meinungsbildung und zur Unterhaltung bei. Sie berücksichtigen die Besonderheiten des Landes und die Bedürfnisse der Kantone. Sie stellen die Ereignisse sachgerecht dar und bringen die Vielfalt der Ansichten angemessen zum Ausdruck."
+   },
+   {
+    "para": "3",
+    "text": "Die Unabhängigkeit von Radio und Fernsehen sowie die Autonomie in der Programmgestaltung sind gewährleistet."
+   },
+   {
+    "para": "4",
+    "text": "Auf die Stellung und die Aufgabe anderer Medien, vor allem der Presse, ist Rücksicht zu nehmen."
+   },
+   {
+    "para": "5",
+    "text": "Programmbeschwerden können einer unabhängigen Beschwerdeinstanz vorgelegt werden."
+   }
+  ]
+ },
+ "94": {
+  "article": "94",
+  "title": "Grundsätze der Wirtschaftsordnung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone halten sich an den Grundsatz der Wirtschaftsfreiheit."
+   },
+   {
+    "para": "2",
+    "text": "Sie wahren die Interessen der schweizerischen Gesamtwirtschaft und tragen mit der privaten Wirtschaft zur Wohlfahrt und zur wirtschaftlichen Sicherheit der Bevölkerung bei."
+   },
+   {
+    "para": "3",
+    "text": "Sie sorgen im Rahmen ihrer Zuständigkeiten für günstige Rahmenbedingungen für die private Wirtschaft."
+   },
+   {
+    "para": "4",
+    "text": "Abweichungen vom Grundsatz der Wirtschaftsfreiheit, insbesondere auch Massnahmen, die sich gegen den Wettbewerb richten, sind nur zulässig, wenn sie in der Bundesverfassung vorgesehen oder durch kantonale Regalrechte begründet sind."
+   }
+  ]
+ },
+ "95": {
+  "article": "95",
+  "title": "Privatwirtschaftliche Erwerbstätigkeit *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann Vorschriften erlassen über die Ausübung der privatwirtschaftlichen Erwerbstätigkeit."
+   },
+   {
+    "para": "2",
+    "text": "Er sorgt für einen einheitlichen schweizerischen Wirtschaftsraum. Er gewährleistet, dass Personen mit einer wissenschaftlichen Ausbildung oder mit einem eidgenössischen, kantonalen oder kantonal anerkannten Ausbildungsabschluss ihren Beruf in der ganzen Schweiz ausüben können."
+   },
+   {
+    "para": "3",
+    "text": "Zum Schutz der Volkswirtschaft, des Privateigentums und der Aktionärinnen und Aktionäre sowie im Sinne einer nachhaltigen Unternehmensführung regelt das Gesetz die im In- oder Ausland kotierten Schweizer Aktiengesellschaften nach folgenden Grundsätzen: a. Die Generalversammlung stimmt jährlich über die Gesamtsumme aller Vergütungen (Geld und Wert der Sachleistungen) des Verwaltungsrates, der Geschäftsleitung und des Beirates ab. Sie wählt jährlich die Verwaltungsratspräsidentin oder den Verwaltungsratspräsidenten und einzeln die Mitglieder des Verwaltungsrates und des Vergütungsausschusses sowie die unabhängige Stimmrechtsvertreterin oder den unabhängigen Stimmrechtsvertreter. Die Pensionskassen stimmen im Interesse ihrer Versicherten ab und legen offen, wie sie gestimmt haben. Die Aktionärinnen und Aktionäre können elektronisch fernabstimmen; die Organ- und Depotstimmrechtsvertretung ist untersagt. b. Die Organmitglieder erhalten keine Abgangs- oder andere Entschädigung, keine Vergütung im Voraus, keine Prämie für Firmenkäufe und -verkäufe und keinen zusätzlichen Berater- oder Arbeitsvertrag von einer anderen Gesellschaft der Gruppe. Die Führung der Gesellschaft kann nicht an eine juristische Person delegiert werden. c. Die Statuten regeln die Höhe der Kredite, Darlehen und Renten an die Organmitglieder, deren Erfolgs- und Beteiligungspläne und deren Anzahl Mandate ausserhalb des Konzerns sowie die Dauer der Arbeitsverträge der Geschäftsleitungsmitglieder. d. Widerhandlung gegen die Bestimmungen nach den Buchstaben a–c wird mit Freiheitsstrafe bis zu drei Jahren und Geldstrafe bis zu sechs Jahresvergütungen bestraft."
+   }
+  ]
+ },
+ "96": {
+  "article": "96",
+  "title": "Wettbewerbspolitik",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften gegen volkswirtschaftlich oder sozial schädliche Auswirkungen von Kartellen und anderen Wettbewerbsbeschränkungen."
+   },
+   {
+    "para": "2",
+    "text": "Er trifft Massnahmen: a. zur Verhinderung von Missbräuchen in der Preisbildung durch marktmächtige Unternehmen und Organisationen des privaten und des öffentlichen Rechts; b. gegen den unlauteren Wettbewerb."
+   }
+  ]
+ },
+ "97": {
+  "article": "97",
+  "title": "Schutz der Konsumentinnen und Konsumenten",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund trifft Massnahmen zum Schutz der Konsumentinnen und Konsumenten."
+   },
+   {
+    "para": "2",
+    "text": "Er erlässt Vorschriften über die Rechtsmittel, welche die Konsumentenorganisationen ergreifen können. Diesen Organisationen stehen im Bereich der Bundesgesetzgebung über den unlauteren Wettbewerb die gleichen Rechte zu wie den Berufs- und Wirtschaftsverbänden."
+   },
+   {
+    "para": "3",
+    "text": "Die Kantone sehen für Streitigkeiten bis zu einem bestimmten Streitwert ein Schlichtungsverfahren oder ein einfaches und rasches Gerichtsverfahren vor. Der Bundesrat legt die Streitwertgrenze fest."
+   }
+  ]
+ },
+ "98": {
+  "article": "98",
+  "title": "Banken und Versicherungen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über das Banken- und Börsenwesen; er trägt dabei der besonderen Aufgabe und Stellung der Kantonalbanken Rechnung."
+   },
+   {
+    "para": "2",
+    "text": "Er kann Vorschriften erlassen über Finanzdienstleistungen in anderen Bereichen."
+   },
+   {
+    "para": "3",
+    "text": "Er erlässt Vorschriften über das Privatversicherungswesen."
+   }
+  ]
+ },
+ "99": {
+  "article": "99",
+  "title": "Geld- und Währungspolitik",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Das Geld- und Währungswesen ist Sache des Bundes; diesem allein steht das Recht zur Ausgabe von Münzen und Banknoten zu."
+   },
+   {
+    "para": "2",
+    "text": "Die Schweizerische Nationalbank führt als unabhängige Zentralbank eine Geld- und Währungspolitik, die dem Gesamtinteresse des Landes dient; sie wird unter Mitwirkung und Aufsicht des Bundes verwaltet."
+   },
+   {
+    "para": "3",
+    "text": "Die Schweizerische Nationalbank bildet aus ihren Erträgen ausreichende Währungsreserven; ein Teil dieser Reserven wird in Gold gehalten."
+   },
+   {
+    "para": "4",
+    "text": "Der Reingewinn der Schweizerischen Nationalbank geht zu mindestens zwei Dritteln an die Kantone."
+   }
+  ]
+ },
+ "100": {
+  "article": "100",
+  "title": "Konjunkturpolitik",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund trifft Massnahmen für eine ausgeglichene konjunkturelle Entwicklung, insbesondere zur Verhütung und Bekämpfung von Arbeitslosigkeit und Teuerung."
+   },
+   {
+    "para": "2",
+    "text": "Er berücksichtigt die wirtschaftliche Entwicklung der einzelnen Landesgegenden. Er arbeitet mit den Kantonen und der Wirtschaft zusammen."
+   },
+   {
+    "para": "3",
+    "text": "Im Geld- und Kreditwesen, in der Aussenwirtschaft und im Bereich der öffentlichen Finanzen kann er nötigenfalls vom Grundsatz der Wirtschaftsfreiheit abweichen."
+   },
+   {
+    "para": "4",
+    "text": "Bund, Kantone und Gemeinden berücksichtigen in ihrer Einnahmen- und Ausgabenpolitik die Konjunkturlage."
+   },
+   {
+    "para": "5",
+    "text": "Der Bund kann zur Stabilisierung der Konjunktur vorübergehend auf bundesrechtlichen Abgaben Zuschläge erheben oder Rabatte gewähren. Die abgeschöpften Mittel sind stillzulegen; nach der Freigabe werden direkte Abgaben individuell zurückerstattet, indirekte zur Gewährung von Rabatten oder zur Arbeitsbeschaffung verwendet."
+   },
+   {
+    "para": "6",
+    "text": "Der Bund kann die Unternehmen zur Bildung von Arbeitsbeschaffungsreserven verpflichten; er gewährt dafür Steuererleichterungen und kann dazu auch die Kantone verpflichten. Nach der Freigabe der Reserven entscheiden die Unternehmen frei über deren Einsatz im Rahmen der gesetzlichen Verwendungszwecke."
+   }
+  ]
+ },
+ "101": {
+  "article": "101",
+  "title": "Aussenwirtschaftspolitik",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund wahrt die Interessen der schweizerischen Wirtschaft im Ausland."
+   },
+   {
+    "para": "2",
+    "text": "In besonderen Fällen kann er Massnahmen treffen zum Schutz der inländischen Wirtschaft. Er kann nötigenfalls vom Grundsatz der Wirtschaftsfreiheit abweichen."
+   }
+  ]
+ },
+ "102": {
+  "article": "102",
+  "title": "Landesversorgung *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund stellt die Versorgung des Landes mit lebenswichtigen Gütern und Dienstleistungen sicher für den Fall machtpolitischer oder kriegerischer Bedrohungen sowie in schweren Mangellagen, denen die Wirtschaft nicht selbst zu begegnen vermag. Er trifft vorsorgliche Massnahmen."
+   },
+   {
+    "para": "2",
+    "text": "Er kann nötigenfalls vom Grundsatz der Wirtschaftsfreiheit abweichen."
+   }
+  ]
+ },
+ "103": {
+  "article": "103",
+  "title": "Strukturpolitik *",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Bund kann wirtschaftlich bedrohte Landesgegenden unterstützen sowie Wirtschaftszweige und Berufe fördern, wenn zumutbare Selbsthilfemassnahmen zur Sicherung ihrer Existenz nicht ausreichen. Er kann nötigenfalls vom Grundsatz der Wirtschaftsfreiheit abweichen."
+   }
+  ]
+ },
+ "104": {
+  "article": "104",
+  "title": "Landwirtschaft",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund sorgt dafür, dass die Landwirtschaft durch eine nachhaltige und auf den Markt ausgerichtete Produktion einen wesentlichen Beitrag leistet zur: a. sicheren Versorgung der Bevölkerung; b. Erhaltung der natürlichen Lebensgrundlagen und zur Pflege der Kulturlandschaft; c. dezentralen Besiedlung des Landes."
+   },
+   {
+    "para": "2",
+    "text": "Ergänzend zur zumutbaren Selbsthilfe der Landwirtschaft und nötigenfalls abweichend vom Grundsatz der Wirtschaftsfreiheit fördert der Bund die bodenbewirtschaftenden bäuerlichen Betriebe."
+   },
+   {
+    "para": "3",
+    "text": "Er richtet die Massnahmen so aus, dass die Landwirtschaft ihre multifunktionalen Aufgaben erfüllt. Er hat insbesondere folgende Befugnisse und Aufgaben: a. Er ergänzt das bäuerliche Einkommen durch Direktzahlungen zur Erzielung eines angemessenen Entgelts für die erbrachten Leistungen, unter der Voraussetzung eines ökologischen Leistungsnachweises. b. Er fördert mit wirtschaftlich lohnenden Anreizen Produktionsformen, die besonders naturnah, umwelt- und tierfreundlich sind. c. Er erlässt Vorschriften zur Deklaration von Herkunft, Qualität, Produktionsmethode und Verarbeitungsverfahren für Lebensmittel. d. Er schützt die Umwelt vor Beeinträchtigungen durch überhöhten Einsatz von Düngstoffen, Chemikalien und anderen Hilfsstoffen. e. Er kann die landwirtschaftliche Forschung, Beratung und Ausbildung fördern sowie Investitionshilfen leisten. f. Er kann Vorschriften zur Festigung des bäuerlichen Grundbesitzes erlassen."
+   },
+   {
+    "para": "4",
+    "text": "Er setzt dafür zweckgebundene Mittel aus dem Bereich der Landwirtschaft und allgemeine Bundesmittel ein."
+   }
+  ]
+ },
+ "104_a": {
+  "article": "104_a",
+  "title": "a Ernährungssicherheit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Zur Sicherstellung der Versorgung der Bevölkerung mit Lebensmitteln schafft der Bund Voraussetzungen für: a. die Sicherung der Grundlagen für die landwirtschaftliche Produktion, insbesondere des Kulturlandes; b. eine standortangepasste und ressourceneffiziente Lebensmittelproduktion; c. eine auf den Markt ausgerichtete Land- und Ernährungswirtschaft; d. grenzüberschreitende Handelsbeziehungen, die zur nachhaltigen Entwicklung der Land- und Ernährungswirtschaft beitragen; e. einen ressourcenschonenden Umgang mit Lebensmitteln."
+   }
+  ]
+ },
+ "105": {
+  "article": "105",
+  "title": "Alkohol",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Gesetzgebung über Herstellung, Einfuhr, Reinigung und Verkauf gebrannter Wasser ist Sache des Bundes. Der Bund trägt insbesondere den schädlichen Wirkungen des Alkoholkonsums Rechnung."
+   }
+  ]
+ },
+ "106": {
+  "article": "106",
+  "title": "Geldspiele",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über die Geldspiele; er trägt dabei den Interessen der Kantone Rechnung."
+   },
+   {
+    "para": "2",
+    "text": "Für die Errichtung und den Betrieb von Spielbanken ist eine Konzession des Bundes erforderlich. Der Bund berücksichtigt bei der Konzessionserteilung die regionalen Gegebenheiten. Er erhebt eine ertragsabhängige Spielbankenabgabe; diese darf 80 Prozent der Bruttospielerträge nicht übersteigen. Diese Abgabe ist für die Alters-, Hinterlassenen- und Invalidenversicherung bestimmt."
+   },
+   {
+    "para": "3",
+    "text": "Die Kantone sind zuständig für die Bewilligung und die Beaufsichtigung: a. der Geldspiele, die einer unbegrenzten Zahl Personen offenstehen, an mehreren Orten angeboten werden und derselben Zufallsziehung oder einer ähnlichen Prozedur unterliegen; ausgenommen sind die Jackpotsysteme der Spielbanken; b. der Sportwetten; c. der Geschicklichkeitsspiele."
+   },
+   {
+    "para": "4",
+    "text": "Die Absätze 2 und 3 finden auch auf die telekommunikationsgestützt durchgeführten Geldspiele Anwendung."
+   },
+   {
+    "para": "5",
+    "text": "Bund und Kantone tragen den Gefahren der Geldspiele Rechnung. Sie stellen durch Gesetzgebung und Aufsichtsmassnahmen einen angemessenen Schutz sicher und berücksichtigen dabei die unterschiedlichen Merkmale der Spiele sowie Art und Ort des Spielangebots."
+   },
+   {
+    "para": "6",
+    "text": "Die Kantone stellen sicher, dass die Reinerträge aus den Spielen gemäss Absatz 3 Buchstaben a und b vollumfänglich für gemeinnützige Zwecke, namentlich in den Bereichen Kultur, Soziales und Sport, verwendet werden."
+   },
+   {
+    "para": "7",
+    "text": "Der Bund und die Kantone koordinieren sich bei der Erfüllung ihrer Aufgaben. Das Gesetz schafft zu diesem Zweck ein gemeinsames Organ, das hälftig aus Mitgliedern der Vollzugsorgane des Bundes und der Kantone zusammengesetzt ist."
+   }
+  ]
+ },
+ "107": {
+  "article": "107",
+  "title": "Waffen und Kriegsmaterial",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften gegen den Missbrauch von Waffen, Waffenzubehör und Munition."
+   },
+   {
+    "para": "2",
+    "text": "Er erlässt Vorschriften über die Herstellung, die Beschaffung und den Vertrieb sowie über die Ein‑, Aus‑ und Durchfuhr von Kriegsmaterial."
+   }
+  ]
+ },
+ "108": {
+  "article": "108",
+  "title": "Wohnbau- und Wohneigentumsförderung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund fördert den Wohnungsbau, den Erwerb von Wohnungs- und Hauseigentum, das dem Eigenbedarf Privater dient, sowie die Tätigkeit von Trägern und Organisationen des gemeinnützigen Wohnungsbaus."
+   },
+   {
+    "para": "2",
+    "text": "Er fördert insbesondere die Beschaffung und Erschliessung von Land für den Wohnungsbau, die Rationalisierung und die Verbilligung des Wohnungsbaus sowie die Verbilligung der Wohnkosten."
+   },
+   {
+    "para": "3",
+    "text": "Er kann Vorschriften erlassen über die Erschliessung von Land für den Wohnungsbau und die Baurationalisierung."
+   },
+   {
+    "para": "4",
+    "text": "Er berücksichtigt dabei namentlich die Interessen von Familien, Betagten, Bedürftigen und Behinderten."
+   }
+  ]
+ },
+ "109": {
+  "article": "109",
+  "title": "Mietwesen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften gegen Missbräuche im Mietwesen, namentlich gegen missbräuchliche Mietzinse, sowie über die Anfechtbarkeit missbräuchlicher Kündigungen und die befristete Erstreckung von Mietverhältnissen."
+   },
+   {
+    "para": "2",
+    "text": "Er kann Vorschriften über die Allgemeinverbindlicherklärung von Rahmenmietverträgen erlassen. Solche dürfen nur allgemeinverbindlich erklärt werden, wenn sie begründeten Minderheitsinteressen sowie regionalen Verschiedenheiten angemessen Rechnung tragen und die Rechtsgleichheit nicht beeinträchtigen."
+   }
+  ]
+ },
+ "110": {
+  "article": "110",
+  "title": "Arbeit *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann Vorschriften erlassen über: a. den Schutz der Arbeitnehmerinnen und Arbeitnehmer; b. das Verhältnis zwischen Arbeitgeber- und Arbeitnehmerseite, insbesondere über die gemeinsame Regelung betrieblicher und beruflicher Angelegenheiten; c. die Arbeitsvermittlung; d. die Allgemeinverbindlicherklärung von Gesamtarbeitsverträgen."
+   },
+   {
+    "para": "2",
+    "text": "Gesamtarbeitsverträge dürfen nur allgemeinverbindlich erklärt werden, wenn sie begründeten Minderheitsinteressen und regionalen Verschiedenheiten angemessen Rechnung tragen und die Rechtsgleichheit sowie die Koalitionsfreiheit nicht beeinträchtigen."
+   },
+   {
+    "para": "3",
+    "text": "Der 1. August ist Bundesfeiertag. Er ist arbeitsrechtlich den Sonntagen gleichgestellt und bezahlt."
+   }
+  ]
+ },
+ "111": {
+  "article": "111",
+  "title": "Alters-, Hinterlassenen- und Invalidenvorsorge",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund trifft Massnahmen für eine ausreichende Alters‑, Hinterlassenen- und Invalidenvorsorge. Diese beruht auf drei Säulen, nämlich der eidgenössischen Alters‑, Hinterlassenen- und Invalidenversicherung, der beruflichen Vorsorge und der Selbstvorsorge."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund sorgt dafür, dass die eidgenössische Alters‑, Hinterlassenen- und Invalidenversicherung sowie die berufliche Vorsorge ihren Zweck dauernd erfüllen können."
+   },
+   {
+    "para": "3",
+    "text": "Er kann die Kantone verpflichten, Einrichtungen der eidgenössischen Alters‑, Hinterlassenen- und Invalidenversicherung sowie der beruflichen Vorsorge von der Steuerpflicht zu befreien und den Versicherten und ihren Arbeitgeberinnen und Arbeitgebern auf Beiträgen und anwartschaftlichen Ansprüchen Steuererleichterungen zu gewähren."
+   },
+   {
+    "para": "4",
+    "text": "Er fördert in Zusammenarbeit mit den Kantonen die Selbstvorsorge namentlich durch Massnahmen der Steuer- und Eigentumspolitik."
+   }
+  ]
+ },
+ "112": {
+  "article": "112",
+  "title": "Alters‑, Hinterlassenen‑ und Invalidenversicherung *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über die Alters‑, Hinterlassenen- und Invalidenversicherung."
+   },
+   {
+    "para": "2",
+    "text": "Er beachtet dabei folgende Grundsätze: a. Die Versicherung ist obligatorisch. a bis . Sie gewährt Geld- und Sachleistungen. b. Die Renten haben den Existenzbedarf angemessen zu decken. c. Die Höchstrente beträgt maximal das Doppelte der Mindestrente. d. Die Renten werden mindestens der Preisentwicklung angepasst."
+   },
+   {
+    "para": "3",
+    "text": "Die Versicherung wird finanziert: a. durch Beiträge der Versicherten, wobei die Arbeitgeberinnen und Arbeitgeber für ihre Arbeitnehmerinnen und Arbeitnehmer die Hälfte der Beiträge bezahlen; b. durch Leistungen des Bundes."
+   },
+   {
+    "para": "4",
+    "text": "Die Leistungen des Bundes betragen höchstens die Hälfte der Ausgaben."
+   },
+   {
+    "para": "5",
+    "text": "Die Leistungen des Bundes werden in erster Linie aus dem Reinertrag der Tabaksteuer, der Steuer auf gebrannten Wassern und der Abgabe aus dem Betrieb von Spielbanken gedeckt."
+   },
+   {
+    "para": "6",
+    "text": "…"
+   }
+  ]
+ },
+ "112_a": {
+  "article": "112_a",
+  "title": "a Ergänzungsleistungen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone richten Ergänzungsleistungen aus an Personen, deren Existenzbedarf durch die Leistungen der Alters-, Hinterlassenen- und Invalidenversicherung nicht gedeckt ist."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz legt den Umfang der Ergänzungsleistungen sowie die Aufgaben und Zuständigkeiten von Bund und Kantonen fest."
+   }
+  ]
+ },
+ "112_b": {
+  "article": "112_b",
+  "title": "b Förderung der Eingliederung Invalider *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund fördert die Eingliederung Invalider durch die Ausrichtung von Geld- und Sachleistungen. Zu diesem Zweck kann er Mittel der Invalidenversicherung verwenden."
+   },
+   {
+    "para": "2",
+    "text": "Die Kantone fördern die Eingliederung Invalider, insbesondere durch Beiträge an den Bau und den Betrieb von Institutionen, die dem Wohnen und dem Arbeiten dienen."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz legt die Ziele der Eingliederung und die Grundsätze und Kriterien fest."
+   }
+  ]
+ },
+ "112_c": {
+  "article": "112_c",
+  "title": "c Betagten- und Behindertenhilfe *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Kantone sorgen für die Hilfe und Pflege von Betagten und Behinderten zu Hause."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund unterstützt gesamtschweizerische Bestrebungen zu Gunsten Betagter und Behinderter. Zu diesem Zweck kann er Mittel aus der Alters-, Hinterlassenen- und Invalidenversicherung verwenden."
+   }
+  ]
+ },
+ "113": {
+  "article": "113",
+  "title": "Berufliche Vorsorge *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über die berufliche Vorsorge."
+   },
+   {
+    "para": "2",
+    "text": "Er beachtet dabei folgende Grundsätze: a. Die berufliche Vorsorge ermöglicht zusammen mit der Alters‑, Hinterlassenen- und Invalidenversicherung die Fortsetzung der gewohnten Lebenshaltung in angemessener Weise. b. Die berufliche Vorsorge ist für Arbeitnehmerinnen und Arbeitnehmer obligatorisch; das Gesetz kann Ausnahmen vorsehen. c. Die Arbeitgeberinnen und Arbeitgeber versichern ihre Arbeitnehmerinnen und Arbeitnehmer bei einer Vorsorgeeinrichtung; soweit erforderlich, ermöglicht ihnen der Bund, die Arbeitnehmerinnen und Arbeitnehmer in einer eidgenössischen Vorsorgeeinrichtung zu versichern. d. Selbstständigerwerbende können sich freiwillig bei einer Vorsorgeeinrichtung versichern. e. Für bestimmte Gruppen von Selbstständigerwerbenden kann der Bund die berufliche Vorsorge allgemein oder für einzelne Risiken obligatorisch erklären."
+   },
+   {
+    "para": "3",
+    "text": "Die berufliche Vorsorge wird durch die Beiträge der Versicherten finanziert, wobei die Arbeitgeberinnen und Arbeitgeber mindestens die Hälfte der Beiträge ihrer Arbeitnehmerinnen und Arbeitnehmer bezahlen."
+   },
+   {
+    "para": "4",
+    "text": "Vorsorgeeinrichtungen müssen den bundesrechtlichen Mindestanforderungen genügen; der Bund kann für die Lösung besonderer Aufgaben gesamtschweizerische Massnahmen vorsehen."
+   }
+  ]
+ },
+ "114": {
+  "article": "114",
+  "title": "Arbeitslosenversicherung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über die Arbeitslosenversicherung."
+   },
+   {
+    "para": "2",
+    "text": "Er beachtet dabei folgende Grundsätze: a. Die Versicherung gewährt angemessenen Erwerbsersatz und unterstützt Massnahmen zur Verhütung und Bekämpfung der Arbeitslosigkeit. b. Der Beitritt ist für Arbeitnehmerinnen und Arbeitnehmer obligatorisch; das Gesetz kann Ausnahmen vorsehen. c. Selbstständigerwerbende können sich freiwillig versichern."
+   },
+   {
+    "para": "3",
+    "text": "Die Versicherung wird durch die Beiträge der Versicherten finanziert, wobei die Arbeitgeberinnen und Arbeitgeber für ihre Arbeitnehmerinnen und Arbeitnehmer die Hälfte der Beiträge bezahlen."
+   },
+   {
+    "para": "4",
+    "text": "Bund und Kantone erbringen bei ausserordentlichen Verhältnissen finanzielle Leistungen."
+   },
+   {
+    "para": "5",
+    "text": "Der Bund kann Vorschriften über die Arbeitslosenfürsorge erlassen."
+   }
+  ]
+ },
+ "115": {
+  "article": "115",
+  "title": "Unterstützung Bedürftiger",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Bedürftige werden von ihrem Wohnkanton unterstützt. Der Bund regelt die Ausnahmen und Zuständigkeiten."
+   }
+  ]
+ },
+ "116": {
+  "article": "116",
+  "title": "Familienzulagen und Mutterschaftsversicherung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund berücksichtigt bei der Erfüllung seiner Aufgaben die Bedürfnisse der Familie. Er kann Massnahmen zum Schutz der Familie unterstützen."
+   },
+   {
+    "para": "2",
+    "text": "Er kann Vorschriften über die Familienzulagen erlassen und eine eidgenössische Familienausgleichskasse führen."
+   },
+   {
+    "para": "3",
+    "text": "Er richtet eine Mutterschaftsversicherung ein. Er kann auch Personen zu Beiträgen verpflichten, die nicht in den Genuss der Versicherungsleistungen gelangen können."
+   },
+   {
+    "para": "4",
+    "text": "Der Bund kann den Beitritt zu einer Familienausgleichskasse und die Mutterschaftsversicherung allgemein oder für einzelne Bevölkerungsgruppen obligatorisch erklären und seine Leistungen von angemessenen Leistungen der Kantone abhängig machen."
+   }
+  ]
+ },
+ "117": {
+  "article": "117",
+  "title": "Kranken- und Unfallversicherung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über die Kranken- und die Unfallversicherung."
+   },
+   {
+    "para": "2",
+    "text": "Er kann die Kranken- und die Unfallversicherung allgemein oder für einzelne Bevölkerungsgruppen obligatorisch erklären."
+   }
+  ]
+ },
+ "117_a": {
+  "article": "117_a",
+  "title": "a Medizinische Grundversorgung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone sorgen im Rahmen ihrer Zuständigkeiten für eine ausreichende, allen zugängliche medizinische Grundversorgung von hoher Qualität. Sie anerkennen und fördern die Hausarztmedizin als einen wesentlichen Bestandteil dieser Grundversorgung."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund erlässt Vorschriften über: a. die Aus- und Weiterbildung für Berufe der medizinischen Grundversorgung und über die Anforderungen zur Ausübung dieser Berufe; b. die angemessene Abgeltung der Leistungen der Hausarztmedizin."
+   }
+  ]
+ },
+ "117_b": {
+  "article": "117_b",
+  "title": "b Pflege *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Bund und Kantone anerkennen und fördern die Pflege als wichtigen Bestandteil der Gesundheitsversorgung und sorgen für eine ausreichende, allen zugängliche Pflege von hoher Qualität."
+   },
+   {
+    "para": "2",
+    "text": "Sie stellen sicher, dass eine genügende Anzahl diplomierter Pflegefachpersonen für den zunehmenden Bedarf zur Verfügung steht und dass die in der Pflege tätigen Personen entsprechend ihrer Ausbildung und ihren Kompetenzen eingesetzt werden."
+   }
+  ]
+ },
+ "118": {
+  "article": "118",
+  "title": "Schutz der Gesundheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund trifft im Rahmen seiner Zuständigkeiten Massnahmen zum Schutz der Gesundheit."
+   },
+   {
+    "para": "2",
+    "text": "Er erlässt Vorschriften über: a. den Umgang mit Lebensmitteln sowie mit Heilmitteln, Betäubungsmitteln, Organismen, Chemikalien und Gegenständen, welche die Gesundheit gefährden können; b. die Bekämpfung übertragbarer, stark verbreiteter oder bösartiger Krankheiten von Menschen und Tieren; er verbietet namentlich jede Art von Werbung für Tabakprodukte, die Kinder und Jugendliche erreicht;* c. den Schutz vor ionisierenden Strahlen."
+   }
+  ]
+ },
+ "118_a": {
+  "article": "118_a",
+  "title": "a Komplementärmedizin",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Bund und Kantone sorgen im Rahmen ihrer Zuständigkeiten für die Berücksichtigung der Komplementärmedizin."
+   }
+  ]
+ },
+ "118_b": {
+  "article": "118_b",
+  "title": "b Forschung am Menschen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über die Forschung am Menschen, soweit der Schutz seiner Würde und seiner Persönlichkeit es erfordert. Er wahrt dabei die Forschungsfreiheit und trägt der Bedeutung der Forschung für Gesundheit und Gesellschaft Rechnung."
+   },
+   {
+    "para": "2",
+    "text": "Für die Forschung in Biologie und Medizin mit Personen beachtet er folgende Grundsätze: a. Jedes Forschungsvorhaben setzt voraus, dass die teilnehmenden oder gemäss Gesetz berechtigten Personen nach hinreichender Aufklärung ihre Einwilligung erteilt haben. Das Gesetz kann Ausnahmen vorsehen. Eine Ablehnung ist in jedem Fall verbindlich. b. Die Risiken und Belastungen für die teilnehmenden Personen dürfen nicht in einem Missverhältnis zum Nutzen des Forschungsvorhabens stehen. c. Mit urteilsunfähigen Personen darf ein Forschungsvorhaben nur durchgeführt werden, wenn gleichwertige Erkenntnisse nicht mit urteilsfähigen Personen gewonnen werden können. Lässt das Forschungsvorhaben keinen unmittelbaren Nutzen für die urteilsunfähigen Personen erwarten, so dürfen die Risiken und Belastungen nur minimal sein. d. Eine unabhängige Überprüfung des Forschungsvorhabens muss ergeben haben, dass der Schutz der teilnehmenden Personen gewährleistet ist."
+   }
+  ]
+ },
+ "119": {
+  "article": "119",
+  "title": "Fortpflanzungsmedizin und Gentechnologie im Humanbereich",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Mensch ist vor Missbräuchen der Fortpflanzungsmedizin und der Gentechnologie geschützt."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund erlässt Vorschriften über den Umgang mit menschlichem Keim- und Erbgut. Er sorgt dabei für den Schutz der Menschenwürde, der Persönlichkeit und der Familie und beachtet insbesondere folgende Grundsätze: a. Alle Arten des Klonens und Eingriffe in das Erbgut menschlicher Keimzellen und Embryonen sind unzulässig. b. Nichtmenschliches Keim- und Erbgut darf nicht in menschliches Keimgut eingebracht oder mit ihm verschmolzen werden. c. Die Verfahren der medizinisch unterstützten Fortpflanzung dürfen nur angewendet werden, wenn die Unfruchtbarkeit oder die Gefahr der Übertragung einer schweren Krankheit nicht anders behoben werden kann, nicht aber um beim Kind bestimmte Eigenschaften herbeizuführen oder um Forschung zu betreiben; die Befruchtung menschlicher Eizellen ausserhalb des Körpers der Frau ist nur unter den vom Gesetz festgelegten Bedingungen erlaubt; es dürfen nur so viele menschliche Eizellen ausserhalb des Körpers der Frau zu Embryonen entwickelt werden, als für die medizinisch unterstützte Fortpflanzung notwendig sind. d. Die Embryonenspende und alle Arten von Leihmutterschaft sind unzulässig. e. Mit menschlichem Keimgut und mit Erzeugnissen aus Embryonen darf kein Handel getrieben werden. f. Das Erbgut einer Person darf nur untersucht, registriert oder offenbart werden, wenn die betroffene Person zustimmt oder das Gesetz es vorschreibt. g. Jede Person hat Zugang zu den Daten über ihre Abstammung."
+   }
+  ]
+ },
+ "119_a": {
+  "article": "119_a",
+  "title": "a Transplantationsmedizin",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften auf dem Gebiet der Transplantation von Organen, Geweben und Zellen. Er sorgt dabei für den Schutz der Menschenwürde, der Persönlichkeit und der Gesundheit."
+   },
+   {
+    "para": "2",
+    "text": "Er legt insbesondere Kriterien für eine gerechte Zuteilung von Organen fest."
+   },
+   {
+    "para": "3",
+    "text": "Die Spende von menschlichen Organen, Geweben und Zellen ist unentgeltlich. Der Handel mit menschlichen Organen ist verboten."
+   }
+  ]
+ },
+ "120": {
+  "article": "120",
+  "title": "Gentechnologie im Ausserhumanbereich *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Mensch und seine Umwelt sind vor Missbräuchen der Gentechnologie geschützt."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund erlässt Vorschriften über den Umgang mit Keim- und Erbgut von Tieren, Pflanzen und anderen Organismen. Er trägt dabei der Würde der Kreatur sowie der Sicherheit von Mensch, Tier und Umwelt Rechnung und schützt die genetische Vielfalt der Tier- und Pflanzenarten."
+   }
+  ]
+ },
+ "121": {
+  "article": "121",
+  "title": "Gesetzgebung im Ausländer- und Asylbereich *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Gesetzgebung über die Ein- und Ausreise, den Aufenthalt und die Niederlassung von Ausländerinnen und Ausländern sowie über die Gewährung von Asyl ist Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Ausländerinnen und Ausländer können aus der Schweiz ausgewiesen werden, wenn sie die Sicherheit des Landes gefährden."
+   },
+   {
+    "para": "3",
+    "text": "Sie verlieren unabhängig von ihrem ausländerrechtlichen Status ihr Aufenthaltsrecht sowie alle Rechtsansprüche auf Aufenthalt in der Schweiz, wenn sie: a. wegen eines vorsätzlichen Tötungsdelikts, wegen einer Vergewaltigung oder eines anderen schweren Sexualdelikts, wegen eines anderen Gewaltdelikts wie Raub, wegen Menschenhandels, Drogenhandels oder eines Einbruchsdelikts rechtskräftig verurteilt worden sind; oder b. missbräuchlich Leistungen der Sozialversicherungen oder der Sozialhilfe bezogen haben."
+   },
+   {
+    "para": "4",
+    "text": "Der Gesetzgeber umschreibt die Tatbestände nach Absatz 3 näher. Er kann sie um weitere Tatbestände ergänzen."
+   },
+   {
+    "para": "5",
+    "text": "Ausländerinnen und Ausländer, die nach den Absätzen 3 und 4 ihr Aufenthaltsrecht sowie alle Rechtsansprüche auf Aufenthalt in der Schweiz verlieren, sind von der zuständigen Behörde aus der Schweiz auszuweisen und mit einem Einreiseverbot von 5–15 Jahren zu belegen. Im Wiederholungsfall ist das Einreiseverbot auf 20 Jahre anzusetzen."
+   },
+   {
+    "para": "6",
+    "text": "Wer das Einreiseverbot missachtet oder sonstwie illegal in die Schweiz einreist, macht sich strafbar. Der Gesetzgeber erlässt die entsprechenden Bestimmungen."
+   }
+  ]
+ },
+ "121_a": {
+  "article": "121_a",
+  "title": "a Steuerung der Zuwanderung *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Schweiz steuert die Zuwanderung von Ausländerinnen und Ausländern eigenständig."
+   },
+   {
+    "para": "2",
+    "text": "Die Zahl der Bewilligungen für den Aufenthalt von Ausländerinnen und Ausländern in der Schweiz wird durch jährliche Höchstzahlen und Kontingente begrenzt. Die Höchstzahlen gelten für sämtliche Bewilligungen des Ausländerrechts unter Einbezug des Asylwesens. Der Anspruch auf dauerhaften Aufenthalt, auf Familiennachzug und auf Sozialleistungen kann beschränkt werden."
+   },
+   {
+    "para": "3",
+    "text": "Die jährlichen Höchstzahlen und Kontingente für erwerbstätige Ausländerinnen und Ausländer sind auf die gesamtwirtschaftlichen Interessen der Schweiz unter Berücksichtigung eines Vorranges für Schweizerinnen und Schweizer auszurichten; die Grenzgängerinnen und Grenzgänger sind einzubeziehen. Massgebende Kriterien für die Erteilung von Aufenthaltsbewilligungen sind insbesondere das Gesuch eines Arbeitgebers, die Integrationsfähigkeit und eine ausreichende, eigenständige Existenzgrundlage."
+   },
+   {
+    "para": "4",
+    "text": "Es dürfen keine völkerrechtlichen Verträge abgeschlossen werden, die gegen diesen Artikel verstossen."
+   },
+   {
+    "para": "5",
+    "text": "Das Gesetz regelt die Einzelheiten."
+   }
+  ]
+ },
+ "122": {
+  "article": "122",
+  "title": "Zivilrecht",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Gesetzgebung auf dem Gebiet des Zivilrechts und des Zivilprozessrechts ist Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Für die Organisation der Gerichte und die Rechtsprechung in Zivilsachen sind die Kantone zuständig, soweit das Gesetz nichts anderes vorsieht."
+   }
+  ]
+ },
+ "123": {
+  "article": "123",
+  "title": "Strafrecht",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Gesetzgebung auf dem Gebiet des Strafrechts und des Strafprozessrechts ist Sache des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Für die Organisation der Gerichte, die Rechtsprechung in Strafsachen sowie den Straf- und Massnahmenvollzug sind die Kantone zuständig, soweit das Gesetz nichts anderes vorsieht."
+   },
+   {
+    "para": "3",
+    "text": "Der Bund kann Vorschriften zum Straf- und Massnahmenvollzug erlassen. Er kann den Kantonen Beiträge gewähren: a. für die Errichtung von Anstalten; b. für Verbesserungen im Straf- und Massnahmenvollzug; c. an Einrichtungen, die erzieherische Massnahmen an Kindern, Jugendlichen und jungen Erwachsenen vollziehen."
+   }
+  ]
+ },
+ "123_a": {
+  "article": "123_a",
+  "title": "a",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Wird ein Sexual- oder Gewaltstraftäter in den Gutachten, die für das Gerichtsurteil nötig sind, als extrem gefährlich erachtet und nicht therapierbar eingestuft, ist er wegen des hohen Rückfallrisikos bis an sein Lebensende zu verwahren. Frühzeitige Entlassung und Hafturlaub sind ausgeschlossen."
+   },
+   {
+    "para": "2",
+    "text": "Nur wenn durch neue, wissenschaftliche Erkenntnisse erwiesen wird, dass der Täter geheilt werden kann und somit keine Gefahr mehr für die Öffentlichkeit darstellt, können neue Gutachten erstellt werden. Sollte auf Grund dieser neuen Gutachten die Verwahrung aufgehoben werden, so muss die Haftung für einen Rückfall des Täters von der Behörde übernommen werden, die die Verwahrung aufgehoben hat."
+   },
+   {
+    "para": "3",
+    "text": "Alle Gutachten zur Beurteilung der Sexual- und Gewaltstraftäter sind von mindestens zwei voneinander unabhängigen, erfahrenen Fachleuten unter Berücksichtigung aller für die Beurteilung wichtigen Grundlagen zu erstellen."
+   }
+  ]
+ },
+ "123_b": {
+  "article": "123_b",
+  "title": "b Unverjährbarkeit der Strafverfolgung und der Strafe bei sexuellen und bei pornografischen Straftaten an Kindern vor der Pubertät",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Verfolgung sexueller oder pornografischer Straftaten an Kindern vor der Pubertät und die Strafe für solche Taten sind unverjährbar."
+   }
+  ]
+ },
+ "123_c": {
+  "article": "123_c",
+  "title": "c Massnahme nach Sexualdelikten an Kindern oder an zum Widerstand unfähigen oder urteilsunfähigen Personen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Personen, die verurteilt werden, weil sie die sexuelle Unversehrtheit eines Kindes oder einer abhängigen Person beeinträchtigt haben, verlieren endgültig das Recht, eine berufliche oder ehrenamtliche Tätigkeit mit Minderjährigen oder Abhängigen auszuüben."
+   }
+  ]
+ },
+ "124": {
+  "article": "124",
+  "title": "Opferhilfe",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Bund und Kantone sorgen dafür, dass Personen, die durch eine Straftat in ihrer körperlichen, psychischen oder sexuellen Unversehrtheit beeinträchtigt worden sind, Hilfe erhalten und angemessen entschädigt werden, wenn sie durch die Straftat in wirtschaftliche Schwierigkeiten geraten."
+   }
+  ]
+ },
+ "125": {
+  "article": "125",
+  "title": "Messwesen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Gesetzgebung über das Messwesen ist Sache des Bundes."
+   }
+  ]
+ },
+ "126": {
+  "article": "126",
+  "title": "Haushaltführung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund hält seine Ausgaben und Einnahmen auf Dauer im Gleichgewicht."
+   },
+   {
+    "para": "2",
+    "text": "Der Höchstbetrag der im Voranschlag zu bewilligenden Gesamtausgaben richtet sich unter Berücksichtigung der Wirtschaftslage nach den geschätzten Einnahmen."
+   },
+   {
+    "para": "3",
+    "text": "Bei ausserordentlichem Zahlungsbedarf kann der Höchstbetrag nach Absatz 2 angemessen erhöht werden. Über eine Erhöhung beschliesst die Bundesversammlung nach Artikel 159 Absatz 3 Buchstabe c."
+   },
+   {
+    "para": "4",
+    "text": "Überschreiten die in der Staatsrechnung ausgewiesenen Gesamtausgaben den Höchstbetrag nach Absatz 2 oder 3, so sind die Mehrausgaben in den Folgejahren zu kompensieren."
+   },
+   {
+    "para": "5",
+    "text": "Das Gesetz regelt die Einzelheiten."
+   }
+  ]
+ },
+ "127": {
+  "article": "127",
+  "title": "Grundsätze der Besteuerung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Ausgestaltung der Steuern, namentlich der Kreis der Steuerpflichtigen, der Gegenstand der Steuer und deren Bemessung, ist in den Grundzügen im Gesetz selbst zu regeln."
+   },
+   {
+    "para": "2",
+    "text": "Soweit es die Art der Steuer zulässt, sind dabei insbesondere die Grundsätze der Allgemeinheit und der Gleichmässigkeit der Besteuerung sowie der Grundsatz der Besteuerung nach der wirtschaftlichen Leistungsfähigkeit zu beachten."
+   },
+   {
+    "para": "3",
+    "text": "Die interkantonale Doppelbesteuerung ist untersagt. Der Bund trifft die erforderlichen Massnahmen."
+   }
+  ]
+ },
+ "128": {
+  "article": "128",
+  "title": "Direkte Steuern *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann eine direkte Steuer erheben: a. von höchstens 11,5 Prozent auf dem Einkommen der natürlichen Personen; b. von höchstens 8,5 Prozent auf dem Reinertrag der juristischen Personen; c. …"
+   },
+   {
+    "para": "2",
+    "text": "Der Bund nimmt bei der Festsetzung der Tarife auf die Belastung durch die direkten Steuern der Kantone und Gemeinden Rücksicht."
+   },
+   {
+    "para": "3",
+    "text": "Bei der Steuer auf dem Einkommen der natürlichen Personen werden die Folgen der kalten Progression periodisch ausgeglichen."
+   },
+   {
+    "para": "4",
+    "text": "Die Steuer wird von den Kantonen veranlagt und eingezogen. Vom Rohertrag der Steuer fallen ihnen mindestens 17 Prozent zu. Der Anteil kann bis auf 15 Prozent gesenkt werden, sofern die Auswirkungen des Finanzausgleichs dies erfordern."
+   }
+  ]
+ },
+ "129": {
+  "article": "129",
+  "title": "Steuerharmonisierung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund legt Grundsätze fest über die Harmonisierung der direkten Steuern von Bund, Kantonen und Gemeinden; er berücksichtigt die Harmonisierungsbestrebungen der Kantone."
+   },
+   {
+    "para": "2",
+    "text": "Die Harmonisierung erstreckt sich auf Steuerpflicht, Gegenstand und zeitliche Bemessung der Steuern, Verfahrensrecht und Steuerstrafrecht. Von der Harmonisierung ausgenommen bleiben insbesondere die Steuertarife, die Steuersätze und die Steuerfreibeträge."
+   },
+   {
+    "para": "3",
+    "text": "Der Bund kann Vorschriften gegen ungerechtfertigte steuerliche Vergünstigungen erlassen."
+   }
+  ]
+ },
+ "129_a": {
+  "article": "129_a",
+  "title": "a Besondere Besteuerung grosser Unternehmensgruppen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann für grosse Unternehmensgruppen Vorschriften über eine Besteuerung im Marktstaat und eine Mindestbesteuerung erlassen."
+   },
+   {
+    "para": "2",
+    "text": "Er orientiert sich dabei an internationalen Standards und Mustervorschriften."
+   },
+   {
+    "para": "3",
+    "text": "Er kann zur Wahrung der Interessen der schweizerischen Gesamtwirtschaft abweichen von: a. den Grundsätzen der Allgemeinheit und der Gleichmässigkeit der Besteuerung sowie dem Grundsatz der Besteuerung nach der wirtschaftlichen Leistungsfähigkeit gemäss Artikel 127 Absatz 2; b. den maximalen Steuersätzen gemäss Artikel 128 Absatz 1; c. den Vorschriften über den Vollzug gemäss Artikel 128 Absatz 4 erster Satz; d. den Ausnahmen von der Steuerharmonisierung gemäss Artikel 129 Absatz 2 zweiter Satz."
+   }
+  ]
+ },
+ "130": {
+  "article": "130",
+  "title": "Mehrwertsteuer *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann auf Lieferungen von Gegenständen und auf Dienstleistungen einschliesslich Eigenverbrauch sowie auf Einfuhren eine Mehrwertsteuer mit einem Normalsatz von höchstens 6,5 Prozent und einem reduzierten Satz von mindestens 2,0 Prozent erheben."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz kann für die Besteuerung der Beherbergungsleistungen einen Satz zwischen dem reduzierten Satz und dem Normalsatz festlegen."
+   },
+   {
+    "para": "3",
+    "text": "Ist wegen der Entwicklung des Altersaufbaus die Finanzierung der Alters-, Hinterlassenen- und Invalidenversicherung nicht mehr gewährleistet, so kann in der Form eines Bundesgesetzes der Normalsatz um höchstens 1 Prozentpunkt und der reduzierte Satz um höchstens 0,3 Prozentpunkte erhöht werden."
+   },
+   {
+    "para": "3bis",
+    "text": "Zur Finanzierung der Eisenbahninfrastruktur werden die Sätze um 0,1 Prozentpunkte erhöht."
+   },
+   {
+    "para": "3ter",
+    "text": "Zur Sicherung der Finanzierung der Alters- und Hinterlassenenversicherung erhöht der Bundesrat den Normalsatz um 0,4 Prozentpunkte, den reduzierten Satz und den Sondersatz für Beherbergungsleistungen um je 0,1 Prozentpunkte, sofern der Grundsatz der Vereinheitlichung des Referenzalters von Frauen und Männern in der Alters- und Hinterlassenenversicherung gesetzlich verankert wird."
+   },
+   {
+    "para": "3quater",
+    "text": "Der Ertrag aus der Erhöhung nach Absatz 3 ter wird vollumfänglich dem Ausgleichsfonds der Alters- und Hinterlassenenversicherung zugewiesen."
+   },
+   {
+    "para": "4",
+    "text": "5 Prozent des nicht zweckgebundenen Ertrags werden für die Prämienverbilligung in der Krankenversicherung zu Gunsten unterer Einkommensschichten verwendet, sofern nicht durch Gesetz eine andere Verwendung zur Entlastung unterer Einkommensschichten festgelegt wird."
+   }
+  ]
+ },
+ "131": {
+  "article": "131",
+  "title": "Besondere Verbrauchssteuern *",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann besondere Verbrauchssteuern erheben auf: a. Tabak und Tabakwaren; b. gebrannten Wassern; c. Bier; d. Automobilen und ihren Bestandteilen; e. Erdöl, anderen Mineralölen, Erdgas und den aus ihrer Verarbeitung gewonnenen Produkten sowie auf Treibstoffen."
+   },
+   {
+    "para": "2",
+    "text": "Er kann zudem erheben: a. einen Zuschlag auf der Verbrauchssteuer auf allen Treibstoffen, ausser den Flugtreibstoffen; b. eine Abgabe, wenn für das Motorfahrzeug andere Antriebsmittel als Treibstoffe nach Absatz 1 Buchstabe e verwendet werden."
+   },
+   {
+    "para": "2bis",
+    "text": "Reichen die Mittel für die Erfüllung der in Artikel 87 b vorgesehenen Aufgaben im Zusammenhang mit dem Luftverkehr nicht aus, so erhebt der Bund auf den Flugtreibstoffen einen Zuschlag auf der Verbrauchssteuer."
+   },
+   {
+    "para": "3",
+    "text": "Die Kantone erhalten 10 Prozent des Reinertrags aus der Besteuerung der gebrannten Wasser. Diese Mittel sind zur Bekämpfung der Ursachen und Wirkungen von Suchtproblemen zu verwenden."
+   }
+  ]
+ },
+ "132": {
+  "article": "132",
+  "title": "Stempelsteuer und Verrechnungssteuer",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund kann auf Wertpapieren, auf Quittungen von Versicherungsprämien und auf anderen Urkunden des Handelsverkehrs eine Stempelsteuer erheben; ausgenommen von der Stempelsteuer sind Urkunden des Grundstück- und Grundpfandverkehrs."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund kann auf dem Ertrag von beweglichem Kapitalvermögen, auf Lotteriegewinnen und auf Versicherungsleistungen eine Verrechnungssteuer erheben. Vom Steuerertrag fallen 10 Prozent den Kantonen zu."
+   }
+  ]
+ },
+ "133": {
+  "article": "133",
+  "title": "Zölle",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Gesetzgebung über Zölle und andere Abgaben auf dem grenzüberschreitenden Warenverkehr ist Sache des Bundes."
+   }
+  ]
+ },
+ "134": {
+  "article": "134",
+  "title": "Ausschluss kantonaler und kommunaler Besteuerung",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Was die Bundesgesetzgebung als Gegenstand der Mehrwertsteuer, der besonderen Verbrauchssteuern, der Stempelsteuer und der Verrechnungssteuer bezeichnet oder für steuerfrei erklärt, dürfen die Kantone und Gemeinden nicht mit gleichartigen Steuern belasten."
+   }
+  ]
+ },
+ "135": {
+  "article": "135",
+  "title": "Finanz- und Lastenausgleich",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund erlässt Vorschriften über einen angemessenen Finanz- und Lastenausgleich zwischen Bund und Kantonen sowie zwischen den Kantonen."
+   },
+   {
+    "para": "2",
+    "text": "Der Finanz- und Lastenausgleich soll insbesondere: a. die Unterschiede in der finanziellen Leistungsfähigkeit zwischen den Kantonen verringern; b. den Kantonen minimale finanzielle Ressourcen gewährleisten; c. übermässige finanzielle Lasten der Kantone auf Grund ihrer geografischtopografischen oder soziodemografischen Bedingungen ausgleichen; d. die interkantonale Zusammenarbeit mit Lastenausgleich fördern; e. die steuerliche Wettbewerbsfähigkeit der Kantone im nationalen und internationalen Verhältnis erhalten."
+   },
+   {
+    "para": "3",
+    "text": "Die Mittel für den Ausgleich der Ressourcen werden durch die ressourcenstarken Kantone und den Bund zur Verfügung gestellt. Die Leistungen der ressourcenstarken Kantone betragen mindestens zwei Drittel und höchstens 80 Prozent der Leistungen des Bundes."
+   }
+  ]
+ },
+ "136": {
+  "article": "136",
+  "title": "Politische Rechte",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die politischen Rechte in Bundessachen stehen allen Schweizerinnen und Schweizern zu, die das 18. Altersjahr zurückgelegt haben und die nicht wegen Geisteskrankheit oder Geistesschwäche entmündigt sind. Alle haben die gleichen politischen Rechte und Pflichten."
+   },
+   {
+    "para": "2",
+    "text": "Sie können an den Nationalratswahlen und an den Abstimmungen des Bundes teilnehmen sowie Volksinitiativen und Referenden in Bundesangelegenheiten ergreifen und unterzeichnen."
+   }
+  ]
+ },
+ "137": {
+  "article": "137",
+  "title": "Politische Parteien",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die politischen Parteien wirken an der Meinungs- und Willensbildung des Volkes mit."
+   }
+  ]
+ },
+ "138": {
+  "article": "138",
+  "title": "Volksinitiative auf Totalrevision der Bundesverfassung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "100 000 Stimmberechtigte können innert 18 Monaten seit der amtlichen Veröffentlichung ihrer Initiative eine Totalrevision der Bundesverfassung vorschlagen."
+   },
+   {
+    "para": "2",
+    "text": "Dieses Begehren ist dem Volk zur Abstimmung zu unterbreiten."
+   }
+  ]
+ },
+ "139": {
+  "article": "139",
+  "title": "Volksinitiative auf Teilrevision der Bundesverfassung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "100 000 Stimmberechtigte können innert 18 Monaten seit der amtlichen Veröffentlichung ihrer Initiative eine Teilrevision der Bundesverfassung verlangen."
+   },
+   {
+    "para": "2",
+    "text": "Die Volksinitiative auf Teilrevision der Bundesverfassung kann die Form der allgemeinen Anregung oder des ausgearbeiteten Entwurfs haben."
+   },
+   {
+    "para": "3",
+    "text": "Verletzt die Initiative die Einheit der Form, die Einheit der Materie oder zwingende Bestimmungen des Völkerrechts, so erklärt die Bundesversammlung sie für ganz oder teilweise ungültig."
+   },
+   {
+    "para": "4",
+    "text": "Ist die Bundesversammlung mit einer Initiative in der Form der allgemeinen Anregung einverstanden, so arbeitet sie die Teilrevision im Sinn der Initiative aus und unterbreitet sie Volk und Ständen zur Abstimmung. Lehnt sie die Initiative ab, so unterbreitet sie diese dem Volk zur Abstimmung; das Volk entscheidet, ob der Initiative Folge zu geben ist. Stimmt es zu, so arbeitet die Bundesversammlung eine entsprechende Vorlage aus."
+   },
+   {
+    "para": "5",
+    "text": "Eine Initiative in der Form des ausgearbeiteten Entwurfs wird Volk und Ständen zur Abstimmung unterbreitet. Die Bundesversammlung empfiehlt die Initiative zur Annahme oder zur Ablehnung. Sie kann der Initiative einen Gegenentwurf gegenüberstellen."
+   }
+  ]
+ },
+ "139_a": {
+  "article": "139_a",
+  "title": "a",
+  "paragraphs": []
+ },
+ "139_b": {
+  "article": "139_b",
+  "title": "b Verfahren bei Initiative und Gegenentwurf",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Stimmberechtigten stimmen gleichzeitig über die Initiative und den Gegenentwurf ab."
+   },
+   {
+    "para": "2",
+    "text": "Sie können beiden Vorlagen zustimmen. In der Stichfrage können sie angeben, welcher Vorlage sie den Vorrang geben, falls beide angenommen werden."
+   },
+   {
+    "para": "3",
+    "text": "Erzielt bei angenommenen Verfassungsänderungen in der Stichfrage die eine Vorlage mehr Volks- und die andere mehr Standesstimmen, so tritt die Vorlage in Kraft, bei welcher der prozentuale Anteil der Volksstimmen und der prozentuale Anteil der Standesstimmen in der Stichfrage die grössere Summe ergeben."
+   }
+  ]
+ },
+ "140": {
+  "article": "140",
+  "title": "Obligatorisches Referendum",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Volk und Ständen werden zur Abstimmung unterbreitet: a. die Änderungen der Bundesverfassung; b. der Beitritt zu Organisationen für kollektive Sicherheit oder zu supranationalen Gemeinschaften; c. die dringlich erklärten Bundesgesetze, die keine Verfassungsgrundlage haben und deren Geltungsdauer ein Jahr übersteigt; diese Bundesgesetze müssen innerhalb eines Jahres nach Annahme durch die Bundesversammlung zur Abstimmung unterbreitet werden."
+   },
+   {
+    "para": "2",
+    "text": "Dem Volk werden zur Abstimmung unterbreitet: a. die Volksinitiativen auf Totalrevision der Bundesverfassung; a bis . … b. die Volksinitiativen auf Teilrevision der Bundesverfassung in der Form der allgemeinen Anregung, die von der Bundesversammlung abgelehnt worden sind; c. die Frage, ob eine Totalrevision der Bundesverfassung durchzuführen ist, bei Uneinigkeit der beiden Räte."
+   }
+  ]
+ },
+ "141": {
+  "article": "141",
+  "title": "Fakultatives Referendum",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Verlangen es 50 000 Stimmberechtigte oder acht Kantone innerhalb von 100 Tagen seit der amtlichen Veröffentlichung des Erlasses, so werden dem Volk zur Abstimmung vorgelegt: a. Bundesgesetze; b. dringlich erklärte Bundesgesetze, deren Geltungsdauer ein Jahr übersteigt; c. Bundesbeschlüsse, soweit Verfassung oder Gesetz dies vorsehen; d. völkerrechtliche Verträge, die: 1. unbefristet und unkündbar sind, 2. den Beitritt zu einer internationalen Organisation vorsehen, 3. wichtige rechtsetzende Bestimmungen enthalten oder deren Umsetzung den Erlass von Bundesgesetzen erfordert."
+   },
+   {
+    "para": "2",
+    "text": "…"
+   }
+  ]
+ },
+ "141_a": {
+  "article": "141_a",
+  "title": "a Umsetzung von völkerrechtlichen Verträgen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Untersteht der Genehmigungsbeschluss eines völkerrechtlichen Vertrags dem obligatorischen Referendum, so kann die Bundesversammlung die Verfassungsänderungen, die der Umsetzung des Vertrages dienen, in den Genehmigungsbeschluss aufnehmen."
+   },
+   {
+    "para": "2",
+    "text": "Untersteht der Genehmigungsbeschluss eines völkerrechtlichen Vertrags dem fakultativen Referendum, so kann die Bundesversammlung die Gesetzesänderungen, die der Umsetzung des Vertrages dienen, in den Genehmigungsbeschluss aufnehmen."
+   }
+  ]
+ },
+ "142": {
+  "article": "142",
+  "title": "Erforderliche Mehrheiten",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Vorlagen, die dem Volk zur Abstimmung unterbreitet werden, sind angenommen, wenn die Mehrheit der Stimmenden sich dafür ausspricht."
+   },
+   {
+    "para": "2",
+    "text": "Die Vorlagen, die Volk und Ständen zur Abstimmung unterbreitet werden, sind angenommen, wenn die Mehrheit der Stimmenden und die Mehrheit der Stände sich dafür aussprechen."
+   },
+   {
+    "para": "3",
+    "text": "Das Ergebnis der Volksabstimmung im Kanton gilt als dessen Standesstimme."
+   },
+   {
+    "para": "4",
+    "text": "Die Kantone Obwalden, Nidwalden, Basel-Stadt, Basel-Landschaft, Appenzell Ausserrhoden und Appenzell Innerrhoden haben je eine halbe Standesstimme."
+   }
+  ]
+ },
+ "143": {
+  "article": "143",
+  "title": "Wählbarkeit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "In den Nationalrat, in den Bundesrat und in das Bundesgericht sind alle Stimmberechtigten wählbar."
+   }
+  ]
+ },
+ "144": {
+  "article": "144",
+  "title": "Unvereinbarkeiten",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Mitglieder des Nationalrates, des Ständerates, des Bundesrates sowie die Richterinnen und Richter des Bundesgerichts können nicht gleichzeitig einer anderen dieser Behörden angehören."
+   },
+   {
+    "para": "2",
+    "text": "Die Mitglieder des Bundesrates und die vollamtlichen Richterinnen und Richter des Bundesgerichts dürfen kein anderes Amt des Bundes oder eines Kantons bekleiden und keine andere Erwerbstätigkeit ausüben."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz kann weitere Unvereinbarkeiten vorsehen."
+   }
+  ]
+ },
+ "145": {
+  "article": "145",
+  "title": "Amtsdauer",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Mitglieder des Nationalrates und des Bundesrates sowie die Bundeskanzlerin oder der Bundeskanzler werden auf die Dauer von vier Jahren gewählt. Für die Richterinnen und Richter des Bundesgerichts beträgt die Amtsdauer sechs Jahre."
+   }
+  ]
+ },
+ "146": {
+  "article": "146",
+  "title": "Staatshaftung",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Bund haftet für Schäden, die seine Organe in Ausübung amtlicher Tätigkeiten widerrechtlich verursachen."
+   }
+  ]
+ },
+ "147": {
+  "article": "147",
+  "title": "Vernehmlassungsverfahren",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Kantone, die politischen Parteien und die interessierten Kreise werden bei der Vorbereitung wichtiger Erlasse und anderer Vorhaben von grosser Tragweite sowie bei wichtigen völkerrechtlichen Verträgen zur Stellungnahme eingeladen."
+   }
+  ]
+ },
+ "148": {
+  "article": "148",
+  "title": "Stellung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesversammlung übt unter Vorbehalt der Rechte von Volk und Ständen die oberste Gewalt im Bund aus."
+   },
+   {
+    "para": "2",
+    "text": "Die Bundesversammlung besteht aus zwei Kammern, dem Nationalrat und dem Ständerat; beide Kammern sind einander gleichgestellt."
+   }
+  ]
+ },
+ "149": {
+  "article": "149",
+  "title": "Zusammensetzung und Wahl des Nationalrates",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Nationalrat besteht aus 200 Abgeordneten des Volkes."
+   },
+   {
+    "para": "2",
+    "text": "Die Abgeordneten werden vom Volk in direkter Wahl nach dem Grundsatz des Proporzes bestimmt. Alle vier Jahre findet eine Gesamterneuerung statt."
+   },
+   {
+    "para": "3",
+    "text": "Jeder Kanton bildet einen Wahlkreis."
+   },
+   {
+    "para": "4",
+    "text": "Die Sitze werden nach der Bevölkerungszahl auf die Kantone verteilt. Jeder Kanton hat mindestens einen Sitz."
+   }
+  ]
+ },
+ "150": {
+  "article": "150",
+  "title": "Zusammensetzung und Wahl des Ständerates",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Ständerat besteht aus 46 Abgeordneten der Kantone."
+   },
+   {
+    "para": "2",
+    "text": "Die Kantone Obwalden, Nidwalden, Basel-Stadt, Basel-Landschaft, Appenzell Ausserrhoden und Appenzell Innerrhoden wählen je eine Abgeordnete oder einen Abgeordneten; die übrigen Kantone wählen je zwei Abgeordnete."
+   },
+   {
+    "para": "3",
+    "text": "Die Wahl in den Ständerat wird vom Kanton geregelt."
+   }
+  ]
+ },
+ "151": {
+  "article": "151",
+  "title": "Sessionen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Räte versammeln sich regelmässig zu Sessionen. Das Gesetz regelt die Einberufung."
+   },
+   {
+    "para": "2",
+    "text": "Ein Viertel der Mitglieder eines Rates oder der Bundesrat können die Einberufung der Räte zu einer ausserordentlichen Session verlangen."
+   }
+  ]
+ },
+ "152": {
+  "article": "152",
+  "title": "Vorsitz",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Jeder Rat wählt aus seiner Mitte für die Dauer eines Jahres eine Präsidentin oder einen Präsidenten sowie die erste Vizepräsidentin oder den ersten Vizepräsidenten und die zweite Vizepräsidentin oder den zweiten Vizepräsidenten. Die Wiederwahl für das folgende Jahr ist ausgeschlossen."
+   }
+  ]
+ },
+ "153": {
+  "article": "153",
+  "title": "Parlamentarische Kommissionen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jeder Rat setzt aus seiner Mitte Kommissionen ein."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz kann gemeinsame Kommissionen vorsehen."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz kann einzelne Befugnisse, die nicht rechtsetzender Natur sind, an Kommissionen übertragen."
+   },
+   {
+    "para": "4",
+    "text": "Zur Erfüllung ihrer Aufgaben stehen den Kommissionen Auskunftsrechte, Einsichtsrechte und Untersuchungsbefugnisse zu. Deren Umfang wird durch das Gesetz geregelt."
+   }
+  ]
+ },
+ "154": {
+  "article": "154",
+  "title": "Fraktionen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Mitglieder der Bundesversammlung können Fraktionen bilden."
+   }
+  ]
+ },
+ "155": {
+  "article": "155",
+  "title": "Parlamentsdienste",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Bundesversammlung verfügt über Parlamentsdienste. Sie kann Dienststellen der Bundesverwaltung beiziehen. Das Gesetz regelt die Einzelheiten."
+   }
+  ]
+ },
+ "156": {
+  "article": "156",
+  "title": "Getrennte Verhandlung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Nationalrat und Ständerat verhandeln getrennt."
+   },
+   {
+    "para": "2",
+    "text": "Für Beschlüsse der Bundesversammlung ist die Übereinstimmung beider Räte erforderlich."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz sieht Bestimmungen vor, um sicherzustellen, dass bei Uneinigkeit der Räte Beschlüsse zu Stande kommen über: a. die Gültigkeit oder Teilungültigkeit einer Volksinitiative; b. die Umsetzung einer vom Volk angenommenen Volksinitiative in Form der allgemeinen Anregung; c. die Umsetzung eines vom Volk gutgeheissenen Bundesbeschlusses zur Einleitung einer Totalrevision der Bundesverfassung; d. den Voranschlag oder einen Nachtrag."
+   }
+  ]
+ },
+ "157": {
+  "article": "157",
+  "title": "Gemeinsame Verhandlung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Nationalrat und Ständerat verhandeln gemeinsam als Vereinigte Bundesversammlung unter dem Vorsitz der Nationalratspräsidentin oder des Nationalratspräsidenten, um: a. Wahlen vorzunehmen; b. Zuständigkeitskonflikte zwischen den obersten Bundesbehörden zu entscheiden; c. Begnadigungen auszusprechen."
+   },
+   {
+    "para": "2",
+    "text": "Die Vereinigte Bundesversammlung versammelt sich ausserdem bei besonderen Anlässen und zur Entgegennahme von Erklärungen des Bundesrates."
+   }
+  ]
+ },
+ "158": {
+  "article": "158",
+  "title": "Öffentlichkeit der Sitzungen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Sitzungen der Räte sind öffentlich. Das Gesetz kann Ausnahmen vorsehen."
+   }
+  ]
+ },
+ "159": {
+  "article": "159",
+  "title": "Verhandlungsfähigkeit und erforderliches Mehr",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Räte können gültig verhandeln, wenn die Mehrheit ihrer Mitglieder anwesend ist."
+   },
+   {
+    "para": "2",
+    "text": "In beiden Räten und in der Vereinigten Bundesversammlung entscheidet die Mehrheit der Stimmenden."
+   },
+   {
+    "para": "3",
+    "text": "Der Zustimmung der Mehrheit der Mitglieder jedes der beiden Räte bedürfen jedoch: a. die Dringlicherklärung von Bundesgesetzen; b. Subventionsbestimmungen sowie Verpflichtungskredite und Zahlungsrahmen, die neue einmalige Ausgaben von mehr als 20 Millionen Franken oder neue wiederkehrende Ausgaben von mehr als 2 Millionen Franken nach sich ziehen; c. die Erhöhung der Gesamtausgaben bei ausserordentlichem Zahlungsbedarf nach Artikel 126 Absatz 3."
+   },
+   {
+    "para": "4",
+    "text": "Die Bundesversammlung kann die Beträge nach Absatz 3 Buchstabe b mit einer Verordnung der Teuerung anpassen."
+   }
+  ]
+ },
+ "160": {
+  "article": "160",
+  "title": "Initiativrecht und Antragsrecht",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Jedem Ratsmitglied, jeder Fraktion, jeder parlamentarischen Kommission und jedem Kanton steht das Recht zu, der Bundesversammlung Initiativen zu unterbreiten."
+   },
+   {
+    "para": "2",
+    "text": "Die Ratsmitglieder und der Bundesrat haben das Recht, zu einem in Beratung stehenden Geschäft Anträge zu stellen."
+   }
+  ]
+ },
+ "161": {
+  "article": "161",
+  "title": "Instruktionsverbot",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Mitglieder der Bundesversammlung stimmen ohne Weisungen."
+   },
+   {
+    "para": "2",
+    "text": "Sie legen ihre Interessenbindungen offen."
+   }
+  ]
+ },
+ "162": {
+  "article": "162",
+  "title": "Immunität",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Mitglieder der Bundesversammlung und des Bundesrates sowie die Bundeskanzlerin oder der Bundeskanzler können für ihre Äusserungen in den Räten und in deren Organen rechtlich nicht zur Verantwortung gezogen werden."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz kann weitere Arten der Immunität vorsehen und diese auf weitere Personen ausdehnen."
+   }
+  ]
+ },
+ "163": {
+  "article": "163",
+  "title": "Form der Erlasse der Bundesversammlung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesversammlung erlässt rechtsetzende Bestimmungen in der Form des Bundesgesetzes oder der Verordnung."
+   },
+   {
+    "para": "2",
+    "text": "Die übrigen Erlasse ergehen in der Form des Bundesbeschlusses; ein Bundesbeschluss, der dem Referendum nicht untersteht, wird als einfacher Bundesbeschluss bezeichnet."
+   }
+  ]
+ },
+ "164": {
+  "article": "164",
+  "title": "Gesetzgebung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Alle wichtigen rechtsetzenden Bestimmungen sind in der Form des Bundesgesetzes zu erlassen. Dazu gehören insbesondere die grundlegenden Bestimmungen über: a. die Ausübung der politischen Rechte; b. die Einschränkungen verfassungsmässiger Rechte; c. die Rechte und Pflichten von Personen; d. den Kreis der Abgabepflichtigen sowie den Gegenstand und die Bemessung von Abgaben; e. die Aufgaben und die Leistungen des Bundes; f. die Verpflichtungen der Kantone bei der Umsetzung und beim Vollzug des Bundesrechts; g. die Organisation und das Verfahren der Bundesbehörden."
+   },
+   {
+    "para": "2",
+    "text": "Rechtsetzungsbefugnisse können durch Bundesgesetz übertragen werden, soweit dies nicht durch die Bundesverfassung ausgeschlossen wird."
+   }
+  ]
+ },
+ "165": {
+  "article": "165",
+  "title": "Gesetzgebung bei Dringlichkeit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Ein Bundesgesetz, dessen Inkrafttreten keinen Aufschub duldet, kann von der Mehrheit der Mitglieder jedes Rates dringlich erklärt und sofort in Kraft gesetzt werden. Es ist zu befristen."
+   },
+   {
+    "para": "2",
+    "text": "Wird zu einem dringlich erklärten Bundesgesetz die Volksabstimmung verlangt, so tritt dieses ein Jahr nach Annahme durch die Bundesversammlung ausser Kraft, wenn es nicht innerhalb dieser Frist vom Volk angenommen wird."
+   },
+   {
+    "para": "3",
+    "text": "Ein dringlich erklärtes Bundesgesetz, das keine Verfassungsgrundlage hat, tritt ein Jahr nach Annahme durch die Bundesversammlung ausser Kraft, wenn es nicht innerhalb dieser Frist von Volk und Ständen angenommen wird. Es ist zu befristen."
+   },
+   {
+    "para": "4",
+    "text": "Ein dringlich erklärtes Bundesgesetz, das in der Abstimmung nicht angenommen wird, kann nicht erneuert werden."
+   }
+  ]
+ },
+ "166": {
+  "article": "166",
+  "title": "Beziehungen zum Ausland und völkerrechtliche Verträge",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesversammlung beteiligt sich an der Gestaltung der Aussenpolitik und beaufsichtigt die Pflege der Beziehungen zum Ausland."
+   },
+   {
+    "para": "2",
+    "text": "Sie genehmigt die völkerrechtlichen Verträge; ausgenommen sind die Verträge, für deren Abschluss auf Grund von Gesetz oder völkerrechtlichem Vertrag der Bundesrat zuständig ist."
+   }
+  ]
+ },
+ "167": {
+  "article": "167",
+  "title": "Finanzen",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Bundesversammlung beschliesst die Ausgaben des Bundes, setzt den Voranschlag fest und nimmt die Staatsrechnung ab."
+   }
+  ]
+ },
+ "168": {
+  "article": "168",
+  "title": "Wahlen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesversammlung wählt die Mitglieder des Bundesrates, die Bundeskanzlerin oder den Bundeskanzler, die Richterinnen und Richter des Bundesgerichts sowie den General."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz kann die Bundesversammlung ermächtigen, weitere Wahlen vorzunehmen oder zu bestätigen."
+   }
+  ]
+ },
+ "169": {
+  "article": "169",
+  "title": "Oberaufsicht",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesversammlung übt die Oberaufsicht aus über den Bundesrat und die Bundesverwaltung, die eidgenössischen Gerichte und die anderen Träger von Aufgaben des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Den vom Gesetz vorgesehenen besonderen Delegationen von Aufsichtskommissionen können keine Geheimhaltungspflichten entgegengehalten werden."
+   }
+  ]
+ },
+ "170": {
+  "article": "170",
+  "title": "Überprüfung der Wirksamkeit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Bundesversammlung sorgt dafür, dass die Massnahmen des Bundes auf ihre Wirksamkeit überprüft werden."
+   }
+  ]
+ },
+ "171": {
+  "article": "171",
+  "title": "Aufträge an den Bundesrat",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Bundesversammlung kann dem Bundesrat Aufträge erteilen. Das Gesetz regelt die Einzelheiten, insbesondere die Instrumente, mit welchen die Bundesversammlung auf den Zuständigkeitsbereich des Bundesrates einwirken kann."
+   }
+  ]
+ },
+ "172": {
+  "article": "172",
+  "title": "Beziehungen zwischen Bund und Kantonen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesversammlung sorgt für die Pflege der Beziehungen zwischen Bund und Kantonen."
+   },
+   {
+    "para": "2",
+    "text": "Sie gewährleistet die Kantonsverfassungen."
+   },
+   {
+    "para": "3",
+    "text": "Sie genehmigt die Verträge der Kantone unter sich und mit dem Ausland, wenn der Bundesrat oder ein Kanton Einsprache erhebt."
+   }
+  ]
+ },
+ "173": {
+  "article": "173",
+  "title": "Weitere Aufgaben und Befugnisse",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesversammlung hat zudem folgende Aufgaben und Befugnisse: a. Sie trifft Massnahmen zur Wahrung der äusseren Sicherheit, der Unabhängigkeit und der Neutralität der Schweiz. b. Sie trifft Massnahmen zur Wahrung der inneren Sicherheit. c. Wenn ausserordentliche Umstände es erfordern, kann sie zur Erfüllung der Aufgaben nach den Buchstaben a und b Verordnungen oder einfache Bundesbeschlüsse erlassen. d. Sie ordnet den Aktivdienst an und bietet dafür die Armee oder Teile davon auf. e. Sie trifft Massnahmen zur Durchsetzung des Bundesrechts. f. Sie befindet über die Gültigkeit zu Stande gekommener Volksinitiativen. g. Sie wirkt bei den wichtigen Planungen der Staatstätigkeit mit. h. Sie entscheidet über Einzelakte, soweit ein Bundesgesetz dies ausdrücklich vorsieht. i. Sie entscheidet Zuständigkeitskonflikte zwischen den obersten Bundesbehörden. k. Sie spricht Begnadigungen aus und entscheidet über Amnestie."
+   },
+   {
+    "para": "2",
+    "text": "Die Bundesversammlung behandelt ausserdem Geschäfte, die in die Zuständigkeit des Bundes fallen und keiner anderen Behörde zugewiesen sind."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz kann der Bundesversammlung weitere Aufgaben und Befugnisse übertragen."
+   }
+  ]
+ },
+ "174": {
+  "article": "174",
+  "title": "Bundesrat",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Bundesrat ist die oberste leitende und vollziehende Behörde des Bundes."
+   }
+  ]
+ },
+ "175": {
+  "article": "175",
+  "title": "Zusammensetzung und Wahl",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat besteht aus sieben Mitgliedern."
+   },
+   {
+    "para": "2",
+    "text": "Die Mitglieder des Bundesrates werden von der Bundesversammlung nach jeder Gesamterneuerung des Nationalrates gewählt."
+   },
+   {
+    "para": "3",
+    "text": "Sie werden aus allen Schweizerbürgerinnen und Schweizerbürgern, welche als Mitglieder des Nationalrates wählbar sind, auf die Dauer von vier Jahren gewählt."
+   },
+   {
+    "para": "4",
+    "text": "Dabei ist darauf Rücksicht zu nehmen, dass die Landesgegenden und Sprachregionen angemessen vertreten sind."
+   }
+  ]
+ },
+ "176": {
+  "article": "176",
+  "title": "Vorsitz",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundespräsidentin oder der Bundespräsident führt den Vorsitz im Bundesrat."
+   },
+   {
+    "para": "2",
+    "text": "Die Bundespräsidentin oder der Bundespräsident und die Vizepräsidentin oder der Vizepräsident des Bundesrates werden von der Bundesversammlung aus den Mitgliedern des Bundesrates auf die Dauer eines Jahres gewählt."
+   },
+   {
+    "para": "3",
+    "text": "Die Wiederwahl für das folgende Jahr ist ausgeschlossen. Die Bundespräsidentin oder der Bundespräsident kann nicht zur Vizepräsidentin oder zum Vizepräsidenten des folgenden Jahres gewählt werden."
+   }
+  ]
+ },
+ "177": {
+  "article": "177",
+  "title": "Kollegial- und Departementalprinzip",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat entscheidet als Kollegium."
+   },
+   {
+    "para": "2",
+    "text": "Für die Vorbereitung und den Vollzug werden die Geschäfte des Bundesrates nach Departementen auf die einzelnen Mitglieder verteilt."
+   },
+   {
+    "para": "3",
+    "text": "Den Departementen oder den ihnen unterstellten Verwaltungseinheiten werden Geschäfte zur selbstständigen Erledigung übertragen; dabei muss der Rechtsschutz sichergestellt sein."
+   }
+  ]
+ },
+ "178": {
+  "article": "178",
+  "title": "Bundesverwaltung",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat leitet die Bundesverwaltung. Er sorgt für ihre zweckmässige Organisation und eine zielgerichtete Erfüllung der Aufgaben."
+   },
+   {
+    "para": "2",
+    "text": "Die Bundesverwaltung wird in Departemente gegliedert; jedem Departement steht ein Mitglied des Bundesrates vor."
+   },
+   {
+    "para": "3",
+    "text": "Verwaltungsaufgaben können durch Gesetz Organisationen und Personen des öffentlichen oder des privaten Rechts übertragen werden, die ausserhalb der Bundesverwaltung stehen."
+   }
+  ]
+ },
+ "179": {
+  "article": "179",
+  "title": "Bundeskanzlei",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Bundeskanzlei ist die allgemeine Stabsstelle des Bundesrates. Sie wird von einer Bundeskanzlerin oder einem Bundeskanzler geleitet."
+   }
+  ]
+ },
+ "180": {
+  "article": "180",
+  "title": "Regierungspolitik",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat bestimmt die Ziele und die Mittel seiner Regierungspolitik. Er plant und koordiniert die staatlichen Tätigkeiten."
+   },
+   {
+    "para": "2",
+    "text": "Er informiert die Öffentlichkeit rechtzeitig und umfassend über seine Tätigkeit, soweit nicht überwiegende öffentliche oder private Interessen entgegenstehen."
+   }
+  ]
+ },
+ "181": {
+  "article": "181",
+  "title": "Initiativrecht",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Der Bundesrat unterbreitet der Bundesversammlung Entwürfe zu ihren Erlassen."
+   }
+  ]
+ },
+ "182": {
+  "article": "182",
+  "title": "Rechtsetzung und Vollzug",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat erlässt rechtsetzende Bestimmungen in der Form der Verordnung, soweit er durch Verfassung oder Gesetz dazu ermächtigt ist."
+   },
+   {
+    "para": "2",
+    "text": "Er sorgt für den Vollzug der Gesetzgebung, der Beschlüsse der Bundesversammlung und der Urteile richterlicher Behörden des Bundes."
+   }
+  ]
+ },
+ "183": {
+  "article": "183",
+  "title": "Finanzen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat erarbeitet den Finanzplan, entwirft den Voranschlag und erstellt die Staatsrechnung."
+   },
+   {
+    "para": "2",
+    "text": "Er sorgt für eine ordnungsgemässe Haushaltführung."
+   }
+  ]
+ },
+ "184": {
+  "article": "184",
+  "title": "Beziehungen zum Ausland",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat besorgt die auswärtigen Angelegenheiten unter Wahrung der Mitwirkungsrechte der Bundesversammlung; er vertritt die Schweiz nach aussen."
+   },
+   {
+    "para": "2",
+    "text": "Er unterzeichnet die Verträge und ratifiziert sie. Er unterbreitet sie der Bundesversammlung zur Genehmigung."
+   },
+   {
+    "para": "3",
+    "text": "Wenn die Wahrung der Interessen des Landes es erfordert, kann der Bundesrat Verordnungen und Verfügungen erlassen. Verordnungen sind zu befristen."
+   }
+  ]
+ },
+ "185": {
+  "article": "185",
+  "title": "Äussere und innere Sicherheit",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat trifft Massnahmen zur Wahrung der äusseren Sicherheit, der Unabhängigkeit und der Neutralität der Schweiz."
+   },
+   {
+    "para": "2",
+    "text": "Er trifft Massnahmen zur Wahrung der inneren Sicherheit."
+   },
+   {
+    "para": "3",
+    "text": "Er kann, unmittelbar gestützt auf diesen Artikel, Verordnungen und Verfügungen erlassen, um eingetretenen oder unmittelbar drohenden schweren Störungen der öffentlichen Ordnung oder der inneren oder äusseren Sicherheit zu begegnen. Solche Verordnungen sind zu befristen."
+   },
+   {
+    "para": "4",
+    "text": "In dringlichen Fällen kann er Truppen aufbieten. Bietet er mehr als 4000 Angehörige der Armee für den Aktivdienst auf oder dauert dieser Einsatz voraussichtlich länger als drei Wochen, so ist unverzüglich die Bundesversammlung einzuberufen."
+   }
+  ]
+ },
+ "186": {
+  "article": "186",
+  "title": "Beziehungen zwischen Bund und Kantonen",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat pflegt die Beziehungen des Bundes zu den Kantonen und arbeitet mit ihnen zusammen."
+   },
+   {
+    "para": "2",
+    "text": "Er genehmigt die Erlasse der Kantone, wo es die Durchführung des Bundesrechts verlangt."
+   },
+   {
+    "para": "3",
+    "text": "Er kann gegen Verträge der Kantone unter sich oder mit dem Ausland Einsprache erheben."
+   },
+   {
+    "para": "4",
+    "text": "Er sorgt für die Einhaltung des Bundesrechts sowie der Kantonsverfassungen und der Verträge der Kantone und trifft die erforderlichen Massnahmen."
+   }
+  ]
+ },
+ "187": {
+  "article": "187",
+  "title": "Weitere Aufgaben und Befugnisse",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bundesrat hat zudem folgende Aufgaben und Befugnisse: a. Er beaufsichtigt die Bundesverwaltung und die anderen Träger von Aufgaben des Bundes. b. Er erstattet der Bundesversammlung regelmässig Bericht über seine Geschäftsführung sowie über den Zustand der Schweiz. c. Er nimmt die Wahlen vor, die nicht einer anderen Behörde zustehen. d. Er behandelt Beschwerden, soweit das Gesetz es vorsieht."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz kann dem Bundesrat weitere Aufgaben und Befugnisse übertragen."
+   }
+  ]
+ },
+ "188": {
+  "article": "188",
+  "title": "Stellung des Bundesgerichts",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Das Bundesgericht ist die oberste rechtsprechende Behörde des Bundes."
+   },
+   {
+    "para": "2",
+    "text": "Das Gesetz bestimmt die Organisation und das Verfahren."
+   },
+   {
+    "para": "3",
+    "text": "Das Gericht verwaltet sich selbst."
+   }
+  ]
+ },
+ "189": {
+  "article": "189",
+  "title": "Zuständigkeiten des Bundesgerichts",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Das Bundesgericht beurteilt Streitigkeiten wegen Verletzung: a. von Bundesrecht; b. von Völkerrecht; c. von interkantonalem Recht; d. von kantonalen verfassungsmässigen Rechten; e. der Gemeindeautonomie und anderer Garantien der Kantone zu Gunsten von öffentlich-rechtlichen Körperschaften; f. von eidgenössischen und kantonalen Bestimmungen über die politischen Rechte."
+   },
+   {
+    "para": "1bis",
+    "text": "…"
+   },
+   {
+    "para": "2",
+    "text": "Es beurteilt Streitigkeiten zwischen Bund und Kantonen oder zwischen Kantonen."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz kann weitere Zuständigkeiten des Bundesgerichts begründen."
+   },
+   {
+    "para": "4",
+    "text": "Akte der Bundesversammlung und des Bundesrates können beim Bundesgericht nicht angefochten werden. Ausnahmen bestimmt das Gesetz."
+   }
+  ]
+ },
+ "190": {
+  "article": "190",
+  "title": "Massgebendes Recht",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Bundesgesetze und Völkerrecht sind für das Bundesgericht und die anderen rechtsanwendenden Behörden massgebend."
+   }
+  ]
+ },
+ "191": {
+  "article": "191",
+  "title": "Zugang zum Bundesgericht",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Das Gesetz gewährleistet den Zugang zum Bundesgericht."
+   },
+   {
+    "para": "2",
+    "text": "Für Streitigkeiten, die keine Rechtsfrage von grundsätzlicher Bedeutung betreffen, kann es eine Streitwertgrenze vorsehen."
+   },
+   {
+    "para": "3",
+    "text": "Für bestimmte Sachgebiete kann das Gesetz den Zugang zum Bundesgericht ausschliessen."
+   },
+   {
+    "para": "4",
+    "text": "Für offensichtlich unbegründete Beschwerden kann das Gesetz ein vereinfachtes Verfahren vorsehen."
+   }
+  ]
+ },
+ "191_a": {
+  "article": "191_a",
+  "title": "a Weitere richterliche Behörden des Bundes",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Der Bund bestellt ein Strafgericht; dieses beurteilt erstinstanzlich Straffälle, die das Gesetz der Gerichtsbarkeit des Bundes zuweist. Das Gesetz kann weitere Zuständigkeiten des Bundesstrafgerichts begründen."
+   },
+   {
+    "para": "2",
+    "text": "Der Bund bestellt richterliche Behörden für die Beurteilung von öffentlich-rechtlichen Streitigkeiten aus dem Zuständigkeitsbereich der Bundesverwaltung."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz kann weitere richterliche Behörden des Bundes vorsehen."
+   }
+  ]
+ },
+ "191_b": {
+  "article": "191_b",
+  "title": "b Richterliche Behörden der Kantone",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Kantone bestellen richterliche Behörden für die Beurteilung von zivilrechtlichen und öffentlich-rechtlichen Streitigkeiten sowie von Straffällen."
+   },
+   {
+    "para": "2",
+    "text": "Sie können gemeinsame richterliche Behörden einsetzen."
+   }
+  ]
+ },
+ "191_c": {
+  "article": "191_c",
+  "title": "c Richterliche Unabhängigkeit",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die richterlichen Behörden sind in ihrer rechtsprechenden Tätigkeit unabhängig und nur dem Recht verpflichtet."
+   }
+  ]
+ },
+ "192": {
+  "article": "192",
+  "title": "Grundsatz",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Bundesverfassung kann jederzeit ganz oder teilweise revidiert werden."
+   },
+   {
+    "para": "2",
+    "text": "Wo die Bundesverfassung und die auf ihr beruhende Gesetzgebung nichts anderes bestimmen, erfolgt die Revision auf dem Weg der Gesetzgebung."
+   }
+  ]
+ },
+ "193": {
+  "article": "193",
+  "title": "Totalrevision",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Eine Totalrevision der Bundesverfassung kann vom Volk oder von einem der beiden Räte vorgeschlagen oder von der Bundesversammlung beschlossen werden."
+   },
+   {
+    "para": "2",
+    "text": "Geht die Initiative vom Volk aus oder sind sich die beiden Räte uneinig, so entscheidet das Volk über die Durchführung der Totalrevision."
+   },
+   {
+    "para": "3",
+    "text": "Stimmt das Volk der Totalrevision zu, so werden die beiden Räte neu gewählt."
+   },
+   {
+    "para": "4",
+    "text": "Die zwingenden Bestimmungen des Völkerrechts dürfen nicht verletzt werden."
+   }
+  ]
+ },
+ "194": {
+  "article": "194",
+  "title": "Teilrevision",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Eine Teilrevision der Bundesverfassung kann vom Volk verlangt oder von der Bundesversammlung beschlossen werden."
+   },
+   {
+    "para": "2",
+    "text": "Die Teilrevision muss die Einheit der Materie wahren und darf die zwingenden Bestimmungen des Völkerrechts nicht verletzen."
+   },
+   {
+    "para": "3",
+    "text": "Die Volksinitiative auf Teilrevision muss zudem die Einheit der Form wahren."
+   }
+  ]
+ },
+ "195": {
+  "article": "195",
+  "title": "Inkrafttreten",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die ganz oder teilweise revidierte Bundesverfassung tritt in Kraft, wenn sie von Volk und Ständen angenommen ist."
+   }
+  ]
+ },
+ "196": {
+  "article": "196",
+  "title": "Übergangsbestimmungen gemäss Bundesbeschluss vom 18. Dezember 1998 über eine neue Bundesverfassung",
+  "paragraphs": [
+   {
+    "para": "",
+    "text": "Die Verlagerung des Gütertransitverkehrs auf die Schiene muss zehn Jahre nach der Annahme der Volksinitiative zum Schutz des Alpengebietes vor dem Transitverkehr abgeschlossen sein."
+   },
+   {
+    "para": "1",
+    "text": "Der Bund erhebt für die Benützung der dem allgemeinen Verkehr geöffneten Strassen auf in- und ausländischen Motorfahrzeugen und Anhängern mit einem Gesamtgewicht von je über 3,5 t eine jährliche Abgabe."
+   },
+   {
+    "para": "2",
+    "text": "Diese Abgabe beträgt: a. für Lastwagen und Sattelmotorfahrzeuge von – über 3,5 bis 12 t – über 12 bis 18 t – über 18 bis 26 t – über 26 t b. für Anhänger von – über 3,5 bis 8 t – über 8 bis 10 t – über 10 t c. für Gesellschaftswagen"
+   },
+   {
+    "para": "3",
+    "text": "Die Abgabesätze können in der Form eines Bundesgesetzes angepasst werden, sofern die Strassenverkehrskosten dies rechtfertigen."
+   },
+   {
+    "para": "4",
+    "text": "Ausserdem kann der Bundesrat die Tarifkategorie ab 12 t nach Absatz 2 auf dem Verordnungsweg an allfällige Änderungen der Gewichtskategorien im Strassenverkehrsgesetz vom 19. Dezember 1958 anpassen."
+   },
+   {
+    "para": "5",
+    "text": "Der Bundesrat bestimmt für Fahrzeuge, die nicht das ganze Jahr in der Schweiz im Verkehr stehen, entsprechend abgestufte Abgabesätze; er berücksichtigt den Erhebungsaufwand."
+   },
+   {
+    "para": "6",
+    "text": "Der Bundesrat regelt den Vollzug. Er kann für besondere Fahrzeugkategorien die Ansätze im Sinne von Absatz 2 festlegen, bestimmte Fahrzeuge von der Abgabe befreien und Sonderregelungen treffen, insbesondere für Fahrten im Grenzbereich. Dadurch dürfen im Ausland immatrikulierte Fahrzeuge nicht besser gestellt werden als schweizerische. Der Bundesrat kann für Übertretungen Bussen vorsehen. Die Kantone ziehen die Abgabe für die im Inland immatrikulierten Fahrzeuge ein."
+   },
+   {
+    "para": "7",
+    "text": "Auf dem Weg der Gesetzgebung kann ganz oder teilweise auf diese Abgabe verzichtet werden."
+   },
+   {
+    "para": "8",
+    "text": "Diese Bestimmung gilt bis zum Inkrafttreten des Schwerverkehrsabgabegesetzes vom 19. Dezember 1997."
+   },
+   {
+    "para": "1",
+    "text": "Die Eisenbahngrossprojekte umfassen die Neue Eisenbahn-Alpentransversale (NEAT), BAHN 2000, den Anschluss der Ost- und Westschweiz an das europäische Eisenbahn-Hochleistungsnetz sowie die Verbesserung des Lärmschutzes entlang der Eisenbahnstrecken durch aktive und passive Massnahmen."
+   },
+   {
+    "para": "2",
+    "text": "Bis zum Abschluss von Verzinsung und Rückzahlung der Bevorschussung des Fonds nach Artikel 87 a Absatz 2 werden die Mittel nach Artikel 86 Absatz 2 Buchstabe e statt dem Fonds nach Artikel 86 Absatz 2 der Spezialfinanzierung Strassenverkehr nach Artikel 86 Absatz 4 gutgeschrieben."
+   },
+   {
+    "para": "2bis",
+    "text": "Der Bundesrat kann die Mittel nach Absatz 2 bis zum 31. Dezember 2018 zur Finanzierung der Eisenbahninfrastruktur und anschliessend zur Verzinsung und zur Rückzahlung der Bevorschussung des Fonds nach Artikel 87 a Absatz 2 verwenden. Die Mittel berechnen sich nach Artikel 86 Absatz 2 Buchstabe e."
+   },
+   {
+    "para": "2ter",
+    "text": "Der Prozentsatz nach Artikel 86 Absatz 2 Buchstabe f gilt zwei Jahre nach Inkrafttreten dieser Bestimmung. Davor beträgt er 5 Prozent."
+   },
+   {
+    "para": "3",
+    "text": "Die Eisenbahngrossprojekte nach Absatz 1 werden über den Fonds nach Artikel 87 a Absatz 2 finanziert."
+   },
+   {
+    "para": "4",
+    "text": "Die vier Eisenbahngrossprojekte gemäss Absatz 1 werden in der Form von Bundesgesetzen beschlossen. Für jedes Grossprojekt als Ganzes sind Bedarf und Ausführungsreife nachzuweisen. Beim NEAT-Projekt bilden die einzelnen Bauphasen Bestandteil des Bundesgesetzes. Die Bundesversammlung bewilligt die erforderlichen Mittel mit Verpflichtungskrediten. Der Bundesrat genehmigt die Bauetappen und bestimmt den Zeitplan."
+   },
+   {
+    "para": "5",
+    "text": "Diese Bestimmung gilt bis zum Abschluss der Bauarbeiten und der Finanzierung (Rückzahlung der Bevorschussung) der in Absatz 1 erwähnten Eisenbahngrossprojekte."
+   },
+   {
+    "para": "",
+    "text": "Bis zum 23. September 2000 werden keine Rahmen‑, Bau‑, Inbetriebnahme- oder Betriebsbewilligungen für neue Einrichtungen zur Erzeugung von Kernenergie erteilt."
+   },
+   {
+    "para": "",
+    "text": "Bis zum Erlass einer Bundesgesetzgebung sind die Kantone zur gegenseitigen Anerkennung von Ausbildungsabschlüssen verpflichtet."
+   },
+   {
+    "para": "1",
+    "text": "Der Bund stellt die Versorgung des Landes mit Brotgetreide und Backmehl sicher."
+   },
+   {
+    "para": "2",
+    "text": "Diese Übergangsbestimmung bleibt längstens bis zum 31. Dezember 2003 in Kraft."
+   },
+   {
+    "para": "",
+    "text": "Die Kantone können während längstens zehn Jahren ab Inkrafttreten der Verfassung bestehende Regelungen beibehalten, welche zur Sicherung der Existenz bedeutender Teile eines bestimmten Zweigs des Gastgewerbes die Eröffnung von Betrieben vom Bedürfnis abhängig machen."
+   },
+   {
+    "para": "1",
+    "text": "Bis zum Inkrafttreten der geänderten Bundesgesetzgebung regelt der Bundesrat die Einzelheiten."
+   },
+   {
+    "para": "2",
+    "text": "Der Bundesfeiertag wird der Zahl der Feiertage nach Artikel 18 Absatz 2 des Arbeitsgesetzes vom 13. März 1964 nicht angerechnet."
+   },
+   {
+    "para": "",
+    "text": "Versicherte, die zur Eintrittsgeneration gehören und deswegen nicht über die volle Beitragszeit verfügen, sollen je nach Höhe ihres Einkommens innert 10 bis 20 Jahren nach Inkrafttreten des Gesetzes den gesetzlich vorgeschriebenen Mindestschutz erhalten."
+   },
+   {
+    "para": "",
+    "text": "Die Befugnis zur Erhebung der direkten Bundessteuer ist bis Ende 2035 befristet."
+   },
+   {
+    "para": "1",
+    "text": "Die Befugnis zur Erhebung der Mehrwertsteuer ist bis Ende 2035 befristet."
+   },
+   {
+    "para": "2",
+    "text": "Zur Sicherung der Finanzierung der Invalidenversicherung hebt der Bundesrat die Mehrwertsteuersätze vom 1. Januar 2011 bis 31. Dezember 2017 wie folgt an: …"
+   },
+   {
+    "para": "3",
+    "text": "Der Ertrag aus der Anhebung nach Absatz 2 wird vollumfänglich dem Ausgleichsfonds der Invalidenversicherung zugewiesen."
+   },
+   {
+    "para": "4",
+    "text": "Zur Sicherung der Finanzierung der Eisenbahninfrastruktur hebt der Bundesrat die Steuersätze nach Artikel 25 des Mehrwertsteuergesetzes vom 12. Juni 2009 ab 1. Januar 2018 um 0,1 Prozentpunkt an, im Fall einer Verlängerung der Frist gemäss Absatz 1 bis längstens 31. Dezember 2030."
+   },
+   {
+    "para": "5",
+    "text": "Der Ertrag aus der Anhebung nach Absatz 4 wird vollumfänglich dem Fonds nach Artikel 87 a zugewiesen."
+   }
+  ]
+ },
+ "197": {
+  "article": "197",
+  "title": "Übergangsbestimmungen nach Annahme der Bundesverfassung vom 18. April 1999",
+  "paragraphs": [
+   {
+    "para": "1",
+    "text": "Die Schweiz tritt der Organisation der Vereinten Nationen bei."
+   },
+   {
+    "para": "2",
+    "text": "Der Bundesrat wird ermächtigt, an den Generalsekretär der Organisation der Vereinten Nationen (UNO) ein Gesuch der Schweiz um Aufnahme in diese Organisation und eine Erklärung zur Erfüllung der in der UN-Charta enthaltenen Verpflichtungen zu richten."
+   },
+   {
+    "para": "",
+    "text": "Die Kantone übernehmen ab Inkrafttreten des Bundesbeschlusses vom 3. Oktober 2003 zur Neugestaltung des Finanzausgleichs und der Aufgabenteilung zwischen Bund und Kantonen die bisherigen Leistungen der Invalidenversicherung an die Sonderschulung (einschliesslich der heilpädagogischen Früherziehung gemäss Art. 19 des BG vom 19. Juni 1959 über die Invalidenversicherung), bis sie über kantonal genehmigte Sonderschulkonzepte verfügen, mindestens jedoch während drei Jahren."
+   },
+   {
+    "para": "",
+    "text": "Die Kantone erstellen die im Bundesbeschluss vom 21. Juni 1960 über das Nationalstrassennetz aufgeführten Nationalstrassen (Stand bei Inkrafttreten des BB vom 3. Okt. 2003 zur Neugestaltung des Finanzausgleichs und der Aufgabenteilung zwischen Bund und Kantonen) nach den Vorschriften und unter der Oberaufsicht des Bundes fertig. Bund und Kantone tragen die Kosten gemeinsam. Der Kostenanteil der einzelnen Kantone richtet sich nach ihrer Belastung durch die Nationalstrassen, nach ihrem Interesse an diesen Strassen und nach ihrer finanziellen Leistungsfähigkeit."
+   },
+   {
+    "para": "",
+    "text": "Die Kantone übernehmen ab Inkrafttreten des Bundesbeschlusses vom 3. Oktober 2003 zur Neugestaltung des Finanzausgleichs und der Aufgabenteilung zwischen Bund und Kantonen die bisherigen Leistungen der Invalidenversicherung an Anstalten, Werkstätten und Wohnheime, bis sie über genehmigte Behindertenkonzepte verfügen, welche auch die Gewährung kantonaler Beiträge an Bau und Betrieb von Institutionen mit ausserkantonalen Platzierungen regeln, mindestens jedoch während drei Jahren."
+   },
+   {
+    "para": "",
+    "text": "Die bisherigen Leistungen gemäss Artikel 101 bis des Bundesgesetzes vom 20. Dezember 1946 über die Alters- und Hinterlassenenversicherung an die Hilfe und Pflege zu Hause für Betagte und Behinderte werden durch die Kantone weiter ausgerichtet bis zum Inkrafttreten einer kantonalen Finanzierungsregelung für die Hilfe und Pflege zu Hause."
+   },
+   {
+    "para": "",
+    "text": "Die schweizerische Landwirtschaft bleibt für die Dauer von fünf Jahren nach Annahme dieser Verfassungsbestimmung gentechnikfrei. Insbesondere dürfen weder eingeführt noch in Verkehr gebracht werden: a. gentechnisch veränderte vermehrungsfähige Pflanzen, Pflanzenteile und Saatgut, welche für die landwirtschaftliche, gartenbauliche oder forstwirtschaftliche Anwendung in der Umwelt bestimmt sind; b. gentechnisch veränderte Tiere, welche für die Produktion von Lebensmitteln und anderen landwirtschaftlichen Erzeugnissen bestimmt sind."
+   },
+   {
+    "para": "",
+    "text": "Der Gesetzgeber hat innert fünf Jahren seit Annahme von Artikel 121 Absätze 3–6 durch Volk und Stände die Tatbestände nach Artikel 121 Absatz 3 zu definieren und zu ergänzen und die Strafbestimmungen bezüglich illegaler Einreise nach Artikel 121 Absatz 6 zu erlassen."
+   },
+   {
+    "para": "1",
+    "text": "Tritt die entsprechende Gesetzgebung nach Annahme von Artikel 75 b nicht innerhalb von zwei Jahren in Kraft, so erlässt der Bundesrat die nötigen Ausführungsbestimmungen über Erstellung, Verkauf und Registrierung im Grundbuch durch Verordnung."
+   },
+   {
+    "para": "2",
+    "text": "Baubewilligungen für Zweitwohnungen, die zwischen dem 1. Januar des auf die Annahme von Artikel 75 b folgenden Jahres und dem Inkrafttreten der Ausführungsbestimmungen erteilt werden, sind nichtig."
+   },
+   {
+    "para": "",
+    "text": "Bis zum Inkrafttreten der gesetzlichen Bestimmungen erlässt der Bundesrat innerhalb eines Jahres nach Annahme von Artikel 95 Absatz 3 durch Volk und Stände die erforderlichen Ausführungsbestimmungen."
+   },
+   {
+    "para": "",
+    "text": "1 Völkerrechtliche Verträge, die Artikel 121 a widersprechen, sind innerhalb von drei Jahren nach dessen Annahme durch Volk und Stände neu zu verhandeln und anzupassen."
+   },
+   {
+    "para": "",
+    "text": "2 Ist die Ausführungsgesetzgebung zu Artikel 121 a drei Jahre nach dessen Annahme durch Volk und Stände noch nicht in Kraft getreten, so erlässt der Bundesrat auf diesen Zeitpunkt hin die Ausführungsbestimmungen vorübergehend auf dem Verordnungsweg."
+   },
+   {
+    "para": "",
+    "text": "Die Ausführungsgesetzgebung zu Artikel 10 a ist innert zweier Jahre nach dessen Annahme durch Volk und Stände zu erarbeiten."
+   },
+   {
+    "para": "1",
+    "text": "Der Bund erlässt im Rahmen seiner Zuständigkeiten Ausführungsbestimmungen über: a. die Festlegung der Pflegeleistungen, die von Pflegefachpersonen zulasten der Sozialversicherungen erbracht werden: 1. in eigener Verantwortung, 2. auf ärztliche Anordnung; b. die angemessene Abgeltung der Pflegeleistungen; c. anforderungsgerechte Arbeitsbedingungen für die in der Pflege tätigen Personen; d. Möglichkeiten der beruflichen Entwicklung von den in der Pflege tätigen Personen."
+   },
+   {
+    "para": "2",
+    "text": "Die Bundesversammlung verabschiedet die gesetzlichen Ausführungsbestimmungen innert vier Jahren seit Annahme von Artikel 117 b durch Volk und Stände. Bis zum Inkrafttreten der gesetzlichen Ausführungsbestimmungen trifft der Bundesrat innerhalb von achtzehn Monaten nach Annahme von Artikel 117 b durch Volk und Stände wirksame Massnahmen zur Behebung des Mangels an diplomierten Pflegefachpersonen."
+   },
+   {
+    "para": "",
+    "text": "Die Bundesversammlung verabschiedet die gesetzlichen Ausführungsbestimmungen innert drei Jahren seit Annahme von Artikel 118 Absatz 2 Buchstabe b durch Volk und Stände."
+   },
+   {
+    "para": "1",
+    "text": "Der Bundesrat kann die bis zum Inkrafttreten der gesetzlichen Bestimmungen erforderlichen Vorschriften über die Mindestbesteuerung grosser Unternehmensgruppen erlassen."
+   },
+   {
+    "para": "2",
+    "text": "Er beachtet dabei folgende Grundsätze: a. Die Vorschriften gelten für die Geschäftseinheiten einer multinationalen Unternehmensgruppe, die einen konsolidierten jährlichen Umsatz von 750 Millionen Euro erreicht. b. Unterschreiten die massgebenden Steuern der Geschäftseinheiten in der Schweiz oder einem anderen Steuerhoheitsgebiet gesamthaft die Mindestbesteuerung zum Satz von 15 Prozent der massgebenden Gewinne, so erhebt der Bund zum Ausgleich der Differenz zwischen dem effektiven Steuersatz und dem Mindeststeuersatz eine Ergänzungssteuer. c. Massgebende Steuern sind insbesondere die in der Erfolgsrechnung der Geschäftseinheiten verbuchten direkten Steuern. d. Massgebender Gewinn einer Geschäftseinheit ist der für die konsolidierte Jahresrechnung der Unternehmensgruppe nach einem anerkannten Rechnungslegungsstandard ermittelte Gewinn oder Verlust vor Herausrechnung der Transaktionen zwischen den Geschäftseinheiten und nach Berücksichtigung anderer Korrekturen; nicht berücksichtigt werden Gewinne und Verluste aus dem internationalen Seeverkehr. e. Der effektive Steuersatz für ein Steuerhoheitsgebiet berechnet sich, indem die Summe der massgebenden Steuern aller Geschäftseinheiten in diesem Steuerhoheitsgebiet durch die Summe der massgebenden Gewinne dieser Geschäftseinheiten geteilt wird. f. Die Ergänzungssteuer für ein Steuerhoheitsgebiet berechnet sich, indem der Gewinnüberschuss mit dem Ergänzungssteuersatz multipliziert wird. g. Der Gewinnüberschuss in einem Steuerhoheitsgebiet ist die Summe der mass-gebenden Gewinne aller Geschäftseinheiten in diesem Steuerhoheitsgebiet nach dem zulässigen Abzug für materielle Vermögenswerte und Lohnkosten. h. Der Ergänzungssteuersatz für ein Steuerhoheitsgebiet entspricht der positiven Differenz zwischen 15 Prozent und dem effektiven Steuersatz. i. Bei einer Unterbesteuerung in der Schweiz wird die Ergänzungssteuer den inländischen Geschäftseinheiten im Verhältnis des Ausmasses zugerechnet, in dem sie die Unterbesteuerung mitverursacht haben. j. Bei einer Unterbesteuerung in einem anderen Steuerhoheitsgebiet wird die Ergänzungssteuer primär der obersten inländischen Geschäftseinheit und sekundär allen inländischen Geschäftseinheiten zugerechnet."
+   },
+   {
+    "para": "3",
+    "text": "Der Bundesrat kann ergänzende Vorschriften zur Umsetzung der Mindestbesteuerung erlassen, insbesondere über: a. die Berücksichtigung besonderer Unternehmensverhältnisse; b. die Abziehbarkeit der Ergänzungssteuer als Aufwand bei den Gewinnsteuern von Bund und Kantonen; c. das Verfahren und die Rechtsmittel; d. die Strafbestimmungen nach Massgabe des übrigen Steuerstrafrechts; e. die Übergangsregelungen."
+   },
+   {
+    "para": "4",
+    "text": "Sofern der Bundesrat es für die Umsetzung der Mindestbesteuerung als erforderlich erachtet, kann er von den Grundsätzen nach Absatz 2 abweichen. Er kann internationale Mustervorschriften und zugehörige Regelwerke für anwendbar erklären. Er kann diese Kompetenzen auf das Eidgenössische Finanzdepartement übertragen."
+   },
+   {
+    "para": "5",
+    "text": "Die Vorschriften über die Ergänzungssteuer werden von den Kantonen unter Aufsicht der Eidgenössischen Steuerverwaltung vollzogen. Der Bundesrat kann eine Abgeltung für den administrativen Aufwand vorsehen, der beim Vollzug dieser Vorschriften entsteht."
+   },
+   {
+    "para": "6",
+    "text": "Der Rohertrag der Ergänzungssteuer steht zu 75 Prozent den Kantonen zu, denen die Geschäftseinheiten steuerlich zugehörig sind. Die Kantone berücksichtigen die Gemeinden angemessen. Der Rohertrag der Ergänzungssteuer aus gewinnsteuerbefreiten Tätigkeiten von Geschäftseinheiten von Bund, Kantonen und Gemeinden steht dem jeweiligen Gemeinwesen zu."
+   },
+   {
+    "para": "7",
+    "text": "Der Kantonsanteil am Rohertrag der Ergänzungssteuer wird im Rahmen des Finanz- und Lastenausgleichs als zusätzliche Steuereinnahme berücksichtigt."
+   },
+   {
+    "para": "8",
+    "text": "Macht der Bundesrat von seiner Kompetenz in Absatz 1 Gebrauch, unterbreitet er dem Parlament innerhalb von sechs Jahren nach Inkrafttreten der Verordnung die gesetzlichen Bestimmungen über die Mindestbesteuerung grosser multinationaler Unternehmensgruppen."
+   },
+   {
+    "para": "9",
+    "text": "Der Bund verwendet seinen Anteil am Rohertrag der Ergänzungssteuer, nach Abzug seiner durch die Ergänzungssteuer verursachten Mehrausgaben für den Finanz- und Lastenausgleich, zur zusätzlichen Förderung der Standortattraktivität der Schweiz."
+   },
+   {
+    "para": "1",
+    "text": "Bezügerinnen und Bezüger einer Altersrente haben Anspruch auf einen jährlichen Zuschlag in der Höhe eines Zwölftels ihrer jährlichen Rente."
+   },
+   {
+    "para": "2",
+    "text": "Der Anspruch auf den jährlichen Zuschlag entsteht spätestens mit Beginn des zweiten Kalenderjahres, das der Annahme dieser Bestimmung durch Volk und Stände folgt."
+   },
+   {
+    "para": "3",
+    "text": "Das Gesetz stellt sicher, dass der jährliche Zuschlag weder zu einer Reduktion der Ergänzungsleistungen noch zum Verlust des Anspruchs auf diese Leistungen führt."
+   }
+  ]
+ }
+}
