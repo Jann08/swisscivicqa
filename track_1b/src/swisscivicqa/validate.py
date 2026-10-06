@@ -55,6 +55,8 @@ def check(facts: list) -> list:
                 errors.append(f"{fid}: para {f['para']} not found in art {f['art']} [{lang}]")
                 continue
             ev = norm(f["ev"][lang])
+            if len(ev) < 8:
+                errors.append(f"{fid}: evidence too short to be meaningful [{lang}]: {f['ev'][lang]!r}")
             if not any(ev in norm(p["text"]) for p in paras):
                 errors.append(f"{fid}: evidence not in official text [{lang}]: {f['ev'][lang]!r}")
     return errors
