@@ -66,6 +66,10 @@ def main() -> None:
                   + ("  ** FALSCHE ANNAHME **" if it["answer_type"] == "false_premise" else ""))
             print(f"FRAGE:          {it['question']}")
             print(f"MUSTERANTWORT:  {it['gold_answer']}" + (f"   (auch ok: {'; '.join(it['gold_aliases'])})" if it["gold_aliases"] else ""))
+            if it["language"] != "de":
+                de = items[f"{it['fact_id']}-de"]
+                print(f"  (DE Frage:     {de['question']})")
+                print(f"  (DE Antwort:   {de['gold_answer']})")
             print(f"QUELLE:         {it['source_citation']}")
             print(f"APERTUS:        {responses[item_id]['response'].strip()}")
             while True:

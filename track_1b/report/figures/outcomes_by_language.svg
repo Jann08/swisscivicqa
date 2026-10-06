@@ -1,0 +1,51 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='620' height='260' viewBox='0 0 620 260'>
+<rect width='620' height='260' fill='#ffffff'/>
+<rect x='80' y='14' width='12' height='12' rx='2' fill='#2a78d6'/>
+<text x='97.0' y='24.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='start' font-weight='normal'>Correct</text>
+<rect x='163.8' y='14' width='12' height='12' rx='2' fill='#b8b6af'/>
+<text x='180.8' y='24.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='start' font-weight='normal'>Not attempted</text>
+<rect x='286.0' y='14' width='12' height='12' rx='2' fill='#eb6834'/>
+<text x='303.0' y='24.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='start' font-weight='normal'>Incorrect</text>
+<line x1='80.0' x2='80.0' y1='40' y2='234' stroke='#e4e2dc' stroke-width='1'/>
+<text x='80.0' y='248.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='middle' font-weight='normal'>0%</text>
+<line x1='177.5' x2='177.5' y1='40' y2='234' stroke='#e4e2dc' stroke-width='1'/>
+<text x='177.5' y='248.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='middle' font-weight='normal'>25%</text>
+<line x1='275.0' x2='275.0' y1='40' y2='234' stroke='#e4e2dc' stroke-width='1'/>
+<text x='275.0' y='248.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='middle' font-weight='normal'>50%</text>
+<line x1='372.5' x2='372.5' y1='40' y2='234' stroke='#e4e2dc' stroke-width='1'/>
+<text x='372.5' y='248.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='middle' font-weight='normal'>75%</text>
+<line x1='470.0' x2='470.0' y1='40' y2='234' stroke='#e4e2dc' stroke-width='1'/>
+<text x='470.0' y='248.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='middle' font-weight='normal'>100%</text>
+<text x='70.0' y='65.0' font-family='Liberation Sans, Arial, sans-serif' font-size='12' fill='#0b0b0b' text-anchor='end' font-weight='normal'>German</text>
+<rect x='80.0' y='46' width='167.4' height='30' fill='#2a78d6'/>
+<text x='164.7' y='65.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#ffffff' text-anchor='middle' font-weight='bold'>43%</text>
+<rect x='249.4' y='46' width='7.6' height='30' fill='#b8b6af'/>
+<rect x='259.0' y='46' width='211.0' height='30' fill='#eb6834'/>
+<text x='364.5' y='65.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='middle' font-weight='bold'>54%</text>
+<text x='480.0' y='59.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='start' font-weight='normal'>acc. 43.4%</text>
+<text x='480.0' y='73.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='start' font-weight='normal'>95% CI 34–52%</text>
+<text x='70.0' y='111.0' font-family='Liberation Sans, Arial, sans-serif' font-size='12' fill='#0b0b0b' text-anchor='end' font-weight='normal'>French</text>
+<rect x='80.0' y='92' width='170.6' height='30' fill='#2a78d6'/>
+<text x='166.3' y='111.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#ffffff' text-anchor='middle' font-weight='bold'>44%</text>
+<rect x='252.6' y='92' width='4.4' height='30' fill='#b8b6af'/>
+<rect x='259.0' y='92' width='211.0' height='30' fill='#eb6834'/>
+<text x='364.5' y='111.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='middle' font-weight='bold'>54%</text>
+<text x='480.0' y='105.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='start' font-weight='normal'>acc. 44.3%</text>
+<text x='480.0' y='119.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='start' font-weight='normal'>95% CI 36–53%</text>
+<text x='70.0' y='157.0' font-family='Liberation Sans, Arial, sans-serif' font-size='12' fill='#0b0b0b' text-anchor='end' font-weight='normal'>Italian</text>
+<rect x='80.0' y='138' width='180.2' height='30' fill='#2a78d6'/>
+<text x='171.1' y='157.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#ffffff' text-anchor='middle' font-weight='bold'>47%</text>
+<rect x='262.2' y='138' width='10.8' height='30' fill='#b8b6af'/>
+<rect x='275.0' y='138' width='195.0' height='30' fill='#eb6834'/>
+<text x='372.5' y='157.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='middle' font-weight='bold'>50%</text>
+<text x='480.0' y='151.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='start' font-weight='normal'>acc. 46.7%</text>
+<text x='480.0' y='165.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='start' font-weight='normal'>95% CI 39–56%</text>
+<text x='70.0' y='203.0' font-family='Liberation Sans, Arial, sans-serif' font-size='12' fill='#0b0b0b' text-anchor='end' font-weight='normal'>Romansh</text>
+<rect x='80.0' y='184' width='177.0' height='30' fill='#2a78d6'/>
+<text x='169.5' y='203.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#ffffff' text-anchor='middle' font-weight='bold'>46%</text>
+<rect x='259.0' y='184' width='26.8' height='30' fill='#b8b6af'/>
+<rect x='287.8' y='184' width='182.2' height='30' fill='#eb6834'/>
+<text x='378.9' y='203.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='middle' font-weight='bold'>47%</text>
+<text x='480.0' y='197.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#0b0b0b' text-anchor='start' font-weight='normal'>acc. 45.9%</text>
+<text x='480.0' y='211.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='start' font-weight='normal'>95% CI 37–55%</text>
+</svg>
