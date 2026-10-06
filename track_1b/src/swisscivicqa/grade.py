@@ -46,7 +46,20 @@ YES = {"de": ("ja",), "fr": ("oui",), "it": ("sì", "si"), "rm": ("gea", "schon"
 NO = {"de": ("nein",), "fr": ("non",), "it": ("no",), "rm": ("na", "betg")}
 
 
-def numbers(text: str) -> set:
+NUMBER_WORDS = {
+    "de": "null eins zwei drei vier fünf sechs sieben acht neun zehn elf zwölf".split(),
+    "fr": "zéro un deux trois quatre cinq six sept huit neuf dix onze douze".split(),
+    "it": "zero uno due tre quattro cinque sei sette otto nove dieci undici dodici".split(),
+    "rm": "nulla in dus trais quatter tschintg sis set otg nov diesch indesch dudesch".split(),
+}
+
+
+def numbers(text: str, lang: str = "") -> set:
+    if lang in NUMBER_WORDS:
+        # Whole-word number words from 2 upwards; 0/1 ("un", "in", ...) double as articles.
+        words = NUMBER_WORDS[lang]
+        text = re.sub(r"\b(" + "|".join(words[2:]) + r")\b",
+                      lambda m: str(words.index(m.group(1).lower())), text, flags=re.I)
     text = text.replace(" ", " ").replace(" ", " ")
     text = re.sub(r"(?<=\d)['’ .](?=\d{3}\b)", "", text)  # 100'000 / 100 000 / 100.000 -> 100000
     return {n.replace(",", ".") for n in re.findall(r"\d+(?:[.,]\d+)?", text)}
@@ -56,8 +69,8 @@ def rule_grade(item: dict, response: str):
     """Return a label for number/yes_no items when the rule is unambiguous, else None."""
     lang, kind = item["language"], item["answer_type"]
     if kind == "number":
-        gold = numbers(" ".join([item["gold_answer"], *item["gold_aliases"]]))
-        pred = numbers(response)
+        gold = numbers(" ".join([item["gold_answer"], *item["gold_aliases"]]), lang)
+        pred = numbers(response, lang)
         if not gold or not pred:
             return None
         if pred & gold:

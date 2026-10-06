@@ -16,6 +16,11 @@ class TestNumbers(unittest.TestCase):
         for text in ("100'000", "100 000", "100 000", "100.000", "100000"):
             self.assertIn("100000", grade.numbers(text), text)
 
+    def test_number_words(self):
+        self.assertIn("6", grade.numbers("Sechs Monate.", "de"))
+        self.assertIn("7", grade.numbers("Set.", "rm"))
+        self.assertEqual(grade.rule_grade(item("number", "18"), "Sechs Monate."), "INCORRECT")
+
     def test_decimal_comma(self):
         self.assertIn("11.5", grade.numbers("11,5 Prozent"))
 
