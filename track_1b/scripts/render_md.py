@@ -1,6 +1,56 @@
-# Technical report: SwissCivicQA-4L
+"""Render technical_report.md from the same metrics files as the Typst PDF (maintainer helper).
 
-> Citizens ask about their constitutional rights in their own national language. SwissCivicQA-4L asks 122 facts of the Swiss Federal Constitution in German, French, Italian and Romansh (488 items, incl. false-premise traps), each gold answer verbatim-grounded in the official text of the same language. Apertus 1.5 8B answers 45.1% correctly (43.4%–46.7% across languages), but only 23.8% of facts correctly in all four languages.
+Usage: python scripts/render_md.py
+"""
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+EXP = ROOT / "results" / "expected"
+LANGS = ("de", "fr", "it", "rm")
+NAMES = {"de": "German", "fr": "French", "it": "Italian", "rm": "Romansh"}
+
+
+def pct(x: float) -> str:
+    return f"{100 * x:.1f}%"
+
+
+def main() -> None:
+    m = json.loads((EXP / "apertus-v1.5-8b-text-q8_0.json").read_text(encoding="utf-8"))
+    q_path = EXP / "qwen3-8b-q8_0.json"
+    q = json.loads(q_path.read_text(encoding="utf-8")) if q_path.exists() else None
+    h, ia = m["judge_vs_human"], m["inter_annotator"]
+    accs = [m["by_language"][l]["accuracy"] for l in LANGS]
+    calibrated = m["overall"]["accuracy"] - (h["judge_accuracy_on_sample"] - h["human_accuracy_on_sample"])
+
+    rows = "\n".join(
+        f"| {NAMES[l]} | {pct(b['accuracy'])} | {pct(b['accuracy_ci95'][0])}–{pct(b['accuracy_ci95'][1])} | "
+        f"{pct(b['correct_given_attempted'])} | {pct(b['hallucination_rate'])} | {b['not_attempted']} |"
+        for l, b in ((l, m["by_language"][l]) for l in LANGS))
+    types = "\n".join(f"| {t.replace('_', ' ')} | " + " | ".join(pct(v[l]) for l in LANGS) + " |"
+                      for t, v in m["by_type"].items())
+    comparison = ""
+    if q:
+        comp_rows = "\n".join(
+            f"| {NAMES[l]} | {pct(m['by_language'][l]['accuracy'])} | {pct(q['by_language'][l]['accuracy'])} |" for l in LANGS)
+        comparison = f"""
+### Baseline: Qwen3 8B
+
+Same items, prompts, decoding and judge; Qwen3-8B (Q8_0, thinking disabled) as a same-size, non-Swiss open model.
+
+| Language | Apertus 1.5 8B | Qwen3 8B |
+|---|---|---|
+{comp_rows}
+| **Consistency@4** | {pct(m['cross_lingual']['consistency_at_4'])} | {pct(q['cross_lingual']['consistency_at_4'])} |
+| Hallucination rate | {pct(m['overall']['hallucination_rate'])} | {pct(q['overall']['hallucination_rate'])} |
+| False-premise accuracy (mean) | {pct(sum(m['by_type']['false_premise'].values()) / 4)} | {pct(sum(q['by_type']['false_premise'].values()) / 4)} |
+
+See the PDF report for figures and discussion.
+"""
+
+    md = f"""# Technical report: SwissCivicQA-4L
+
+> Citizens ask about their constitutional rights in their own national language. SwissCivicQA-4L asks {m['cross_lingual']['facts']} facts of the Swiss Federal Constitution in German, French, Italian and Romansh ({m['overall']['n']} items, incl. false-premise traps), each gold answer verbatim-grounded in the official text of the same language. Apertus 1.5 8B answers {pct(m['overall']['accuracy'])} correctly ({pct(min(accs))}–{pct(max(accs))} across languages), but only {pct(m['cross_lingual']['consistency_at_4'])} of facts correctly in all four languages.
 
 **Track:** Apertus Readiness - Track 1B (Swiss Voices · Core Task Intelligence)
 **Event:** Online
@@ -22,7 +72,7 @@ The Federal Constitution (SR 101) defines how Swiss direct democracy, federalism
 
 ## Dataset Summary
 
-- 122 facts × 4 languages = 488 single-turn, closed-book items; 20 facts are false-premise questions.
+- {m['cross_lingual']['facts']} facts × 4 languages = {m['overall']['n']} single-turn, closed-book items; 20 facts are false-premise questions.
 - Answer types: number, entity, list, yes/no, false premise. Categories cover popular rights, Federal Assembly, Federal Council, judiciary, fundamental rights, languages, federalism, taxes, social security, transport.
 - Each item: question, gold answer + accepted variants, article/paragraph citation, verbatim evidence span from the official text of the same language, licence, source URL.
 - Source: Fedlex consolidated version 2024-03-03 (in force), SHA-256 pinned; Art. 127 excluded (amended with effect from 2029).
@@ -41,7 +91,7 @@ Official enactments are not copyright-protected (Art. 5 para. 1 lit. a URG). Que
 
 SimpleQA three-way grading (CORRECT / INCORRECT / NOT_ATTEMPTED) by an open-weights judge (`gemma-3-12b-it` Q4_K_M, local; different model family than the model under test), with adapted rules for lists and false premises. Metrics: accuracy, correct-given-attempted, hallucination rate, F-score; consistency@4 (fact correct in all four languages); 95% bootstrap CIs over facts.
 
-Audit: (1) deterministic rules for number and yes/no items: judge–rule agreement 97.8% (κ = 0.9542, n = 138); (2) blind human review of a stratified 20% sample (n = 96) by two annotators: human–human agreement 88.5% (κ = 0.7833), judge–human agreement 86.5% (κ = 0.7392). The judge is slightly lenient (47.9% vs. 44.8% correct on the sample); human-calibrated overall accuracy ≈ 41.9%.
+Audit: (1) deterministic rules for number and yes/no items: judge–rule agreement {pct(m['judge_vs_rules']['agreement'])} (κ = {m['judge_vs_rules']['cohen_kappa']}, n = {m['judge_vs_rules']['n']}); (2) blind human review of a stratified 20% sample (n = {h['n']}) by two annotators: human–human agreement {pct(ia['agreement'])} (κ = {ia['cohen_kappa']}), judge–human agreement {pct(h['agreement'])} (κ = {h['cohen_kappa']}). The judge is slightly lenient ({pct(h['judge_accuracy_on_sample'])} vs. {pct(h['human_accuracy_on_sample'])} correct on the sample); human-calibrated overall accuracy ≈ {pct(calibrated)}.
 
 ### Evaluation setup and inference parameters
 
@@ -51,21 +101,14 @@ llama.cpp server, temperature 0, top_p 1, seed 42, max 256 tokens, default chat 
 
 | Language | Accuracy | 95% CI | Correct given attempted | Hallucination | Not attempted |
 |---|---|---|---|---|---|
-| German | 43.4% | 34.4%–52.5% | 44.5% | 55.5% | 3 |
-| French | 44.3% | 36.1%–53.3% | 45.0% | 55.0% | 2 |
-| Italian | 46.7% | 38.5%–55.7% | 48.3% | 51.7% | 4 |
-| Romansh | 45.9% | 36.9%–54.9% | 49.6% | 50.4% | 9 |
+{rows}
 
-Consistency@4: **23.8%**; correct in at least one language: 68.0%; facts known somewhere but not everywhere: 54.
+Consistency@4: **{pct(m['cross_lingual']['consistency_at_4'])}**; correct in at least one language: {pct(m['cross_lingual']['any_at_4'])}; facts known somewhere but not everywhere: {m['cross_lingual']['known_somewhere_but_not_everywhere']}.
 
 | Type | DE | FR | IT | RM |
 |---|---|---|---|---|
-| entity | 35.9% | 47.2% | 47.2% | 50.9% |
-| false premise | 10.0% | 10.0% | 30.0% | 10.0% |
-| list | 42.9% | 28.6% | 28.6% | 14.3% |
-| number | 55.2% | 55.2% | 48.3% | 51.7% |
-| yes no | 100.0% | 69.2% | 76.9% | 84.6% |
-
+{types}
+{comparison}
 Key findings: equal per-language averages hide large item-level inconsistency; the model almost never abstains; false premises are usually accepted, with language-specific inventions (e.g. a death penalty for treason and a non-existent constitutional court in French and Romansh); simple composition facts are robust while procedural thresholds fail.
 
 ## Dataset Limitations
@@ -89,3 +132,10 @@ Creative Commons Attribution 4.0 (CC-BY-4.0). All HackApertus projects are open-
 ## References
 
 Wei et al. (2024), *Measuring short-form factuality in large language models* (SimpleQA), arXiv:2411.04368 · Swiss AI Initiative (2025), *Apertus: Democratizing Open and Compliant LLMs*, arXiv:2509.14233 · Federal Constitution of the Swiss Confederation, SR 101, fedlex.admin.ch, version 2024-03-03.
+"""
+    (ROOT / "technical_report.md").write_text(md, encoding="utf-8")
+    print("wrote technical_report.md")
+
+
+if __name__ == "__main__":
+    main()

@@ -143,6 +143,48 @@ def fact_matrix(items: dict, judgments: list) -> str:
     return "\n".join(out)
 
 
+def model_comparison(models: dict) -> str:
+    """Grouped bars: accuracy per language (+ consistency@4) for each model, with 95% CI whiskers."""
+    groups = [(LANG_LABEL[l], l) for l in LANGS] + [("All 4 (consistency)", None)]
+    names = list(models)
+    cols = [C_CORRECT, "#1baf7a"]  # validated categorical slots 1 and 3 (blue, aqua)
+    w, h, left, top, bottom = 620, 250, 44, 34, 40
+    plot_w, plot_h = w - left - 16, h - top - bottom
+    gw = plot_w / len(groups)
+    bw = gw * 0.32
+    out = [f"<svg xmlns='http://www.w3.org/2000/svg' width='{w}' height='{h}' viewBox='0 0 {w} {h}'>",
+           f"<rect width='{w}' height='{h}' fill='{SURFACE}'/>"]
+    lx = left
+    for name, col in zip(names, cols):
+        out.append(f"<rect x='{lx}' y='10' width='12' height='12' rx='2' fill='{col}'/>")
+        out.append(text(lx + 17, 20, name, 11, INK2))
+        lx += 17 + len(name) * 6.4 + 26
+    for v in (0, 25, 50, 75):
+        y = top + plot_h - plot_h * v / 75
+        out.append(f"<line x1='{left}' x2='{w - 16}' y1='{y:.1f}' y2='{y:.1f}' stroke='{GRID}' stroke-width='1'/>")
+        out.append(text(left - 6, y + 4, f"{v}%", 10, INK2, "end"))
+    for g, (label, lang) in enumerate(groups):
+        for k, name in enumerate(names):
+            m = models[name]
+            val = m["by_language"][lang]["accuracy"] if lang else m["cross_lingual"]["consistency_at_4"]
+            x = left + g * gw + gw / 2 - bw - 1 + k * (bw + 2)
+            bh = plot_h * val / 0.75
+            y = top + plot_h - bh
+            r = min(4, bh)
+            out.append(f"<path d='M{x:.1f},{top + plot_h:.1f} V{y + r:.1f} Q{x:.1f},{y:.1f} {x + r:.1f},{y:.1f} "
+                       f"H{x + bw - r:.1f} Q{x + bw:.1f},{y:.1f} {x + bw:.1f},{y + r:.1f} V{top + plot_h:.1f} Z' fill='{cols[k]}'/>")
+            if lang:
+                lo, hi = m["by_language"][lang]["accuracy_ci95"]
+                y1, y2 = top + plot_h - plot_h * lo / 0.75, top + plot_h - plot_h * hi / 0.75
+                cx = x + bw / 2
+                out.append(f"<line x1='{cx:.1f}' x2='{cx:.1f}' y1='{y1:.1f}' y2='{y2:.1f}' stroke='{INK}' stroke-width='1'/>")
+            out.append(text(x + bw / 2, min(y, top + plot_h - 2) - 5 if not lang else y2 - 4 if lang else y - 5,
+                            f"{100 * val:.0f}", 10, INK, "middle"))
+        out.append(text(left + g * gw + gw / 2, top + plot_h + 16, label, 11, INK2, "middle"))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main() -> None:
     metrics_path, judgments_path, out_dir = sys.argv[1:4]
     metrics = json.loads(Path(metrics_path).read_text(encoding="utf-8"))
@@ -153,6 +195,11 @@ def main() -> None:
     (out / "outcomes_by_language.svg").write_text(outcomes_by_language(metrics), encoding="utf-8")
     (out / "consistency_histogram.svg").write_text(consistency_histogram(items, judgments), encoding="utf-8")
     (out / "fact_matrix.svg").write_text(fact_matrix(items, judgments), encoding="utf-8")
+    names = {"apertus-v1.5-8b-text-q8_0": "Apertus 1.5 8B", "qwen3-8b-q8_0": "Qwen3 8B (baseline)"}
+    expected = {n: ROOT / "results" / "expected" / f"{n}.json" for n in names}
+    if all(p.exists() for p in expected.values()):
+        models = {names[n]: json.loads(p.read_text(encoding="utf-8")) for n, p in expected.items()}
+        (out / "model_comparison.svg").write_text(model_comparison(models), encoding="utf-8")
     print(f"wrote figures to {out}")
 
 
