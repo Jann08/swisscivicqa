@@ -98,17 +98,41 @@ def compute(items: dict, judgments: list, human: list) -> dict:
         "cohen_kappa": cohen_kappa([j["rule_label"] for j in ruled], [j["judge_label"] for j in ruled]) if ruled else None,
     }
     if human:
-        pairs = [(h["human_label"], final[h["id"]]) for h in human if h["id"] in final]
+        by_item = defaultdict(dict)
+        for h in human:
+            by_item[h["id"]][h["annotator"]] = h["human_label"]
+        consensus = {}
+        for item_id, labels in by_item.items():
+            counts = defaultdict(int)
+            for a in sorted(labels):
+                counts[labels[a]] += 1
+            best = max(counts.values())
+            # Majority label; ties go to the alphabetically first annotator's label.
+            consensus[item_id] = next(labels[a] for a in sorted(labels) if counts[labels[a]] == best)
+        ids = sorted(i for i in consensus if i in final)
+        h_lab, j_lab = [consensus[i] for i in ids], [final[i] for i in ids]
         res["judge_vs_human"] = {
-            "n": len(pairs),
-            "agreement": round(sum(a == b for a, b in pairs) / len(pairs), 4),
-            "cohen_kappa": cohen_kappa([a for a, _ in pairs], [b for _, b in pairs]),
+            "n": len(ids),
+            "annotators": sorted({h["annotator"] for h in human}),
+            "agreement": round(sum(a == b for a, b in zip(h_lab, j_lab)) / len(ids), 4) if ids else None,
+            "cohen_kappa": cohen_kappa(h_lab, j_lab) if ids else None,
+            "human_accuracy_on_sample": round(h_lab.count("CORRECT") / len(ids), 4) if ids else None,
+            "judge_accuracy_on_sample": round(j_lab.count("CORRECT") / len(ids), 4) if ids else None,
             "by_language": {
-                lang: round(sum(a == b for (a, b), h in zip(pairs, human) if items[h["id"]]["language"] == lang)
-                            / max(1, sum(items[h["id"]]["language"] == lang for h in human)), 4)
+                lang: round(sum(consensus[i] == final[i] for i in ids if items[i]["language"] == lang)
+                            / max(1, sum(items[i]["language"] == lang for i in ids)), 4)
                 for lang in LANGS
             },
         }
+        multi = [i for i in ids if len(by_item[i]) >= 2]
+        if multi:
+            first = [by_item[i][sorted(by_item[i])[0]] for i in multi]
+            second = [by_item[i][sorted(by_item[i])[1]] for i in multi]
+            res["inter_annotator"] = {
+                "n": len(multi),
+                "agreement": round(sum(a == b for a, b in zip(first, second)) / len(multi), 4),
+                "cohen_kappa": cohen_kappa(first, second),
+            }
     return res
 
 
