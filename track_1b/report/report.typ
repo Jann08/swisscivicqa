@@ -99,9 +99,11 @@ Two independent checks. (1) *Rules:* numbers and yes/no answers are graded deter
 
 #include "findings.typ"
 
+#include "comparison.typ"
+
 = Limitations
 
-- *One model, one quantisation.* Results are for the 8B text-only Q8_0 conversion on llama.cpp; the 70B model and the original BF16 weights may differ. The harness accepts any OpenAI-compatible endpoint, so this is a one-line rerun.
+- *Model scope.* Apertus 1.5 8B (text-only Q8_0 on llama.cpp) and one same-size baseline; the 70B model and the original BF16 weights may differ. The harness accepts any OpenAI-compatible endpoint, so this is a one-line rerun.
 - *Judge.* A 12B judge on four languages is imperfect, particularly for Romansh; this is why the grading is audited by rules and by humans and both agreements are reported.
 - *Human audit.* Two volunteer annotators on a 20% sample; Romansh items were judged against the official text and the parallel German item, not by native Romansh speakers.
 - *Translation of questions.* Questions in FR/IT/RM were written with AI assistance; wording quality may vary by language (answers are always grounded in the official text). A Romansh native-speaker review is the most valuable next step.

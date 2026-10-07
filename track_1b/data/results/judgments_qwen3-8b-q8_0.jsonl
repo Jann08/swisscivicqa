@@ -1,0 +1,15 @@
+{"id": "D001-de", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D001-fr", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A\n", "rule_label": "CORRECT"}
+{"id": "D001-it", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D001-rm", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "INCORRECT", "judge_raw": "B", "rule_label": "INCORRECT"}
+{"id": "D002-de", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D002-fr", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D002-it", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D002-rm", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "INCORRECT", "judge_raw": "B", "rule_label": "INCORRECT"}
+{"id": "D003-de", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D003-fr", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D003-it", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D003-rm", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A", "rule_label": "CORRECT"}
+{"id": "D004-de", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A\n", "rule_label": "CORRECT"}
+{"id": "D004-fr", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A\n", "rule_label": "CORRECT"}
+{"id": "D004-it", "judge_model": "gemma-3-12b-it-q4_k_m", "judge_label": "CORRECT", "judge_raw": "A\n", "rule_label": "CORRECT"}
