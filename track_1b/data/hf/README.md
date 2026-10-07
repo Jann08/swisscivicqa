@@ -21,8 +21,16 @@ tags:
 configs:
 - config_name: eval
   data_files: eval.jsonl
-- config_name: responses
+- config_name: responses_apertus
   data_files: responses_apertus-v1.5-8b-text-q8_0.jsonl
+- config_name: judgments_apertus
+  data_files: judgments_apertus-v1.5-8b-text-q8_0.jsonl
+- config_name: responses_qwen3_baseline
+  data_files: responses_qwen3-8b-q8_0.jsonl
+- config_name: judgments_qwen3_baseline
+  data_files: judgments_qwen3-8b-q8_0.jsonl
+- config_name: human_review
+  data_files: human_review.jsonl
 - config_name: metadata
   data_files: metadata.jsonl
 ---
@@ -70,6 +78,7 @@ legal reasoning (single-hop factual recall only), of cantonal law, or of spoken 
 - `eval.jsonl` (test cases): `id` (`<fact>-<lang>`), `fact_id`, `language`, `question`, `gold_answer`, `gold_aliases`, `answer_type`, `category`, `source_citation`
 - `responses_apertus-v1.5-8b-text-q8_0.jsonl` (model responses): `id`, `model`, `prompt`, `response`, `finish_reason`, `params`, `latency_s`
 - `judgments_apertus-v1.5-8b-text-q8_0.jsonl`: `id`, `judge_model`, `judge_label`, `judge_raw`, `rule_label`
+- `responses_qwen3-8b-q8_0.jsonl`, `judgments_qwen3-8b-q8_0.jsonl`: same format for the Qwen3 8B baseline (thinking disabled)
 - `metadata.jsonl` (instance metadata): `id`, `article`, `paragraph`, `source_version`, `source_url`, `evidence_span`, `false_premise`, `license`, `license_note`, `contains_pii`, `authoring`, `glottocode`
 - `human_review.jsonl`: blind human labels for the 20% audit sample (pseudonymous annotator ID)
 

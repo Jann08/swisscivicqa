@@ -19,7 +19,7 @@ from pathlib import Path
 
 from .paths import project_root
 
-from . import build, parse, score, validate
+from . import build, pairs, parse, score, validate
 
 ROOT = project_root()
 RESULTS = ROOT / "results"
@@ -81,6 +81,11 @@ def check_metrics(model: str) -> int:
     rpath = ROOT / "data" / "results" / f"responses_{model}.jsonl"
     responses = {r["id"]: r["response"] for r in map(json.loads, open(rpath, encoding="utf-8"))} if rpath.exists() else {}
     metrics = score.compute(items, judgments, human, responses)
+    ppath = ROOT / "data" / "results" / f"pairs_{model}.jsonl"
+    if ppath.exists():
+        labels = {j["id"]: j["judge_label"] for j in judgments}
+        metrics["cross_lingual_signal_all_items"] = pairs.evaluate(
+            items, [json.loads(l) for l in open(ppath, encoding="utf-8") if l.strip()], labels)
     RESULTS.mkdir(exist_ok=True)
     (RESULTS / f"metrics_{model}.json").write_text(json.dumps(metrics, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{'lang':<5}{'acc':>7}{'CI95':>17}{'halluc.':>9}{'not att.':>10}")
@@ -89,7 +94,7 @@ def check_metrics(model: str) -> int:
               f"{m['hallucination_rate']:>9.3f}{m['not_attempted']:>10}")
     print("cross-lingual:", json.dumps(metrics["cross_lingual"]))
     print("judge vs rules:", json.dumps(metrics["judge_vs_rules"]))
-    for key in ("cross_lingual_signal", "judge_vs_human", "inter_annotator"):
+    for key in ("cross_lingual_signal", "cross_lingual_signal_all_items", "judge_vs_human", "inter_annotator"):
         if key in metrics:
             print(f"{key.replace('_', ' ')}:", json.dumps(metrics[key]))
     expected = RESULTS / "expected" / f"{model}.json"

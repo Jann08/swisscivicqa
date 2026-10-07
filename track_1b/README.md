@@ -45,6 +45,36 @@ tests/               unit tests (grading rules, metrics, parser, dataset integri
 docs/                challenge description, annotator consent form
 ```
 
+## Extending the benchmark
+
+**Evaluate another model** (any OpenAI-compatible endpoint, e.g. llama.cpp, vLLM, Ollama):
+
+```bash
+export PYTHONPATH=src
+python -m swisscivicqa.infer --base-url http://HOST:PORT/v1 --model my-model \
+    --out data/results/responses_my-model.jsonl \
+    [--extra-body '{"chat_template_kwargs": {"enable_thinking": false}}']
+python -m swisscivicqa.grade --responses data/results/responses_my-model.jsonl \
+    --judge-url http://JUDGE:PORT/v1 --judge-model gemma-3-12b-it-q4_k_m
+python -m swisscivicqa.pipeline verify      # picks up every judgments_*.jsonl automatically
+```
+
+**Add a fact:** append an entry to `data/source/facts_*.json` with question, answers and an evidence span per
+language, then run `python -m swisscivicqa.validate`: it fails until every evidence span occurs verbatim in the
+cited paragraph of the official text. `python -m swisscivicqa.show --langs de,fr,it,rm 139` prints an article in all
+languages side by side while writing.
+
+**Add a language** (e.g. English, which Fedlex also publishes): download the official HTML into `data/raw/`, add it to
+`SHA256SUMS` and to `LANGS` in `parse.py`/`validate.py`, and add `q`/`a`/`ev` entries for the new language.
+
+**Human audit:** `python -m swisscivicqa.review_sheet export-txt --responses ... --out DIR` writes a plain-text sheet
+(blind, no judge labels) for volunteers; `... import --annotator A3 FILE.txt` reads it back. Multiple annotators are
+merged by majority, and inter-annotator agreement is reported.
+
+## Results at a glance
+
+See `technical_report.md` / the PDF. Metrics per model are in `results/expected/`.
+
 ## AI assistance
 
 Questions, translations and code were drafted with the help of an AI assistant (Claude, Anthropic). Correctness of
