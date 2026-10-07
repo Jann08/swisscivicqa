@@ -1,0 +1,23 @@
+name: verify
+# Runs the judges' entry point on every push: clean checkout -> Docker -> `make run`.
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  make-run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: make run
+  unit-tests-python-versions:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ["3.10", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: pip install ./track_1b && cd track_1b && python -m unittest discover -s tests

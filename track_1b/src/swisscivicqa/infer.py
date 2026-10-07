@@ -12,7 +12,9 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+from .paths import project_root
+
+ROOT = project_root()
 # Short, neutral instruction in the question's language; keeps answers gradeable
 # without hinting at the answer.
 INSTRUCTION = {
@@ -24,8 +26,8 @@ INSTRUCTION = {
 PARAMS = {"temperature": 0.0, "top_p": 1.0, "max_tokens": 256, "seed": 42}
 
 
-def chat(base_url: str, model: str, prompt: str, retries: int = 3) -> dict:
-    body = json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}], **PARAMS}).encode()
+def chat(base_url: str, model: str, prompt: str, retries: int = 3, extra: dict | None = None) -> dict:
+    body = json.dumps({"model": model, "messages": [{"role": "user", "content": prompt}], **PARAMS, **(extra or {})}).encode()
     req = urllib.request.Request(f"{base_url}/chat/completions", data=body, headers={"Content-Type": "application/json"})
     for attempt in range(retries):
         try:
@@ -45,6 +47,7 @@ def main() -> None:
     ap.add_argument("--out", required=True)
     ap.add_argument("--dataset", default=str(ROOT / "data" / "dataset" / "eval.jsonl"))
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--extra-body", default="", help='extra JSON request fields, e.g. \'{"chat_template_kwargs": {"enable_thinking": false}}\'')
     args = ap.parse_args()
 
     items = [json.loads(l) for l in open(args.dataset, encoding="utf-8")]
@@ -61,14 +64,14 @@ def main() -> None:
                 continue
             prompt = f"{INSTRUCTION[item['language']]}\n\n{item['question']}"
             t0 = time.time()
-            resp = chat(args.base_url, args.model, prompt)
+            resp = chat(args.base_url, args.model, prompt, extra=json.loads(args.extra_body) if args.extra_body else None)
             fh.write(json.dumps({
                 "id": item["id"],
                 "model": args.model,
                 "prompt": prompt,
                 "response": resp["choices"][0]["message"]["content"],
                 "finish_reason": resp["choices"][0].get("finish_reason"),
-                "params": PARAMS,
+                "params": {**PARAMS, **(json.loads(args.extra_body) if args.extra_body else {})},
                 "latency_s": round(time.time() - t0, 2),
             }, ensure_ascii=False) + "\n")
             fh.flush()

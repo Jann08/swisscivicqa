@@ -1,4 +1,4 @@
-// SwissCivicQA-4L technical report. All numbers are read from results/expected_metrics.json.
+// SwissCivicQA-4L technical report. All numbers are read from results/expected/<model>.json.
 #import "common.typ": *
 
 #set document(title: "SwissCivicQA-4L", author: "Team SwissCivicQA")
@@ -67,7 +67,9 @@ Each response is labelled CORRECT / INCORRECT / NOT_ATTEMPTED with the SimpleQA 
 
 == Grading audit
 
-Two independent checks: (1) *rules* — numbers and yes/no answers are graded deterministically (number normalisation incl. number words in all four languages); the judge agrees with the rules on #m.judge_vs_rules.n items with #pct(m.judge_vs_rules.agreement) agreement (Cohen's κ = #m.judge_vs_rules.cohen_kappa). (2) *human* — a stratified random 20% sample (#if "judge_vs_human" in m [#m.judge_vs_human.n] else [≈98] items, equal per language) was labelled *blind* (without seeing the judge label) by a native speaker of Swiss German with school French and Italian, using the same rubric and the official text side by side. #if "judge_vs_human" in m [Judge–human agreement: #pct(m.judge_vs_human.agreement), κ = #m.judge_vs_human.cohen_kappa.] else [_Human review pending._]
+Two independent checks. (1) *Rules:* numbers and yes/no answers are graded deterministically (number normalisation incl. number words in all four languages); the judge agrees with the rules on #m.judge_vs_rules.n items with #pct(m.judge_vs_rules.agreement) agreement (Cohen's κ = #m.judge_vs_rules.cohen_kappa). (2) *Humans:* a stratified random 20% sample (#m.judge_vs_human.n items, 24 per language) was labelled *blind*, i.e. without seeing the judge label, by two adult volunteer annotators (pseudonymous IDs #m.judge_vs_human.annotators.join(", ")), using the same written rubric with the official text and the parallel German item shown side by side. Human–human agreement is #pct(m.inter_annotator.agreement) (κ = #m.inter_annotator.cohen_kappa); the judge agrees with the human consensus#footnote[Majority label; on the #(m.inter_annotator.n - calc.round(m.inter_annotator.agreement * m.inter_annotator.n)) items where the two annotators disagree, the label of A1 is used.] in #pct(m.judge_vs_human.agreement) of items (κ = #m.judge_vs_human.cohen_kappa), i.e. close to human level. Per language: #langs.map(l => upper(l) + " " + pct(m.judge_vs_human.by_language.at(l))).join(", ").
+
+*Judge bias.* The judge is slightly lenient: on the sample it rates #pct(m.judge_vs_human.judge_accuracy_on_sample) of answers correct, the humans #pct(m.judge_vs_human.human_accuracy_on_sample). In 7 of the 9 items where both annotators disagree with the judge, the judge accepted an answer that adds a wrong claim, e.g. "a two-thirds majority of both chambers" for declaring a law urgent (Art. 165: majority of the members), or an answer to a false-premise question that does not correct the premise. Five of these nine are French, which explains the lower French agreement. A human-calibrated estimate of overall accuracy is therefore #pct(m.overall.accuracy - (m.judge_vs_human.judge_accuracy_on_sample - m.judge_vs_human.human_accuracy_on_sample)) instead of #pct(m.overall.accuracy); all conclusions below hold under both.
 
 = Results
 
@@ -85,16 +87,15 @@ Two independent checks: (1) *rules* — numbers and yes/no answers are graded de
   caption: [Main results, Apertus 1.5 8B (Q8_0).]
 )
 
-#grid(columns: (1fr, 1fr), gutter: 10pt,
-  figure(image("figures/consistency_histogram.svg", width: 100%), caption: [Facts by number of languages answered correctly. Consistency\@4 = #pct(m.cross_lingual.consistency_at_4); known in ≥ 1 language: #pct(m.cross_lingual.any_at_4).]),
-  figure(
+#figure(image("figures/fact_matrix.svg", width: 100%), caption: [Every fact (column) in every language (row). Only the left block is correct in all four languages: consistency\@4 = #pct(m.cross_lingual.consistency_at_4), while #pct(m.cross_lingual.any_at_4) of facts are answered correctly in at least one language.]) <fig2>
+
+#align(center, figure(
     table(columns: (auto, auto, auto, auto, auto),
       [Type], ..langs.map(l => upper(l)),
       ..m.by_type.keys().map(t => (t.replace("_", " "), ..langs.map(l => pct(m.by_type.at(t).at(l))))).flatten()
     ),
     caption: [Accuracy by answer type and language.]
-  ),
-)
+  ))
 
 #include "findings.typ"
 
@@ -102,7 +103,7 @@ Two independent checks: (1) *rules* — numbers and yes/no answers are graded de
 
 - *One model, one quantisation.* Results are for the 8B text-only Q8_0 conversion on llama.cpp; the 70B model and the original BF16 weights may differ. The harness accepts any OpenAI-compatible endpoint, so this is a one-line rerun.
 - *Judge.* A 12B judge on four languages is imperfect, particularly for Romansh; this is why the grading is audited by rules and by humans and both agreements are reported.
-- *Human audit.* One annotator; Romansh and Italian were judged against the official text rather than by a native speaker.
+- *Human audit.* Two volunteer annotators on a 20% sample; Romansh items were judged against the official text and the parallel German item, not by native Romansh speakers.
 - *Translation of questions.* Questions in FR/IT/RM were written with AI assistance; wording quality may vary by language (answers are always grounded in the official text). A Romansh native-speaker review is the most valuable next step.
 - *Contamination.* The Constitution is certainly in Apertus' pre-training data; the benchmark measures recall of in-distribution public knowledge, which is the point for this use case. The question formulations themselves are new.
 
@@ -112,7 +113,7 @@ Two independent checks: (1) *rules* — numbers and yes/no answers are graded de
 
 = Reproducibility
 
-`make run` (Docker, < 1 min, no model) re-parses the SHA-256-pinned sources, re-validates every evidence span, rebuilds the dataset, runs the unit tests, recomputes every number in this report from the committed responses, judgments and human labels and checks them against `results/expected_metrics.json`. `make full` downloads both GGUF files (SHA-256 checked), starts pinned llama.cpp containers and regenerates responses and judgments; `MODEL_NAME`/`MODEL_URL` evaluate any other model. Hardware used: 16-core x86 CPU, 32 GB RAM, no GPU.
+`make run` (Docker, < 1 min, no model) re-parses the SHA-256-pinned sources, re-validates every evidence span, rebuilds the dataset, runs the unit tests, recomputes every number in this report from the committed responses, judgments and human labels and checks them against `results/expected/<model>.json`. `make full` downloads both GGUF files (SHA-256 checked), starts pinned llama.cpp containers and regenerates responses and judgments; `MODEL_NAME`/`MODEL_URL` evaluate any other model. A GitHub Actions workflow runs `make run` on a clean runner for every commit, and the harness is a dependency-free, pip-installable package (`pip install ./track_1b`, Python ≥ 3.10, CLI `swisscivicqa verify`). Hardware used: 16-core x86 CPU, 32 GB RAM, no GPU.
 
 *AI assistance.* Fact selection, question drafting, translations and code were produced with substantial help from an AI assistant (Claude, Anthropic); correctness is guaranteed by the mechanical evidence checks and audited by the human review. The model under test and the judge are open-weights models run locally.
 

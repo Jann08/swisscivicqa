@@ -11,7 +11,9 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+from .paths import project_root
+
+ROOT = project_root()
 LANGS = ("de", "fr", "it", "rm")
 TYPES = {"number", "entity", "list", "yes_no", "false_premise"}
 EXCLUDED_ARTICLES = {"127"}  # amended with effect from 2029-01-01, answer would change

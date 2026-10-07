@@ -12,7 +12,9 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+from .paths import project_root
+
+ROOT = project_root()
 OUT_DIR = ROOT / "data" / "human_review"
 KEYS = {"1": "CORRECT", "2": "INCORRECT", "3": "NOT_ATTEMPTED"}
 GUIDE = """

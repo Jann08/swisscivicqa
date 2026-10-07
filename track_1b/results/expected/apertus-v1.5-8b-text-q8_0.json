@@ -227,5 +227,27 @@
   "n": 138,
   "agreement": 0.9783,
   "cohen_kappa": 0.9542
+ },
+ "judge_vs_human": {
+  "n": 96,
+  "annotators": [
+   "A1",
+   "A2"
+  ],
+  "agreement": 0.8646,
+  "cohen_kappa": 0.7392,
+  "human_accuracy_on_sample": 0.4479,
+  "judge_accuracy_on_sample": 0.4792,
+  "by_language": {
+   "de": 0.9583,
+   "fr": 0.6667,
+   "it": 0.9583,
+   "rm": 0.875
+  }
+ },
+ "inter_annotator": {
+  "n": 96,
+  "agreement": 0.8854,
+  "cohen_kappa": 0.7833
  }
 }

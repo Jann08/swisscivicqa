@@ -7,7 +7,9 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+from .paths import project_root
+
+ROOT = project_root()
 LANGS = ("de", "fr", "it", "rm")
 LANG_LABEL = {"de": "German", "fr": "French", "it": "Italian", "rm": "Romansh"}
 # Validated (light mode, CVD-safe): blue = correct, orange = incorrect; neutral grey = not attempted.
@@ -98,6 +100,49 @@ def consistency_histogram(items: dict, judgments: list) -> str:
     return "\n".join(out)
 
 
+def fact_matrix(items: dict, judgments: list) -> str:
+    """One column per fact, one row per language; facts sorted by how many languages got them right."""
+    label = {}
+    for j in judgments:
+        it = items[j["id"]]
+        label[(it["fact_id"], it["language"])] = j["judge_label"]
+    facts = sorted({f for f, _ in label},
+                   key=lambda f: (-sum(label.get((f, l)) == "CORRECT" for l in LANGS), f))
+    cell, gap, left, top = 4.6, 0.8, 70, 34
+    w = left + len(facts) * (cell + gap) + 12
+    h = top + len(LANGS) * (cell * 4 + 4) + 40
+    color = {"CORRECT": C_CORRECT, "INCORRECT": C_INCORRECT, "NOT_ATTEMPTED": C_NA}
+    out = [f"<svg xmlns='http://www.w3.org/2000/svg' width='{w:.0f}' height='{h:.0f}' viewBox='0 0 {w:.0f} {h:.0f}'>",
+           f"<rect width='{w:.0f}' height='{h:.0f}' fill='{SURFACE}'/>"]
+    lx = left
+    for name, col in [("Correct", C_CORRECT), ("Not attempted", C_NA), ("Incorrect", C_INCORRECT)]:
+        out.append(f"<rect x='{lx}' y='10' width='12' height='12' rx='2' fill='{col}'/>")
+        out.append(text(lx + 17, 20, name, 11, INK2))
+        lx += 17 + len(name) * 6.4 + 22
+    row_h = cell * 4
+    for r, lang in enumerate(LANGS):
+        y = top + r * (row_h + 4)
+        out.append(text(left - 8, y + row_h / 2 + 4, LANG_LABEL[lang], 11, INK, "end"))
+        for c, f in enumerate(facts):
+            x = left + c * (cell + gap)
+            out.append(f"<rect x='{x:.1f}' y='{y:.1f}' width='{cell:.1f}' height='{row_h:.1f}' fill='{color[label[(f, lang)]]}'/>")
+    # boundaries between groups (4/4, 3/4, ...)
+    counts = [sum(label[(f, l)] == "CORRECT" for l in LANGS) for f in facts]
+    y_end = top + len(LANGS) * (row_h + 4)
+    start = 0
+    for c in range(1, len(facts) + 1):
+        if c == len(facts) or counts[c] != counts[start]:
+            mid = left + (start + c) / 2 * (cell + gap)
+            out.append(text(mid, y_end + 12, f"{counts[start]}/4", 10, INK2, "middle"))
+            if c < len(facts):
+                x = left + c * (cell + gap) - gap / 2
+                out.append(f"<line x1='{x:.1f}' x2='{x:.1f}' y1='{top - 4}' y2='{y_end + 2}' stroke='{INK}' stroke-width='0.8'/>")
+            start = c
+    out.append(text(left + (w - left) / 2, h - 6, f"{len(facts)} facts, grouped by number of languages answered correctly", 11, INK2, "middle"))
+    out.append("</svg>")
+    return "\n".join(out)
+
+
 def main() -> None:
     metrics_path, judgments_path, out_dir = sys.argv[1:4]
     metrics = json.loads(Path(metrics_path).read_text(encoding="utf-8"))
@@ -107,6 +152,7 @@ def main() -> None:
     out.mkdir(parents=True, exist_ok=True)
     (out / "outcomes_by_language.svg").write_text(outcomes_by_language(metrics), encoding="utf-8")
     (out / "consistency_histogram.svg").write_text(consistency_histogram(items, judgments), encoding="utf-8")
+    (out / "fact_matrix.svg").write_text(fact_matrix(items, judgments), encoding="utf-8")
     print(f"wrote figures to {out}")
 
 

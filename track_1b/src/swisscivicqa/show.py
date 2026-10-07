@@ -6,7 +6,9 @@ import argparse
 import json
 from pathlib import Path
 
-PROCESSED = Path(__file__).resolve().parents[2] / "data" / "processed"
+from .paths import project_root
+
+PROCESSED = project_root() / "data" / "processed"
 
 
 def main() -> None:

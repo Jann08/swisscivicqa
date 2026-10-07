@@ -2,7 +2,7 @@
 
   verify (default): rebuild the dataset from the official text, run the tests, recompute all
                     metrics from the committed model responses / judgments / human review and
-                    check them against results/expected_metrics.json. Needs no model or GPU.
+                    check them against results/expected/<model>.json. Needs no model or GPU.
   full:             additionally re-run inference and judging against OpenAI-compatible
                     endpoints (MODEL_URL, JUDGE_URL), e.g. the llama.cpp services in
                     docker-compose.full.yml. Works for any model: set MODEL_NAME.
@@ -17,9 +17,11 @@ import sys
 import unittest
 from pathlib import Path
 
+from .paths import project_root
+
 from . import build, parse, score, validate
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = project_root()
 RESULTS = ROOT / "results"
 DEFAULT_MODEL = "apertus-v1.5-8b-text-q8_0"
 DEFAULT_JUDGE = "gemma-3-12b-it-q4_k_m"
@@ -67,34 +69,33 @@ def run_models(model: str, judge: str) -> None:
                     "--judge-url", judge_url, "--judge-model", judge], check=True)
 
 
-def check_metrics(model: str, judge: str) -> int:
-    step("Computing metrics")
+def check_metrics(model: str) -> int:
+    """Recompute metrics for one model and compare with results/expected/<model>.json if present."""
+    step(f"Computing metrics: {model}")
     items = {i["id"]: i for i in map(json.loads, open(ROOT / "data" / "dataset" / "eval.jsonl", encoding="utf-8"))}
     jpath = ROOT / "data" / "results" / f"judgments_{model}.jsonl"
     judgments = [json.loads(l) for l in open(jpath, encoding="utf-8") if l.strip()]
+    # The blind human audit was done on the reference model's responses only.
     hpath = ROOT / "data" / "human_review" / "review.jsonl"
-    human = [json.loads(l) for l in open(hpath, encoding="utf-8")] if hpath.exists() else []
+    human = [json.loads(l) for l in open(hpath, encoding="utf-8")] if model == DEFAULT_MODEL and hpath.exists() else []
     metrics = score.compute(items, judgments, human)
     RESULTS.mkdir(exist_ok=True)
-    out = RESULTS / f"metrics_{model}.json"
-    out.write_text(json.dumps(metrics, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
-    bl = metrics["by_language"]
+    (RESULTS / f"metrics_{model}.json").write_text(json.dumps(metrics, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"{'lang':<5}{'acc':>7}{'CI95':>17}{'halluc.':>9}{'not att.':>10}")
-    for lang, m in bl.items():
+    for lang, m in metrics["by_language"].items():
         print(f"{lang:<5}{m['accuracy']:>7.3f}  [{m['accuracy_ci95'][0]:.3f}, {m['accuracy_ci95'][1]:.3f}]"
               f"{m['hallucination_rate']:>9.3f}{m['not_attempted']:>10}")
     print("cross-lingual:", json.dumps(metrics["cross_lingual"]))
     print("judge vs rules:", json.dumps(metrics["judge_vs_rules"]))
-    if "judge_vs_human" in metrics:
-        print("judge vs human:", json.dumps(metrics["judge_vs_human"]))
-
-    expected = RESULTS / "expected_metrics.json"
-    if model == DEFAULT_MODEL and expected.exists():
-        step("Self-check against results/expected_metrics.json")
+    for key in ("judge_vs_human", "inter_annotator"):
+        if key in metrics:
+            print(f"{key.replace('_', ' ')}:", json.dumps(metrics[key]))
+    expected = RESULTS / "expected" / f"{model}.json"
+    if expected.exists():
         if json.loads(expected.read_text(encoding="utf-8")) != metrics:
-            print("MISMATCH: recomputed metrics differ from the published ones")
+            print(f"MISMATCH: recomputed metrics for {model} differ from {expected.relative_to(ROOT)}")
             return 1
-        print("ok: recomputed metrics are identical to the published ones")
+        print(f"ok: identical to published {expected.relative_to(ROOT)}")
     return 0
 
 
@@ -107,7 +108,13 @@ def main() -> None:
         run_models(model, judge)
     elif mode != "verify":
         raise SystemExit(f"unknown mode {mode}")
-    sys.exit(check_metrics(model, judge))
+    models = sorted(p.stem.removeprefix("judgments_") for p in (ROOT / "data" / "results").glob("judgments_*.jsonl"))
+    if mode == "full" and model not in models:
+        models.append(model)
+    failures = sum(check_metrics(m) for m in models)
+    step("Summary")
+    print(f"{len(models)} model(s) verified, {failures} mismatch(es)")
+    sys.exit(1 if failures else 0)
 
 
 if __name__ == "__main__":

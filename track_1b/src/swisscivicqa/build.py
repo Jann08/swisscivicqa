@@ -9,9 +9,11 @@ import hashlib
 import json
 from pathlib import Path
 
+from .paths import project_root
+
 from .validate import LANGS, check, load_facts
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = project_root()
 OUT = ROOT / "data" / "dataset"
 VERSION = "20240303"
 FEDLEX = "https://www.fedlex.admin.ch/eli/cc/1999/404/{date}/{lang}"

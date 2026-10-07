@@ -102,8 +102,7 @@ The source text is produced by the Swiss Confederation (Federal Chancellery). Th
 #### Ownership and Consent Management
 
 Official enactments are in the public domain (Art. 5 para. 1 lit. a URG). Questions, answer formulations and labels
-are original work of the curators released under CDLA-Permissive-2.0. The human audit labels were produced by a team
-member who consented to publication under a pseudonymous ID and to their use for AI purposes; the consent form
+are original work of the curators released under CDLA-Permissive-2.0. The human audit labels were produced by two adult volunteers who consented to publication under a pseudonymous ID and to their use for AI purposes; the consent form
 template is `docs/consent_form_annotator.md` in the git repository.
 
 #### Data Processing and Quality Control
@@ -124,13 +123,14 @@ Every row of `metadata.jsonl` states `license: CDLA-Permissive-2.0` and a `licen
 Gold answers are taken from the official text (no subjective annotation). Model responses were labelled
 CORRECT / INCORRECT / NOT_ATTEMPTED by an LLM judge (gemma-3-12b-it Q4_K_M, SimpleQA grader template adapted for
 language, lists and false premises), cross-checked by deterministic rules for number and yes/no items, and audited by
-a blind human review of a stratified random 20% sample (24 items per language) using the same written rubric.
+a blind human review of a stratified random 20% sample (24 items per language) by two annotators using the same written rubric.
 
 #### Annotator Details
 
-One annotator (ID `A1`): native speaker of Swiss German with school French and Italian; for Romansh items the
-annotator compares against the official Romansh text and the parallel German item. Annotation guidelines are printed
-by the review tool (`src/swisscivicqa/review.py`).
+Two adult volunteer annotators (pseudonymous IDs `A1`, `A2`), each labelling the full 96-item sample independently
+and blind to the judge labels. For French, Italian and Romansh items the parallel German question and answer were shown
+alongside the official text. Annotation guidelines are part of the export (`src/swisscivicqa/review_sheet.py`).
+Human–human agreement and judge–human agreement are reported in the technical report.
 
 ## Risks, Bias, and Limitations
 

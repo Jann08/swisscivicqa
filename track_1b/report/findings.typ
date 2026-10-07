@@ -1,5 +1,5 @@
 #import "common.typ": *
-// Findings section. Numbers come from `m` (results/expected_metrics.json); quoted answers are fixed model outputs.
+// Findings section. Numbers come from `m` (results/expected/<model>.json); quoted answers are fixed model outputs.
 == Findings
 
 *1. Equal averages hide unequal knowledge.* Accuracy per language lies within a few points (Table 1, overlapping confidence intervals), so an aggregate benchmark would report Apertus as "equally good" in all four languages. At the level of individual facts this is false: #pct(m.cross_lingual.any_at_4) of facts are answered correctly in *at least one* language, but only #pct(m.cross_lingual.consistency_at_4) in *all four*; #m.cross_lingual.known_somewhere_but_not_everywhere facts are known somewhere but not everywhere (Fig. 2). Pairwise label agreement between languages is only #pct(calc.min(..m.cross_lingual.pairwise_agreement.values()))–#pct(calc.max(..m.cross_lingual.pairwise_agreement.values())). Example: the 100 000 signatures for an initiative on total revision (Art. 138) are known in German, while French and Italian answer "80 000" and Romansh "100 000 votantas e 60 000 votants".

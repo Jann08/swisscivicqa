@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "swisscivicqa"
+version = "1.0.0"
+description = "SwissCivicQA-4L: cross-lingual factuality benchmark on the Swiss Federal Constitution (DE/FR/IT/RM)"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.10"
+dependencies = []  # standard library only
+
+[project.scripts]
+swisscivicqa = "swisscivicqa.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

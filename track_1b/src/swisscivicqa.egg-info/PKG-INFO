@@ -1,3 +1,11 @@
+Metadata-Version: 2.4
+Name: swisscivicqa
+Version: 1.0.0
+Summary: SwissCivicQA-4L: cross-lingual factuality benchmark on the Swiss Federal Constitution (DE/FR/IT/RM)
+License-Expression: Apache-2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
 # SwissCivicQA-4L: does Apertus know the Swiss Constitution equally well in all four national languages?
 
 **Track 1B: Swiss Voices · Core Task Intelligence** · Hack Apertus Online 2026

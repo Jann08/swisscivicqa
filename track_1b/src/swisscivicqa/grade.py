@@ -13,7 +13,9 @@ import time
 import urllib.request
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+from .paths import project_root
+
+ROOT = project_root()
 LABELS = {"A": "CORRECT", "B": "INCORRECT", "C": "NOT_ATTEMPTED"}
 
 # Adapted from the SimpleQA grader template (openai/simple-evals, MIT licence).

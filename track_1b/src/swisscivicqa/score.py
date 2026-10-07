@@ -18,7 +18,9 @@ import random
 from collections import defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
+from .paths import project_root
+
+ROOT = project_root()
 LANGS = ("de", "fr", "it", "rm")
 
 
