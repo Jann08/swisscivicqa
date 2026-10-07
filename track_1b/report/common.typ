@@ -5,3 +5,4 @@
 #let langs = ("de", "fr", "it", "rm")
 #let ink2 = rgb("#52514e")
 #let q = json("../results/expected/qwen3-8b-q8_0.json")
+#let c = json("../results/expected/comparison.json")

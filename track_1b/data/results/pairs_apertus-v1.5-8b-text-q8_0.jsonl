@@ -1,0 +1,11 @@
+{"fact_id": "D001", "a": "de", "b": "fr", "same": false, "raw": "DIFFERENT", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D001", "a": "de", "b": "it", "same": false, "raw": "DIFFERENT", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D001", "a": "de", "b": "rm", "same": false, "raw": "DIFFERENT", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D001", "a": "fr", "b": "it", "same": true, "raw": "SAME", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D001", "a": "fr", "b": "rm", "same": false, "raw": "DIFFERENT", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D001", "a": "it", "b": "rm", "same": false, "raw": "DIFFERENT", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D002", "a": "de", "b": "fr", "same": true, "raw": "SAME", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D002", "a": "de", "b": "it", "same": true, "raw": "SAME", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D002", "a": "de", "b": "rm", "same": false, "raw": "DIFFERENT", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D002", "a": "fr", "b": "it", "same": true, "raw": "SAME", "judge_model": "gemma-3-12b-it-q4_k_m"}
+{"fact_id": "D002", "a": "fr", "b": "rm", "same": false, "raw": "DIFFERENT", "judge_model": "gemma-3-12b-it-q4_k_m"}

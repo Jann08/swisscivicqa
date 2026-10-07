@@ -1,0 +1,48 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='620' height='250' viewBox='0 0 620 250'>
+<rect width='620' height='250' fill='#ffffff'/>
+<rect x='44' y='10' width='12' height='12' rx='2' fill='#2a78d6'/>
+<text x='61.0' y='20.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='start' font-weight='normal'>Apertus 1.5 8B</text>
+<rect x='176.60000000000002' y='10' width='12' height='12' rx='2' fill='#1baf7a'/>
+<text x='193.6' y='20.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='start' font-weight='normal'>Qwen3 8B (baseline)</text>
+<line x1='44' x2='604' y1='210.0' y2='210.0' stroke='#e4e2dc' stroke-width='1'/>
+<text x='38.0' y='214.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='end' font-weight='normal'>0%</text>
+<line x1='44' x2='604' y1='151.3' y2='151.3' stroke='#e4e2dc' stroke-width='1'/>
+<text x='38.0' y='155.3' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='end' font-weight='normal'>25%</text>
+<line x1='44' x2='604' y1='92.7' y2='92.7' stroke='#e4e2dc' stroke-width='1'/>
+<text x='38.0' y='96.7' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='end' font-weight='normal'>50%</text>
+<line x1='44' x2='604' y1='34.0' y2='34.0' stroke='#e4e2dc' stroke-width='1'/>
+<text x='38.0' y='38.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#52514e' text-anchor='end' font-weight='normal'>75%</text>
+<path d='M63.2,210.0 V112.1 Q63.2,108.1 67.2,108.1 H95.0 Q99.0,108.1 99.0,112.1 V210.0 Z' fill='#2a78d6'/>
+<line x1='81.1' x2='81.1' y1='129.2' y2='86.9' stroke='#0b0b0b' stroke-width='1'/>
+<text x='81.1' y='82.9' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>43</text>
+<path d='M101.0,210.0 V125.5 Q101.0,121.5 105.0,121.5 H132.8 Q136.8,121.5 136.8,125.5 V210.0 Z' fill='#1baf7a'/>
+<line x1='118.9' x2='118.9' y1='140.7' y2='100.4' stroke='#0b0b0b' stroke-width='1'/>
+<text x='118.9' y='96.4' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>38</text>
+<text x='100.0' y='226.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='middle' font-weight='normal'>German</text>
+<path d='M175.2,210.0 V110.1 Q175.2,106.1 179.2,106.1 H207.0 Q211.0,106.1 211.0,110.1 V210.0 Z' fill='#2a78d6'/>
+<line x1='193.1' x2='193.1' y1='125.4' y2='85.0' stroke='#0b0b0b' stroke-width='1'/>
+<text x='193.1' y='81.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>44</text>
+<path d='M213.0,210.0 V117.8 Q213.0,113.8 217.0,113.8 H244.8 Q248.8,113.8 248.8,117.8 V210.0 Z' fill='#1baf7a'/>
+<line x1='230.9' x2='230.9' y1='135.0' y2='92.7' stroke='#0b0b0b' stroke-width='1'/>
+<text x='230.9' y='88.7' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>41</text>
+<text x='212.0' y='226.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='middle' font-weight='normal'>French</text>
+<path d='M287.2,210.0 V104.4 Q287.2,100.4 291.2,100.4 H319.0 Q323.0,100.4 323.0,104.4 V210.0 Z' fill='#2a78d6'/>
+<line x1='305.1' x2='305.1' y1='119.6' y2='79.2' stroke='#0b0b0b' stroke-width='1'/>
+<text x='305.1' y='75.2' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>47</text>
+<path d='M325.0,210.0 V108.2 Q325.0,104.2 329.0,104.2 H356.8 Q360.8,104.2 360.8,108.2 V210.0 Z' fill='#1baf7a'/>
+<line x1='342.9' x2='342.9' y1='125.4' y2='83.0' stroke='#0b0b0b' stroke-width='1'/>
+<text x='342.9' y='79.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>45</text>
+<text x='324.0' y='226.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='middle' font-weight='normal'>Italian</text>
+<path d='M399.2,210.0 V106.3 Q399.2,102.3 403.2,102.3 H431.0 Q435.0,102.3 435.0,106.3 V210.0 Z' fill='#2a78d6'/>
+<line x1='417.1' x2='417.1' y1='123.4' y2='81.1' stroke='#0b0b0b' stroke-width='1'/>
+<text x='417.1' y='77.1' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>46</text>
+<path d='M437.0,210.0 V133.2 Q437.0,129.2 441.0,129.2 H468.8 Q472.8,129.2 472.8,133.2 V210.0 Z' fill='#1baf7a'/>
+<line x1='454.9' x2='454.9' y1='148.4' y2='110.0' stroke='#0b0b0b' stroke-width='1'/>
+<text x='454.9' y='106.0' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>34</text>
+<text x='436.0' y='226.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='middle' font-weight='normal'>Romansh</text>
+<path d='M511.2,210.0 V158.2 Q511.2,154.2 515.2,154.2 H543.0 Q547.0,154.2 547.0,158.2 V210.0 Z' fill='#2a78d6'/>
+<text x='529.1' y='149.2' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>24</text>
+<path d='M549.0,210.0 V181.3 Q549.0,177.3 553.0,177.3 H580.8 Q584.8,177.3 584.8,181.3 V210.0 Z' fill='#1baf7a'/>
+<text x='566.9' y='172.3' font-family='Liberation Sans, Arial, sans-serif' font-size='10' fill='#0b0b0b' text-anchor='middle' font-weight='normal'>14</text>
+<text x='548.0' y='226.0' font-family='Liberation Sans, Arial, sans-serif' font-size='11' fill='#52514e' text-anchor='middle' font-weight='normal'>All 4 (consistency)</text>
+</svg>

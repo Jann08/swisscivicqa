@@ -64,6 +64,14 @@ class TestSignal(unittest.TestCase):
         self.assertEqual(signal.auroc([1.0, 0.5], [0.0]), 1.0)
 
 
+class TestCompare(unittest.TestCase):
+    def test_mcnemar_exact(self):
+        from swisscivicqa import compare
+        self.assertEqual(compare.mcnemar_exact(0, 0), 1.0)
+        self.assertAlmostEqual(compare.mcnemar_exact(10, 0), 2 / 1024)
+        self.assertEqual(compare.mcnemar_exact(5, 5), 1.0)
+
+
 class TestParse(unittest.TestCase):
     def test_nested_lists_are_attached_to_paragraph(self):
         body = '<p class="absatz"><sup>1</sup> Intro:</p><dl><dt>a.</dt><dd>x<dl><dt>1.</dt><dd>y</dd></dl></dd></dl>'

@@ -1,0 +1,80 @@
+{
+ "model_a": "apertus-v1.5-8b-text-q8_0",
+ "model_b": "qwen3-8b-q8_0",
+ "accuracy": {
+  "all": {
+   "n": 488,
+   "diff": 0.0553,
+   "ci95": [
+    -0.0102,
+    0.125
+   ],
+   "only_a_correct": 91,
+   "only_b_correct": 64,
+   "mcnemar_p": 0.0364
+  },
+  "de": {
+   "n": 122,
+   "diff": 0.0574,
+   "ci95": [
+    -0.0328,
+    0.1557
+   ],
+   "only_a_correct": 22,
+   "only_b_correct": 15,
+   "mcnemar_p": 0.324
+  },
+  "fr": {
+   "n": 122,
+   "diff": 0.0328,
+   "ci95": [
+    -0.0656,
+    0.123
+   ],
+   "only_a_correct": 20,
+   "only_b_correct": 16,
+   "mcnemar_p": 0.6177
+  },
+  "it": {
+   "n": 122,
+   "diff": 0.0164,
+   "ci95": [
+    -0.082,
+    0.1148
+   ],
+   "only_a_correct": 20,
+   "only_b_correct": 18,
+   "mcnemar_p": 0.8714
+  },
+  "rm": {
+   "n": 122,
+   "diff": 0.1148,
+   "ci95": [
+    0.0082,
+    0.2213
+   ],
+   "only_a_correct": 29,
+   "only_b_correct": 15,
+   "mcnemar_p": 0.0488
+  }
+ },
+ "consistency_at_4": {
+  "facts": 122,
+  "a": 29,
+  "b": 17,
+  "only_a": 18,
+  "only_b": 6,
+  "mcnemar_p": 0.0227
+ },
+ "false_premise": {
+  "n": 80,
+  "diff": -0.175,
+  "ci95": [
+   -0.3,
+   -0.0625
+  ],
+  "only_a_correct": 4,
+  "only_b_correct": 18,
+  "mcnemar_p": 0.0043
+ }
+}

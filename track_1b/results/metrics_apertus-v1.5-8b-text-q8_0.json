@@ -265,5 +265,24 @@
   "n": 96,
   "agreement": 0.8854,
   "cohen_kappa": 0.7833
+ },
+ "cross_lingual_signal_all_items": {
+  "n": 1,
+  "agree_all": {
+   "n": 0,
+   "p_correct": null
+  },
+  "agree_some": {
+   "n": 0,
+   "p_correct": null
+  },
+  "agree_none": {
+   "n": 1,
+   "p_correct": 1.0
+  },
+  "auroc": null,
+  "auroc_by_type": {
+   "number": null
+  }
  }
 }

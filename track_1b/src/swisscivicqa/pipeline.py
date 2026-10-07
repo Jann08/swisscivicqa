@@ -19,7 +19,7 @@ from pathlib import Path
 
 from .paths import project_root
 
-from . import build, pairs, parse, score, validate
+from . import build, compare, pairs, parse, score, validate
 
 ROOT = project_root()
 RESULTS = ROOT / "results"
@@ -106,6 +106,35 @@ def check_metrics(model: str) -> int:
     return 0
 
 
+BASELINE = "qwen3-8b-q8_0"
+
+
+def check_comparison(models: list) -> int:
+    """Paired comparison reference model vs. baseline, verified like the per-model metrics."""
+    if DEFAULT_MODEL not in models or BASELINE not in models:
+        return 0
+    step(f"Paired comparison: {DEFAULT_MODEL} vs {BASELINE}")
+    items = {i["id"]: i for i in map(json.loads, open(ROOT / "data" / "dataset" / "eval.jsonl", encoding="utf-8"))}
+    a = compare.load_labels(ROOT / "data" / "results" / f"judgments_{DEFAULT_MODEL}.jsonl")
+    b = compare.load_labels(ROOT / "data" / "results" / f"judgments_{BASELINE}.jsonl")
+    fp = {i: it for i, it in items.items() if it["answer_type"] == "false_premise"}
+    res = {"model_a": DEFAULT_MODEL, "model_b": BASELINE, "accuracy": compare.paired(items, a, b),
+           "consistency_at_4": compare.consistency_diff(items, a, b), "false_premise": compare.paired(fp, a, b)["all"]}
+    for scope, r in res["accuracy"].items():
+        print(f"{scope:<4} diff {r['diff']:+.3f}  CI95 [{r['ci95'][0]:+.3f}, {r['ci95'][1]:+.3f}]  McNemar p={r['mcnemar_p']}")
+    print("consistency@4:", json.dumps(res["consistency_at_4"]))
+    print("false premise:", json.dumps(res["false_premise"]))
+    expected = RESULTS / "expected" / "comparison.json"
+    if expected.exists():
+        if json.loads(expected.read_text(encoding="utf-8")) != res:
+            print("MISMATCH: comparison differs from results/expected/comparison.json")
+            return 1
+        print("ok: identical to published results/expected/comparison.json")
+    else:
+        expected.write_text(json.dumps(res, indent=1) + "\n", encoding="utf-8")
+    return 0
+
+
 def main() -> None:
     mode = sys.argv[1] if len(sys.argv) > 1 else "verify"
     model = os.environ.get("MODEL_NAME", DEFAULT_MODEL)
@@ -119,6 +148,7 @@ def main() -> None:
     if mode == "full" and model not in models:
         models.append(model)
     failures = sum(check_metrics(m) for m in models)
+    failures += check_comparison(models)
     step("Summary")
     print(f"{len(models)} model(s) verified, {failures} mismatch(es)")
     sys.exit(1 if failures else 0)

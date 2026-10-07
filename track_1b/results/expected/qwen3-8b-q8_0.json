@@ -1,0 +1,247 @@
+{
+ "overall": {
+  "n": 488,
+  "correct": 193,
+  "incorrect": 269,
+  "not_attempted": 26,
+  "accuracy": 0.3955,
+  "correct_given_attempted": 0.4177,
+  "hallucination_rate": 0.5823,
+  "f_score": 0.4063
+ },
+ "by_language": {
+  "de": {
+   "n": 122,
+   "correct": 46,
+   "incorrect": 76,
+   "not_attempted": 0,
+   "accuracy": 0.377,
+   "correct_given_attempted": 0.377,
+   "hallucination_rate": 0.623,
+   "f_score": 0.377,
+   "accuracy_ci95": [
+    0.2951,
+    0.4672
+   ]
+  },
+  "fr": {
+   "n": 122,
+   "correct": 50,
+   "incorrect": 70,
+   "not_attempted": 2,
+   "accuracy": 0.4098,
+   "correct_given_attempted": 0.4167,
+   "hallucination_rate": 0.5833,
+   "f_score": 0.4132,
+   "accuracy_ci95": [
+    0.3197,
+    0.5
+   ]
+  },
+  "it": {
+   "n": 122,
+   "correct": 55,
+   "incorrect": 67,
+   "not_attempted": 0,
+   "accuracy": 0.4508,
+   "correct_given_attempted": 0.4508,
+   "hallucination_rate": 0.5492,
+   "f_score": 0.4508,
+   "accuracy_ci95": [
+    0.3607,
+    0.541
+   ]
+  },
+  "rm": {
+   "n": 122,
+   "correct": 42,
+   "incorrect": 56,
+   "not_attempted": 24,
+   "accuracy": 0.3443,
+   "correct_given_attempted": 0.4286,
+   "hallucination_rate": 0.5714,
+   "f_score": 0.3818,
+   "accuracy_ci95": [
+    0.2623,
+    0.4262
+   ]
+  }
+ },
+ "by_type": {
+  "entity": {
+   "de": 0.3774,
+   "fr": 0.3396,
+   "it": 0.3962,
+   "rm": 0.3396
+  },
+  "false_premise": {
+   "de": 0.3,
+   "fr": 0.25,
+   "it": 0.35,
+   "rm": 0.4
+  },
+  "list": {
+   "de": 0.0,
+   "fr": 0.2857,
+   "it": 0.2857,
+   "rm": 0.0
+  },
+  "number": {
+   "de": 0.4828,
+   "fr": 0.5517,
+   "it": 0.5172,
+   "rm": 0.2414
+  },
+  "yes_no": {
+   "de": 0.4615,
+   "fr": 0.6923,
+   "it": 0.7692,
+   "rm": 0.6923
+  }
+ },
+ "by_category": {
+  "citizenship": {
+   "de": 0.0,
+   "fr": 0.0,
+   "it": 0.0,
+   "rm": 0.0
+  },
+  "criminal_law": {
+   "de": 0.0,
+   "fr": 0.0,
+   "it": 0.0,
+   "rm": 0.0
+  },
+  "economy": {
+   "de": 0.2,
+   "fr": 0.4,
+   "it": 0.6,
+   "rm": 0.2
+  },
+  "executive": {
+   "de": 0.375,
+   "fr": 0.4375,
+   "it": 0.625,
+   "rm": 0.25
+  },
+  "federalism": {
+   "de": 0.2857,
+   "fr": 0.2857,
+   "it": 0.1429,
+   "rm": 0.4286
+  },
+  "fundamental_rights": {
+   "de": 0.7143,
+   "fr": 0.8571,
+   "it": 0.8571,
+   "rm": 0.8571
+  },
+  "judiciary": {
+   "de": 0.4444,
+   "fr": 0.2222,
+   "it": 0.3333,
+   "rm": 0.3333
+  },
+  "land_use": {
+   "de": 0.5,
+   "fr": 0.5,
+   "it": 0.0,
+   "rm": 0.5
+  },
+  "languages": {
+   "de": 0.0,
+   "fr": 0.25,
+   "it": 0.25,
+   "rm": 0.25
+  },
+  "migration": {
+   "de": 0.0,
+   "fr": 0.0,
+   "it": 0.0,
+   "rm": 1.0
+  },
+  "military": {
+   "de": 0.75,
+   "fr": 0.5,
+   "it": 0.75,
+   "rm": 0.5
+  },
+  "parliament": {
+   "de": 0.375,
+   "fr": 0.4167,
+   "it": 0.4167,
+   "rm": 0.4583
+  },
+  "popular_rights": {
+   "de": 0.3333,
+   "fr": 0.4286,
+   "it": 0.4286,
+   "rm": 0.1905
+  },
+  "revision": {
+   "de": 0.25,
+   "fr": 0.25,
+   "it": 0.5,
+   "rm": 0.25
+  },
+  "social_security": {
+   "de": 0.6,
+   "fr": 0.6,
+   "it": 0.4,
+   "rm": 0.2
+  },
+  "society": {
+   "de": 0.6667,
+   "fr": 0.3333,
+   "it": 0.6667,
+   "rm": 0.0
+  },
+  "taxes": {
+   "de": 0.0,
+   "fr": 0.25,
+   "it": 0.0,
+   "rm": 0.25
+  },
+  "transport": {
+   "de": 0.6667,
+   "fr": 0.6667,
+   "it": 1.0,
+   "rm": 0.6667
+  }
+ },
+ "cross_lingual": {
+  "facts": 122,
+  "consistency_at_4": 0.1393,
+  "any_at_4": 0.6557,
+  "known_somewhere_but_not_everywhere": 63,
+  "pairwise_agreement": {
+   "de-fr": 0.7705,
+   "de-it": 0.7623,
+   "de-rm": 0.4754,
+   "fr-it": 0.7787,
+   "fr-rm": 0.5574,
+   "it-rm": 0.541
+  }
+ },
+ "judge_vs_rules": {
+  "n": 139,
+  "agreement": 0.9568,
+  "cohen_kappa": 0.9148
+ },
+ "cross_lingual_signal": {
+  "n": 136,
+  "agree_all": {
+   "n": 58,
+   "p_correct": 0.7069
+  },
+  "agree_some": {
+   "n": 41,
+   "p_correct": 0.5366
+  },
+  "agree_none": {
+   "n": 37,
+   "p_correct": 0.1351
+  },
+  "auroc": 0.7643
+ }
+}

@@ -145,7 +145,8 @@ def compute(items: dict, judgments: list, human: list, responses: dict | None = 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--judgments", required=True)
-    ap.add_argument("--human", default=str(ROOT / "data" / "human_review" / "review.jsonl"))
+    # Human labels belong to the responses they were collected on; pass them explicitly for that model only.
+    ap.add_argument("--human", default="")
     ap.add_argument("--dataset", default=str(ROOT / "data" / "dataset" / "eval.jsonl"))
     ap.add_argument("--out", default="")
     ap.add_argument("--responses", default="", help="enables the cross-lingual agreement signal")
@@ -153,7 +154,7 @@ def main() -> None:
     items = {i["id"]: i for i in map(json.loads, open(args.dataset, encoding="utf-8"))}
     judgments = [json.loads(l) for l in open(args.judgments, encoding="utf-8") if l.strip()]
     human = []
-    if Path(args.human).exists():
+    if args.human and Path(args.human).exists():
         human = [json.loads(l) for l in open(args.human, encoding="utf-8") if l.strip()]
     responses = {}
     if args.responses:
