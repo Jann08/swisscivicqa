@@ -18,6 +18,7 @@ By signing, the annotator confirms that:
 
 Withdrawal requests before publication: contact via the GitHub repository issues of the submitting team.
 
-| Pseudonymous ID | Date | Signature (kept privately by the dataset authors, not published) |
+| Pseudonymous ID | Consent given | Record |
 |---|---|---|
-| A1 | | |
+| A1 | 2026-10-07 | consent obtained by the submitting author; identity kept privately, not published |
+| A2 | 2026-10-07 | consent obtained by the submitting author; identity kept privately, not published |
