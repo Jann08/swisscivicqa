@@ -2,23 +2,55 @@
 #import "common.typ": *
 
 #set document(title: "SwissCivicQA-4L", author: "Team SwissCivicQA")
-#set page(paper: "a4", margin: (x: 1.8cm, y: 1.6cm), numbering: "1 / 1")
-#set text(font: ("Liberation Sans", "DejaVu Sans"), size: 9.5pt, lang: "en")
-#set par(justify: true, leading: 0.55em, spacing: 0.75em)
+#set page(paper: "a4", margin: (x: 2cm, top: 2cm, bottom: 1.8cm),
+  header: context if here().page() > 1 [
+    #set text(font: sans, size: 7.5pt, fill: ink2)
+    SwissCivicQA-4L #h(1fr) Hack Apertus 2026 · Track 1B
+    #v(-6pt) #line(length: 100%, stroke: 0.4pt + rule)
+  ],
+  footer: context [
+    #set text(font: sans, size: 7.5pt, fill: ink2)
+    #h(1fr) #counter(page).display("1 / 1", both: true)
+  ])
+#set text(font: ("Libertinus Serif", "Liberation Serif"), size: 10.5pt, lang: "en", hyphenate: true)
+#set par(justify: true, leading: 0.62em, spacing: 0.95em)
+#set list(indent: 2pt, body-indent: 6pt, spacing: 0.7em, marker: text(fill: accent, "▸"))
 #set heading(numbering: "1.")
-#show heading.where(level: 1): it => block(above: 1.0em, below: 0.5em, text(size: 11.5pt, weight: "bold", it))
-#show heading.where(level: 2): it => block(above: 0.8em, below: 0.4em, text(size: 10pt, weight: "bold", it))
-#show table.cell.where(y: 0): set text(weight: "bold")
-#set table(stroke: (x, y) => if y == 0 { (bottom: 0.6pt) } else { (bottom: 0.3pt + rgb("#e4e2dc")) }, inset: 4pt)
+#show heading.where(level: 1): it => block(above: 1.5em, below: 0.75em, width: 100%)[
+  #set text(font: sans, size: 13pt, weight: "bold")
+  #text(fill: accent, counter(heading).display()) #h(4pt) #it.body
+  #v(-7pt) #line(length: 100%, stroke: 0.5pt + rule)
+]
+#show heading.where(level: 2): it => block(above: 1.1em, below: 0.55em,
+  text(font: sans, size: 10.5pt, weight: "bold", [#text(fill: accent, counter(heading).display()) #h(3pt) #it.body]))
+#show raw: set text(size: 8.5pt)
+#show figure.caption: set text(font: sans, size: 8pt, fill: ink2)
+#show figure: set block(above: 1.1em, below: 1.1em)
+#show table.cell.where(y: 0): set text(font: sans, weight: "bold", size: 8.5pt)
+#show table.cell: set text(size: 9pt)
+#set table(stroke: (x, y) => if y == 0 { (bottom: 0.8pt + ink2) } else { (bottom: 0.3pt + rule) },
+  fill: (x, y) => if y > 0 and calc.even(y) { paper2 } else { none }, inset: (x: 6pt, y: 4.5pt))
+#show footnote.entry: set text(size: 8pt)
 
-#align(center)[
-  #text(size: 15pt, weight: "bold")[SwissCivicQA-4L]\
-  #text(size: 11pt)[Does Apertus know the Swiss Federal Constitution equally well in all four national languages?]\
+#block(width: 100%, below: 1.2em)[
+  #box(width: 28pt, height: 4pt, fill: accent)
+  #v(4pt)
+  #text(font: sans, size: 24pt, weight: "bold")[SwissCivicQA-4L]
+  #v(-8pt)
+  #text(size: 13pt, style: "italic")[Does Apertus know the Swiss Federal Constitution equally well in all four national languages?]
   #v(2pt)
-  #text(size: 9pt, fill: ink2)[Hack Apertus Online 2026 · Track 1B Swiss Voices · Core Task Intelligence · Model: Apertus 1.5 8B]
+  #text(font: sans, size: 8.5pt, fill: ink2)[Hack Apertus Online 2026 #h(4pt)·#h(4pt) Track 1B Swiss Voices · Core Task Intelligence #h(4pt)·#h(4pt) Model: Apertus 1.5 8B]
 ]
 
-#block(fill: rgb("#f3f2ee"), inset: 8pt, radius: 3pt, width: 100%)[
+#grid(columns: (1fr, 1fr, 1fr, 1fr), gutter: 6pt,
+  stat(pct(m.overall.accuracy), [of #m.overall.n items answered correctly]),
+  stat(pct(m.cross_lingual.consistency_at_4), [of facts correct in all four languages]),
+  stat(pct(m.overall.hallucination_rate), [of attempted answers are wrong]),
+  stat(str(calc.round(m.cross_lingual_signal.auroc, digits: 2)), [AUROC of cross-lingual agreement as hallucination detector]),
+)
+#v(4pt)
+
+#block(fill: paper2, inset: 10pt, radius: 3pt, width: 100%)[
   *Summary.* Citizens ask about their constitutional rights in their own national language, and a "sovereign, multilingual" Swiss model should give the same correct answer in each. SwissCivicQA-4L is a closed-book factual QA set of #m.cross_lingual.facts facts from the Federal Constitution, each asked in German, French, Italian and Romansh (#m.overall.n items, incl. false-premise traps), with every gold answer verbatim-grounded in the official text of the same language. Apertus 1.5 8B answers #pct(m.overall.accuracy) of all items correctly, ranging from #pct(calc.min(..langs.map(l => m.by_language.at(l).accuracy))) to #pct(calc.max(..langs.map(l => m.by_language.at(l).accuracy))) across languages, and only #pct(m.cross_lingual.consistency_at_4) of facts are answered correctly in all four languages.
 ]
 
