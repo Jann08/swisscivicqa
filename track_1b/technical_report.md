@@ -66,7 +66,24 @@ Consistency@4: **23.8%**; correct in at least one language: 68.0%; facts known s
 | number | 55.2% | 55.2% | 48.3% | 51.7% |
 | yes no | 100.0% | 69.2% | 76.9% | 84.6% |
 
+### Baseline: Qwen3 8B
+
+Same items, prompts, decoding and judge; Qwen3-8B (Q8_0, thinking disabled) as a same-size, non-Swiss open model.
+
+| Language | Apertus 1.5 8B | Qwen3 8B |
+|---|---|---|
+| German | 43.4% | 37.7% |
+| French | 44.3% | 41.0% |
+| Italian | 46.7% | 45.1% |
+| Romansh | 45.9% | 34.4% |
+| **Consistency@4** | 23.8% | 13.9% |
+| Hallucination rate | 53.2% | 58.2% |
+| False-premise accuracy (mean) | 15.0% | 32.5% |
+
+See the PDF report for figures and discussion.
+
 Cross-lingual agreement as a reference-free hallucination signal (number and yes/no items, n = 140): answers agreeing with all other languages are correct in 89.0%, answers agreeing with none in 21.4%; AUROC 0.81.
+Extended to all 488 items (LLM-judged pairwise agreement, gold answer unseen): AUROC 0.73 (yes/no 0.89, number 0.74, entity 0.73, list 0.80; false premise 0.46, i.e. no signal: a premise accepted in every language agrees with itself).
 
 Key findings: equal per-language averages hide large item-level inconsistency; the model almost never abstains; false premises are usually accepted, with language-specific inventions (e.g. a death penalty for treason and a non-existent constitutional court in French and Romansh); simple composition facts are robust while procedural thresholds fail.
 

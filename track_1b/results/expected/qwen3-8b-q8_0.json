@@ -243,5 +243,28 @@
    "p_correct": 0.1351
   },
   "auroc": 0.7643
+ },
+ "cross_lingual_signal_all_items": {
+  "n": 488,
+  "agree_all": {
+   "n": 113,
+   "p_correct": 0.6549
+  },
+  "agree_some": {
+   "n": 233,
+   "p_correct": 0.4163
+  },
+  "agree_none": {
+   "n": 142,
+   "p_correct": 0.1549
+  },
+  "auroc": 0.7422,
+  "auroc_by_type": {
+   "entity": 0.7372,
+   "false_premise": 0.5883,
+   "list": 0.7708,
+   "number": 0.8425,
+   "yes_no": 0.6136
+  }
  }
 }

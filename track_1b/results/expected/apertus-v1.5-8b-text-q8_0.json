@@ -265,5 +265,28 @@
   "n": 96,
   "agreement": 0.8854,
   "cohen_kappa": 0.7833
+ },
+ "cross_lingual_signal_all_items": {
+  "n": 488,
+  "agree_all": {
+   "n": 233,
+   "p_correct": 0.6824
+  },
+  "agree_some": {
+   "n": 204,
+   "p_correct": 0.2598
+  },
+  "agree_none": {
+   "n": 51,
+   "p_correct": 0.1569
+  },
+  "auroc": 0.7275,
+  "auroc_by_type": {
+   "entity": 0.7295,
+   "false_premise": 0.4571,
+   "list": 0.8,
+   "number": 0.7422,
+   "yes_no": 0.8863
+  }
  }
 }

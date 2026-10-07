@@ -52,6 +52,12 @@ See the PDF report for figures and discussion.
     signal = (f"Cross-lingual agreement as a reference-free hallucination signal (number and yes/no items, n = {sg['n']}): "
               f"answers agreeing with all other languages are correct in {pct(sg['agree_all']['p_correct'])}, answers agreeing "
               f"with none in {pct(sg['agree_none']['p_correct'])}; AUROC {sg['auroc']:.2f}.\n") if sg else ""
+    sa = m.get("cross_lingual_signal_all_items")
+    if sa:
+        bt = sa["auroc_by_type"]
+        signal += (f"Extended to all {sa['n']} items (LLM-judged pairwise agreement, gold answer unseen): AUROC {sa['auroc']:.2f} "
+                   f"(yes/no {bt['yes_no']:.2f}, number {bt['number']:.2f}, entity {bt['entity']:.2f}, list {bt['list']:.2f}; "
+                   f"false premise {bt['false_premise']:.2f}, i.e. no signal: a premise accepted in every language agrees with itself).\n")
     md = f"""# Technical report: SwissCivicQA-4L
 
 > Citizens ask about their constitutional rights in their own national language. SwissCivicQA-4L asks {m['cross_lingual']['facts']} facts of the Swiss Federal Constitution in German, French, Italian and Romansh ({m['overall']['n']} items, incl. false-premise traps), each gold answer verbatim-grounded in the official text of the same language. Apertus 1.5 8B answers {pct(m['overall']['accuracy'])} correctly ({pct(min(accs))}–{pct(max(accs))} across languages), but only {pct(m['cross_lingual']['consistency_at_4'])} of facts correctly in all four languages.
