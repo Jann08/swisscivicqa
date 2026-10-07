@@ -48,6 +48,10 @@ Same items, prompts, decoding and judge; Qwen3-8B (Q8_0, thinking disabled) as a
 See the PDF report for figures and discussion.
 """
 
+    sg = m.get("cross_lingual_signal")
+    signal = (f"Cross-lingual agreement as a reference-free hallucination signal (number and yes/no items, n = {sg['n']}): "
+              f"answers agreeing with all other languages are correct in {pct(sg['agree_all']['p_correct'])}, answers agreeing "
+              f"with none in {pct(sg['agree_none']['p_correct'])}; AUROC {sg['auroc']:.2f}.\n") if sg else ""
     md = f"""# Technical report: SwissCivicQA-4L
 
 > Citizens ask about their constitutional rights in their own national language. SwissCivicQA-4L asks {m['cross_lingual']['facts']} facts of the Swiss Federal Constitution in German, French, Italian and Romansh ({m['overall']['n']} items, incl. false-premise traps), each gold answer verbatim-grounded in the official text of the same language. Apertus 1.5 8B answers {pct(m['overall']['accuracy'])} correctly ({pct(min(accs))}–{pct(max(accs))} across languages), but only {pct(m['cross_lingual']['consistency_at_4'])} of facts correctly in all four languages.
@@ -109,6 +113,7 @@ Consistency@4: **{pct(m['cross_lingual']['consistency_at_4'])}**; correct in at 
 |---|---|---|---|---|
 {types}
 {comparison}
+{signal}
 Key findings: equal per-language averages hide large item-level inconsistency; the model almost never abstains; false premises are usually accepted, with language-specific inventions (e.g. a death penalty for treason and a non-existent constitutional court in French and Romansh); simple composition facts are robust while procedural thresholds fail.
 
 ## Dataset Limitations

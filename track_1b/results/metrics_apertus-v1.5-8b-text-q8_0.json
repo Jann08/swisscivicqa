@@ -228,6 +228,22 @@
   "agreement": 0.9783,
   "cohen_kappa": 0.9542
  },
+ "cross_lingual_signal": {
+  "n": 140,
+  "agree_all": {
+   "n": 73,
+   "p_correct": 0.8904
+  },
+  "agree_some": {
+   "n": 39,
+   "p_correct": 0.359
+  },
+  "agree_none": {
+   "n": 28,
+   "p_correct": 0.2143
+  },
+  "auroc": 0.8149
+ },
  "judge_vs_human": {
   "n": 96,
   "annotators": [

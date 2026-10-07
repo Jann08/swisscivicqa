@@ -18,6 +18,8 @@ import random
 from collections import defaultdict
 from pathlib import Path
 
+from . import signal
+
 from .paths import project_root
 
 ROOT = project_root()
@@ -61,7 +63,7 @@ def cohen_kappa(a: list, b: list) -> float:
     return round((po - pe) / (1 - pe), 4) if pe < 1 else 1.0
 
 
-def compute(items: dict, judgments: list, human: list) -> dict:
+def compute(items: dict, judgments: list, human: list, responses: dict | None = None) -> dict:
     final = {j["id"]: j["judge_label"] for j in judgments}
     by_fact = defaultdict(dict)
     for item_id, label in final.items():
@@ -99,6 +101,8 @@ def compute(items: dict, judgments: list, human: list) -> dict:
         "agreement": round(sum(j["rule_label"] == j["judge_label"] for j in ruled) / len(ruled), 4) if ruled else None,
         "cohen_kappa": cohen_kappa([j["rule_label"] for j in ruled], [j["judge_label"] for j in ruled]) if ruled else None,
     }
+    if responses:
+        res["cross_lingual_signal"] = signal.evaluate(items, responses, final)
     if human:
         by_item = defaultdict(dict)
         for h in human:
@@ -144,13 +148,17 @@ def main() -> None:
     ap.add_argument("--human", default=str(ROOT / "data" / "human_review" / "review.jsonl"))
     ap.add_argument("--dataset", default=str(ROOT / "data" / "dataset" / "eval.jsonl"))
     ap.add_argument("--out", default="")
+    ap.add_argument("--responses", default="", help="enables the cross-lingual agreement signal")
     args = ap.parse_args()
     items = {i["id"]: i for i in map(json.loads, open(args.dataset, encoding="utf-8"))}
     judgments = [json.loads(l) for l in open(args.judgments, encoding="utf-8") if l.strip()]
     human = []
     if Path(args.human).exists():
         human = [json.loads(l) for l in open(args.human, encoding="utf-8") if l.strip()]
-    res = compute(items, judgments, human)
+    responses = {}
+    if args.responses:
+        responses = {r["id"]: r["response"] for r in map(json.loads, open(args.responses, encoding="utf-8"))}
+    res = compute(items, judgments, human, responses)
     text = json.dumps(res, indent=1, ensure_ascii=False)
     if args.out:
         Path(args.out).write_text(text + "\n", encoding="utf-8")

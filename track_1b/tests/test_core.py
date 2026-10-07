@@ -53,6 +53,17 @@ class TestScore(unittest.TestCase):
         self.assertEqual(score.cohen_kappa(["A", "A", "B", "B"], ["A", "B", "A", "B"]), 0.0)
 
 
+class TestSignal(unittest.TestCase):
+    def test_agreement_scores(self):
+        from swisscivicqa import signal
+        items = {f"F-{l}": {"fact_id": "F", "language": l, "answer_type": "number"} for l in ("de", "fr", "it", "rm")}
+        resp = {"F-de": "100'000", "F-fr": "100 000", "F-it": "80 000", "F-rm": "100 000"}
+        s = signal.agreement_scores(items, resp)
+        self.assertEqual(s["F-de"], 2 / 3)
+        self.assertEqual(s["F-it"], 0.0)
+        self.assertEqual(signal.auroc([1.0, 0.5], [0.0]), 1.0)
+
+
 class TestParse(unittest.TestCase):
     def test_nested_lists_are_attached_to_paragraph(self):
         body = '<p class="absatz"><sup>1</sup> Intro:</p><dl><dt>a.</dt><dd>x<dl><dt>1.</dt><dd>y</dd></dl></dd></dl>'

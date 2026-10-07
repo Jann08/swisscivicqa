@@ -66,6 +66,8 @@ Consistency@4: **23.8%**; correct in at least one language: 68.0%; facts known s
 | number | 55.2% | 55.2% | 48.3% | 51.7% |
 | yes no | 100.0% | 69.2% | 76.9% | 84.6% |
 
+Cross-lingual agreement as a reference-free hallucination signal (number and yes/no items, n = 140): answers agreeing with all other languages are correct in 89.0%, answers agreeing with none in 21.4%; AUROC 0.81.
+
 Key findings: equal per-language averages hide large item-level inconsistency; the model almost never abstains; false premises are usually accepted, with language-specific inventions (e.g. a death penalty for treason and a non-existent constitutional court in French and Romansh); simple composition facts are robust while procedural thresholds fail.
 
 ## Dataset Limitations
